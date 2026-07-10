@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-  <title id="title">小镇东北郊外追踪地图</title>
-  <desc id="desc">KEN小队沿导师指向的小镇东北方向出发，发现战斗痕迹和脚印，沿曲折路线行进数公里后抵达与僵尸战斗的河流。城市北方的近期黑潮战场是另一地点。</desc>
+  <title id="title">小镇东北城门外追踪地图</title>
+  <desc id="desc">KEN小队从小镇东北城门出发，先向东北走了一小段，发现战斗痕迹和脚印后转向北方，沿脚印行进数公里后抵达与僵尸战斗的河流。城市北方的近期黑潮战场是另一地点。</desc>
   <defs>
     <pattern id="fog" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
       <rect width="22" height="22" fill="#e8eaeb"/>
@@ -32,14 +32,14 @@
   <rect x="24" y="24" width="1352" height="852" rx="6" fill="url(#fog)" stroke="#333b3e" stroke-width="3"/>
 
   <!-- Approximate northern war zone. -->
-  <path d="M24 24 H640 V175 C550 151 477 194 385 168 C284 139 203 191 115 168 C78 158 50 164 24 179 Z" fill="url(#warFog)"/>
-  <text x="315" y="75" text-anchor="middle" class="label large light" style="fill:#f7f4ea">城市北方：近期黑潮战场</text>
-  <text x="315" y="110" text-anchor="middle" class="label small light" style="fill:#f7f4ea">与东北方向的导师线索不是同一地点</text>
+  <path d="M24 24 H410 V175 C342 151 288 192 218 168 C145 143 84 184 24 170 Z" fill="url(#warFog)"/>
+  <text x="215" y="75" text-anchor="middle" class="label large light" style="fill:#f7f4ea">北方近期黑潮战场</text>
+  <text x="215" y="110" text-anchor="middle" class="label small light" style="fill:#f7f4ea">与本次脚印追踪路线分开</text>
 
   <!-- Explored corridor clears part of the fog without claiming the whole region. -->
-  <path d="M236 729 C332 646 383 576 481 559 C585 540 594 458 683 421 C792 376 818 304 921 294 C1039 283 1082 357 1160 322"
+  <path d="M236 729 C300 674 340 642 390 620 C454 592 485 550 492 501 C500 452 478 415 505 371 C524 339 542 319 568 306"
         fill="none" stroke="#f5f1e5" stroke-width="150" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
-  <path d="M236 729 C332 646 383 576 481 559 C585 540 594 458 683 421 C792 376 818 304 921 294 C1039 283 1082 357 1160 322"
+  <path d="M236 729 C300 674 340 642 390 620 C454 592 485 550 492 501 C500 452 478 415 505 371 C524 339 542 319 568 306"
         fill="none" stroke="#94a47d" stroke-width="4" stroke-dasharray="14 12" stroke-linecap="round" opacity="0.9"/>
 
   <!-- Town edge and northeast exit. -->
@@ -53,59 +53,55 @@
   <text x="255" y="778" class="label medium">正式东北城门</text>
 
   <!-- Meandering followed trail. -->
-  <path d="M255 715 C331 650 389 595 468 575 C548 555 585 516 614 463 C644 408 710 416 754 370 C812 309 858 326 916 311 C1000 289 1057 345 1147 318"
+  <path d="M255 715 C305 672 345 642 390 620 C452 591 484 549 492 501 C500 452 478 415 505 371 C524 339 542 319 568 306"
         fill="none" stroke="#8b3d2e" stroke-width="7" stroke-dasharray="15 12" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
 
   <!-- Battle traces and footprints. -->
-  <g transform="translate(455 552)" filter="url(#shadow)">
+  <g transform="translate(390 620)" filter="url(#shadow)">
     <circle r="38" fill="#f8f7f2" stroke="#8b3d2e" stroke-width="4"/>
     <path d="M-17 -17 L17 17 M17 -17 L-17 17" stroke="#8b3d2e" stroke-width="7" stroke-linecap="round"/>
   </g>
-  <text x="455" y="619" text-anchor="middle" class="label medium">发现战斗痕迹</text>
-  <text x="455" y="644" text-anchor="middle" class="label note">并锁定可追踪脚印</text>
+  <text x="390" y="560" text-anchor="middle" class="label medium">发现战斗痕迹</text>
+  <text x="390" y="585" text-anchor="middle" class="label note">锁定脚印后转向北方</text>
 
   <g fill="#5b4635" opacity="0.88">
-    <ellipse cx="548" cy="524" rx="7" ry="13" transform="rotate(42 548 524)"/>
-    <ellipse cx="571" cy="494" rx="7" ry="13" transform="rotate(34 571 494)"/>
-    <ellipse cx="624" cy="449" rx="7" ry="13" transform="rotate(62 624 449)"/>
-    <ellipse cx="667" cy="421" rx="7" ry="13" transform="rotate(78 667 421)"/>
-    <ellipse cx="730" cy="392" rx="7" ry="13" transform="rotate(50 730 392)"/>
-    <ellipse cx="785" cy="343" rx="7" ry="13" transform="rotate(58 785 343)"/>
-    <ellipse cx="853" cy="319" rx="7" ry="13" transform="rotate(75 853 319)"/>
+    <ellipse cx="449" cy="574" rx="7" ry="13" transform="rotate(24 449 574)"/>
+    <ellipse cx="481" cy="534" rx="7" ry="13" transform="rotate(8 481 534)"/>
+    <ellipse cx="492" cy="486" rx="7" ry="13" transform="rotate(-4 492 486)"/>
+    <ellipse cx="486" cy="439" rx="7" ry="13" transform="rotate(6 486 439)"/>
+    <ellipse cx="500" cy="395" rx="7" ry="13" transform="rotate(-8 500 395)"/>
+    <ellipse cx="520" cy="352" rx="7" ry="13" transform="rotate(5 520 352)"/>
   </g>
-  <text x="730" y="490" text-anchor="middle" class="label medium accent" style="fill:#8b3d2e">沿脚印曲折行进约数公里</text>
-  <text x="730" y="516" text-anchor="middle" class="label note">总体朝东北；并非笔直路线，精确距离未测</text>
+  <text x="1050" y="360" text-anchor="middle" class="label medium accent" style="fill:#8b3d2e">沿脚印向北行进约数公里</text>
+  <text x="1050" y="386" text-anchor="middle" class="label note">路线并非笔直；精确距离未测</text>
+  <text x="360" y="690" class="label medium accent" style="fill:#8b3d2e">出城后先向东北走一小段</text>
 
   <!-- River, orientation intentionally approximate. -->
-  <path d="M912 226 C1000 202 1085 241 1167 221 C1240 203 1300 213 1376 185" fill="none" stroke="#285b6e" stroke-width="48" opacity="0.30"/>
-  <path d="M912 226 C1000 202 1085 241 1167 221 C1240 203 1300 213 1376 185" fill="none" stroke="#3f8198" stroke-width="28"/>
-  <path d="M912 226 C1000 202 1085 241 1167 221 C1240 203 1300 213 1376 185" fill="none" stroke="#cce3e7" stroke-width="4" stroke-dasharray="18 14"/>
-  <text x="1165" y="267" text-anchor="middle" class="label medium water" style="fill:#285b6e">河流（走向仅示意）</text>
+  <path d="M390 226 C500 202 610 242 720 220 C815 201 900 218 995 187" fill="none" stroke="#285b6e" stroke-width="48" opacity="0.30"/>
+  <path d="M390 226 C500 202 610 242 720 220 C815 201 900 218 995 187" fill="none" stroke="#3f8198" stroke-width="28"/>
+  <path d="M390 226 C500 202 610 242 720 220 C815 201 900 218 995 187" fill="none" stroke="#cce3e7" stroke-width="4" stroke-dasharray="18 14"/>
+  <text x="746" y="270" text-anchor="middle" class="label medium water" style="fill:#285b6e">河流（走向仅示意）</text>
 
   <!-- Zombie battle site. -->
-  <g transform="translate(1138 320)" filter="url(#shadow)">
+  <g transform="translate(580 310)" filter="url(#shadow)">
     <circle r="51" fill="#f6eee7" stroke="#8b3d2e" stroke-width="5"/>
     <path d="M-27 28 L23 -28 M-23 -28 L27 28" stroke="#8b3d2e" stroke-width="8" stroke-linecap="round"/>
     <circle cx="0" cy="0" r="8" fill="#8b3d2e"/>
   </g>
-  <text x="1128" y="400" text-anchor="middle" class="label medium">河边僵尸战斗点</text>
-  <text x="1128" y="427" text-anchor="middle" class="label note">击败 6 只僵尸；河岸位置待确认</text>
+  <text x="650" y="350" class="label medium">河边僵尸战斗点</text>
+  <text x="650" y="377" class="label note">击败 6 只僵尸；河岸位置待确认</text>
 
   <!-- Grove and current position. -->
-  <g transform="translate(1028 520)">
+  <g transform="translate(806 505)">
     <g fill="#55714d" stroke="#354a31" stroke-width="3">
       <circle cx="0" cy="0" r="34"/><circle cx="48" cy="-22" r="39"/><circle cx="83" cy="19" r="35"/>
       <circle cx="31" cy="35" r="40"/><circle cx="-20" cy="42" r="31"/>
     </g>
     <g stroke="#684f37" stroke-width="8"><path d="M0 27 V72"/><path d="M48 11 V69"/><path d="M83 43 V77"/><path d="M31 58 V85"/></g>
   </g>
-  <text x="1068" y="626" text-anchor="middle" class="label medium">卡尔找到的小树林</text>
-  <text x="1068" y="653" text-anchor="middle" class="label small accent" style="fill:#8b3d2e">KEN 当前短休位置</text>
-  <path d="M1104 448 C1087 475 1074 491 1060 505" fill="none" stroke="#8b3d2e" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
-
-  <!-- Unknown directional clue beyond current reach. -->
-  <path d="M1193 300 C1245 275 1280 245 1334 215" fill="none" stroke="#8b3d2e" stroke-width="5" stroke-dasharray="12 10" marker-end="url(#arrow)"/>
-  <text x="1215" y="478" text-anchor="middle" class="label small accent" style="fill:#8b3d2e">导师线索是否继续深入：未知</text>
+  <text x="846" y="611" text-anchor="middle" class="label medium">卡尔找到的小树林</text>
+  <text x="846" y="638" text-anchor="middle" class="label small accent" style="fill:#8b3d2e">KEN 当前短休位置</text>
+  <path d="M625 342 C690 385 748 444 808 497" fill="none" stroke="#8b3d2e" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
 
   <!-- Compass. -->
   <g transform="translate(1265 706)">
@@ -117,7 +113,7 @@
   </g>
 
   <!-- Legend. -->
-  <g transform="translate(430 694)">
+  <g transform="translate(700 694)">
     <rect width="465" height="152" rx="6" fill="#f8f7f2" stroke="#374044" stroke-width="2"/>
     <text x="22" y="34" class="label medium">探索图例</text>
     <rect x="22" y="53" width="22" height="22" fill="#f5f1e5" stroke="#94a47d" stroke-width="2"/>
