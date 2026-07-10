@@ -1,57 +1,57 @@
-# Nym Copperstar 个人角色卡
+# Nym Copperstar 个人角色卡 / Character Sheet
 
-## 当前状态快照
+## 当前状态快照 / Current Status
 
 | 项目 | 当前值 |
 |---|---|
-| 游戏内日期 | 第 2 天 |
-| 当前地点 | 东北城外，河边小树林短休中 |
-| 当前生命值 | 14 / 14 |
-| 临时生命值 | 0 |
-| 护甲等级 AC | 11 / 法师护甲后 14 |
-| 生命骰 | 2d6，已用 0 |
-| 1 环法术位 | 3 / 3 |
-| Arcane Recovery | 可用 |
-| Magic Initiate 免费护盾术 | 可用 |
+| 游戏内日期 In-game Day | 第 2 天 |
+| 当前地点 Current Location | 东北城外，河边小树林短休中 |
+| 当前生命值 Hit Points (HP) | 14 / 14 |
+| 临时生命值 Temporary Hit Points | 0 |
+| 护甲等级 Armor Class (AC) | 11 / 法师护甲 Mage Armor 后 14 |
+| 生命骰 Hit Dice | 2d6，已用 0 |
+| 1 环法术位 1st-level Spell Slots | 3 / 3 |
+| 奥术回复 Arcane Recovery | 可用 |
+| 魔法启蒙（法师）Magic Initiate (Wizard) 免费护盾术 Shield | 可用 |
 | 英雄激励 Heroic Inspiration | 无 |
-| 当前专注法术 | 无 |
-| 当前异常状态 | 无 |
-| 死亡豁免 | 成功 0 / 失败 0 |
+| 当前专注 Concentration | 无 |
+| 当前异常状态 Conditions | 无 |
+| 死亡豁免 Death Saving Throws | 成功 0 / 失败 0 |
 
 战斗中常改：
 
-- 当前生命值
-- 1 环法术位
-- 当前专注法术
-- 当前异常状态
-- 英雄激励
+- 当前生命值 Hit Points
+- 法术位 Spell Slots
+- 专注 Concentration
+- 异常状态 Conditions
+- 英雄激励 Heroic Inspiration
 
 休息后常改：
 
-- 长休：恢复 HP、法术位、Magic Initiate 免费护盾术，并通常清空已使用生命骰的一半。
-- 短休：可花生命骰回血；可用 Arcane Recovery 恢复 1 个 1 环法术位。
+- 长休 Long Rest：恢复 HP、法术位 Spell Slots、魔法启蒙 Magic Initiate 免费护盾术 Shield，并通常恢复一半已消耗的生命骰 Hit Dice。
+- 短休 Short Rest：可花生命骰 Hit Dice 回血；可用奥术回复 Arcane Recovery 恢复 1 个 1 环法术位。
 
-## 基础信息
+## 基础信息 / Basic Information
 
 | 项目 | 内容 |
 |---|---|
 | 姓名 | 尼姆·铜星 Nym Copperstar |
-| 物种 | 侏儒 |
-| 血脉 | 岩侏儒 |
-| 职业 | 法师 |
-| 计划子职 | 预言法师（3 级选择） |
-| 背景 | 贤者 |
-| 阵营 | 中立善良 NG |
+| 物种 Species | 侏儒 Gnome |
+| 血脉 Lineage | 岩侏儒 Rock Gnome |
+| 职业 Class | 法师 Wizard |
+| 计划子职 Planned Subclass | 预言法师 Diviner（3 级选择） |
+| 背景 Background | 贤者 Sage |
+| 阵营 Alignment | 中立善良 Neutral Good (NG) |
 | 阵营倾向记录 | 中立 +1 |
-| 等级 | 2 |
-| 经验值 XP | 431 |
-| 熟练加值 | +2 |
-| 体型 | 小型 |
-| 速度 | 30 尺 |
+| 等级 Level | 2 |
+| 当前经验 / 升级所需经验 Current XP / XP Needed | 431 / 600（2 级升至 3 级的本级进度） |
+| 熟练加值 Proficiency Bonus | +2 |
+| 体型 Size | 小型 Small |
+| 速度 Speed | 30 尺 |
 
-## 核心数值
+## 核心数值 / Core Statistics
 
-### 属性
+### 属性 / Ability Scores
 
 贤者背景可提升：体质、智力、感知。这里选择智力 +2、体质 +1。
 
@@ -66,131 +66,131 @@
 
 优先级：智力 > 体质 > 敏捷 > 感知 > 魅力 > 力量。
 
-### 战斗数值
+### 战斗数值 / Combat Statistics
 
 | 项目 | 数值 |
 |---|---:|
-| 护甲等级 AC | 11 / 法师护甲后 14 |
-| 生命值 HP | 14 |
-| 生命骰 | 2d6 |
-| 先攻 | +1 |
-| 法术豁免 DC | 13 |
-| 法术攻击加值 | +5 |
-| 1 环法术位 | 3 |
-| 准备法术数 | 5 |
+| 护甲等级 Armor Class (AC) | 11 / 法师护甲 Mage Armor 后 14 |
+| 生命值 Hit Points (HP) | 14 |
+| 生命骰 Hit Dice | 2d6 |
+| 先攻 Initiative | +1 |
+| 法术豁免难度 Spell Save DC | 13 |
+| 法术攻击加值 Spell Attack Modifier | +5 |
+| 1 环法术位 1st-level Spell Slots | 3 |
+| 准备法术数 Prepared Spells | 5 |
 
 计算：
 
 - HP：6（1 级）+ 体质调整值 2 + 4（2 级固定值）+ 体质调整值 2 = 14
 - 法术豁免 DC：8 + 熟练加值 2 + 智力调整值 3 = 13
 - 法术攻击：熟练加值 2 + 智力调整值 3 = +5
-- 法师护甲后 AC：13 + 敏捷调整值 1 = 14
+- 法师护甲 Mage Armor 后 AC：13 + 敏捷调整值 1 = 14
 
-### 豁免
+### 豁免 / Saving Throws
 
-法师熟练豁免：智力、感知。
+法师 Wizard 熟练豁免：智力 Intelligence、感知 Wisdom。
 
 | 豁免 | 加值 |
 |---|---:|
-| 力量 | -1 |
-| 敏捷 | +1 |
-| 体质 | +2 |
-| 智力 | +5 |
-| 感知 | +3 |
-| 魅力 | +0 |
+| 力量 Strength (STR) | -1 |
+| 敏捷 Dexterity (DEX) | +1 |
+| 体质 Constitution (CON) | +2 |
+| 智力 Intelligence (INT) | +5 |
+| 感知 Wisdom (WIS) | +3 |
+| 魅力 Charisma (CHA) | +0 |
 
-侏儒狡黠：智力、感知、魅力豁免具有优势。
+侏儒狡黠 Gnomish Cunning：智力 Intelligence、感知 Wisdom、魅力 Charisma 豁免具有优势 Advantage。
 
-## 技能与工具
+## 技能与工具 / Skills and Tools
 
-| 技能 | 属性 | 熟练 | 当前加值 |
+| 技能 Skill | 属性 Ability | 熟练 Proficiency | 当前加值 Modifier |
 |---|---|---|---:|
-| 运动 Athletics | 力量 | 否 | -1 |
-| 体操 Acrobatics | 敏捷 | 否 | +1 |
-| 巧手 Sleight of Hand | 敏捷 | 否 | +1 |
-| 潜行 Stealth | 敏捷 | 否 | +1 |
-| 奥秘 Arcana | 智力 | 专精 | +7 |
-| 历史 History | 智力 | 是 | +5 |
-| 调查 Investigation | 智力 | 是 | +5 |
-| 自然 Nature | 智力 | 否 | +3 |
-| 宗教 Religion | 智力 | 是 | +5 |
-| 驯兽 Animal Handling | 感知 | 否 | +1 |
-| 洞悉 Insight | 感知 | 否 | +1 |
-| 医药 Medicine | 感知 | 否 | +1 |
-| 察觉 Perception | 感知 | 否 | +1 |
-| 生存 Survival | 感知 | 否 | +1 |
-| 欺瞒 Deception | 魅力 | 否 | +0 |
-| 威吓 Intimidation | 魅力 | 否 | +0 |
-| 表演 Performance | 魅力 | 否 | +0 |
-| 游说 Persuasion | 魅力 | 否 | +0 |
+| 运动 Athletics | 力量 STR | 否 No | -1 |
+| 体操 Acrobatics | 敏捷 DEX | 否 No | +1 |
+| 巧手 Sleight of Hand | 敏捷 DEX | 否 No | +1 |
+| 潜行 Stealth | 敏捷 DEX | 否 No | +1 |
+| 奥秘 Arcana | 智力 INT | 专精 Expertise | +7 |
+| 历史 History | 智力 INT | 是 Yes | +5 |
+| 调查 Investigation | 智力 INT | 是 Yes | +5 |
+| 自然 Nature | 智力 INT | 否 No | +3 |
+| 宗教 Religion | 智力 INT | 是 Yes | +5 |
+| 驯兽 Animal Handling | 感知 WIS | 否 No | +1 |
+| 洞悉 Insight | 感知 WIS | 否 No | +1 |
+| 医药 Medicine | 感知 WIS | 否 No | +1 |
+| 察觉 Perception | 感知 WIS | 否 No | +1 |
+| 生存 Survival | 感知 WIS | 否 No | +1 |
+| 欺瞒 Deception | 魅力 CHA | 否 No | +0 |
+| 威吓 Intimidation | 魅力 CHA | 否 No | +0 |
+| 表演 Performance | 魅力 CHA | 否 No | +0 |
+| 游说 Persuasion | 魅力 CHA | 否 No | +0 |
 
-| 工具 | 来源 | 备注 |
+| 工具 Tool | 来源 Source | 备注 Notes |
 |---|---|---|
-| 书法工具 Calligrapher's Supplies | 贤者 | 抄录、鉴别文献、制作书面伪装等，具体由 DM 裁定 |
+| 书法工具 Calligrapher's Supplies | 贤者 Sage | 抄录、鉴别文献、制作书面伪装等，具体由 DM 裁定 |
 
-## 当前能力
+## 当前能力 / Features
 
-| 能力 | 来源 | 消耗 / 限制 | 用途 |
+| 能力 Feature | 来源 Source | 消耗 / 限制 Uses / Limits | 用途 Effect |
 |---|---|---|---|
-| Spellcasting | 法师 | 法术位 / 戏法不限 | 使用智力施放法师法术 |
-| Ritual Adept | 法师 | 需读法术书 | 法术书中的仪式法术即使未准备，也可以作为仪式施放 |
-| Arcane Recovery | 法师 | 每长休 1 次，短休后使用 | 2 级时恢复 1 个 1 环法术位 |
-| Scholar | 法师 | 常驻 | 奥秘获得专精，当前奥秘 +7 |
-| 黑暗视觉 | 岩侏儒 | 常驻 | 60 尺黑暗视觉 |
-| 侏儒狡黠 | 侏儒 | 常驻 | 智力、感知、魅力豁免具有优势 |
-| 岩侏儒血脉法术 | 岩侏儒 | 常驻 | 获得修复术、魔法伎俩；施法属性为智力 |
-| 发条装置 | 岩侏儒 | 花 10 分钟施放魔法伎俩 | 制作一个微型发条装置，最多同时存在 3 个，8 小时后散架 |
-| 魔法启蒙（法师） | 贤者背景 | 护盾术每长休免费 1 次 | 获得 2 个法师戏法和 1 个 1 环法术 |
+| 施法 Spellcasting | 法师 Wizard | 法术位 Spell Slots / 戏法 Cantrips 不限 | 使用智力 Intelligence 施放法师法术 Wizard Spells |
+| 仪式专家 Ritual Adept | 法师 Wizard | 需读取法术书 Spellbook | 法术书中的仪式法术 Ritual Spells 即使未准备，也可作为仪式 Ritual 施放 |
+| 奥术回复 Arcane Recovery | 法师 Wizard | 每次长休 Long Rest 1 次；短休 Short Rest 后使用 | 2 级时恢复 1 个 1 环法术位 |
+| 学者 Scholar | 法师 Wizard | 常驻 Passive | 奥秘 Arcana 获得专精 Expertise，当前奥秘 +7 |
+| 黑暗视觉 Darkvision | 岩侏儒 Rock Gnome | 常驻 Passive | 60 尺黑暗视觉 Darkvision |
+| 侏儒狡黠 Gnomish Cunning | 侏儒 Gnome | 常驻 Passive | 智力、感知、魅力豁免具有优势 Advantage |
+| 侏儒血脉（岩侏儒）：法术 Gnomish Lineage (Rock Gnome): Spells | 岩侏儒 Rock Gnome | 常驻 Passive | 获得修复术 Mending、魔法伎俩 Prestidigitation；施法属性为智力 Intelligence |
+| 侏儒血脉（岩侏儒）：发条装置 Gnomish Lineage (Rock Gnome): Clockwork Device | 岩侏儒 Rock Gnome | 花 10 分钟施放魔法伎俩 Prestidigitation | 制作一个微型发条装置，最多同时存在 3 个，8 小时后散架 |
+| 魔法启蒙（法师）Magic Initiate (Wizard) | 贤者背景 Sage Background | 护盾术 Shield 每次长休 Long Rest 免费 1 次 | 获得 2 个法师戏法 Wizard Cantrips 和 1 个 1 环法术 |
 
-## 当前所有戏法
+## 当前所有戏法 / Current Cantrips
 
-| 戏法 | 来源 | 常用场景 |
+| 戏法 Cantrip | 来源 Source | 常用场景 Common Uses |
 |---|---|---|
-| 火焰箭 Fire Bolt | 法师 | 主力远程伤害 |
-| 寒冷射线 Ray of Frost | 法师 | 远程伤害并减速 |
-| 法师之手 Mage Hand | 法师 | 远程取物、开关、触发机关 |
-| 修复术 Mending | 岩侏儒 | 修补破损物品 |
-| 魔法伎俩 Prestidigitation | 岩侏儒 | 小型魔法效果、清洁、点火、侏儒发条装置 |
-| 次级幻影 Minor Illusion | 魔法启蒙 | 制造声音或图像，侦查和误导 |
-| 传讯术 Message | 魔法启蒙 | 远距离低声沟通 |
+| 火焰箭 Fire Bolt | 法师 Wizard | 主力远程伤害 |
+| 寒冷射线 Ray of Frost | 法师 Wizard | 远程伤害并减速 |
+| 法师之手 Mage Hand | 法师 Wizard | 远程取物、开关、触发机关 |
+| 修复术 Mending | 岩侏儒 Rock Gnome | 修补破损物品 |
+| 魔法伎俩 Prestidigitation | 岩侏儒 Rock Gnome | 小型魔法效果、清洁、点火、侏儒发条装置 |
+| 次级幻影 Minor Illusion | 魔法启蒙 Magic Initiate | 制造声音或图像，侦查和误导 |
+| 传讯术 Message | 魔法启蒙 Magic Initiate | 远距离低声沟通 |
 
-## 当前已准备法术
+## 当前已准备法术 / Current Prepared Spells
 
-2024 法师 2 级准备 5 个 1 环及以上法术。护盾术来自魔法启蒙，始终可用，不占法师准备法术名额。
+2024 法师 Wizard 2 级准备 5 个 1 环及以上法术。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。
 
-| 法术 | 来源 | 使用方式 | 专注 / 仪式 | 用途 |
+| 法术 Spell | 来源 Source | 使用方式 Casting | 专注 / 仪式 Concentration / Ritual | 用途 Effect |
 |---|---|---|---|---|
-| 法师护甲 Mage Armor | 法师准备 | 动作 + 1 环位 | 否 / 否 | 8 小时 AC 变为 13 + 敏捷调整值 |
-| 魔法飞弹 Magic Missile | 法师准备 | 动作 + 1 环位 | 否 / 否 | 稳定命中，适合补刀或打断专注 |
-| 睡眠术 Sleep | 法师准备 | 动作 + 1 环位 | 是 / 否 | 低等级强控制，优先对低 HP 敌群使用 |
-| 侦测魔法 Detect Magic | 法师准备 | 动作 + 1 环位，或仪式 | 是 / 是 | 探索魔法痕迹、结界、物品 |
-| 羽落术 Feather Fall | 法师准备 | 反应 + 1 环位 | 否 / 否 | 自己或附近生物坠落时救命 |
-| 护盾术 Shield | 魔法启蒙 | 反应；每长休免费 1 次，或用 1 环位 | 否 / 否 | 被攻击命中或成为魔法飞弹目标时提高防御 |
+| 法师护甲 Mage Armor | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 8 小时 AC 变为 13 + 敏捷调整值 |
+| 魔法飞弹 Magic Missile | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 稳定命中，适合补刀或打断专注 Concentration |
+| 睡眠术 Sleep | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 是 Yes / 否 No | 低等级强控制，优先对低 HP 敌群使用 |
+| 侦测魔法 Detect Magic | 法师准备 Wizard Prepared | 动作 Action + 1 环位，或仪式 Ritual | 是 Yes / 是 Yes | 探索魔法痕迹、结界、物品 |
+| 羽落术 Feather Fall | 法师准备 Wizard Prepared | 反应 Reaction + 1 环位 | 否 No / 否 No | 自己或附近生物坠落时救命 |
+| 护盾术 Shield | 魔法启蒙 Magic Initiate | 反应 Reaction；每次长休 Long Rest 免费 1 次，或用 1 环位 | 否 No / 否 No | 被攻击命中或成为魔法飞弹 Magic Missile 目标时提高防御 |
 
-## 当前法术书
+## 当前法术书 / Current Spellbook
 
 1 级法师法术书收录 6 个 1 环法术；升到 2 级时再加入 2 个 1 环法术。目前法术书共 8 个 1 环法术。
 
-| 法术 | 已准备 | 仪式 | 用途 |
+| 法术 Spell | 已准备 Prepared | 仪式 Ritual | 用途 Effect |
 |---|---|---|---|
-| 法师护甲 Mage Armor | 是 | 否 | 长时间提高 AC |
-| 魔法飞弹 Magic Missile | 是 | 否 | 稳定命中，适合补刀 |
-| 睡眠术 Sleep | 是 | 否 | 低等级战斗强控 |
-| 侦测魔法 Detect Magic | 是 | 是 | 发现魔法痕迹、陷阱、物品 |
-| 通晓语言 Comprehend Languages | 否 | 是 | 读懂古代文献、神谕、碑文 |
-| 寻获魔宠 Find Familiar | 否 | 是 | 侦查、递送触碰法术、角色风味 |
-| 鉴定术 Identify | 否 | 是 | 识别魔法物品和魔法效果 |
-| 羽落术 Feather Fall | 是 | 否 | 防坠落，常见救命法术 |
+| 法师护甲 Mage Armor | 是 Yes | 否 No | 长时间提高 AC |
+| 魔法飞弹 Magic Missile | 是 Yes | 否 No | 稳定命中，适合补刀 |
+| 睡眠术 Sleep | 是 Yes | 否 No | 低等级战斗强控 |
+| 侦测魔法 Detect Magic | 是 Yes | 是 Yes | 发现魔法痕迹、陷阱、物品 |
+| 通晓语言 Comprehend Languages | 否 No | 是 Yes | 读懂古代文献、神谕、碑文 |
+| 寻获魔宠 Find Familiar | 否 No | 是 Yes | 侦查、递送触碰法术、角色风味 |
+| 鉴定术 Identify | 否 No | 是 Yes | 识别魔法物品和魔法效果 |
+| 羽落术 Feather Fall | 是 Yes | 否 No | 防坠落，常见救命法术 |
 
-## 2 级行动习惯
+## 2 级行动习惯 / Level 2 Play Routine
 
-- 战斗前如果可能，先施放法师护甲。
+- 战斗前如果可能，先施放法师护甲 Mage Armor。
 - 战斗中保持距离，不要站在前排。
-- 小怪密集或低血量敌人多时，用睡眠术。
-- 需要稳定收掉敌人时，用魔法飞弹。
-- 被命中且这次命中很危险时，用护盾术。
-- 探索时优先让魔宠侦查，自己用法师之手和侦测魔法排风险。
-- 一次关键短休后，可以用 Arcane Recovery 恢复 1 个 1 环法术位。
+- 小怪密集或低血量敌人多时，用睡眠术 Sleep。
+- 需要稳定收掉敌人时，用魔法飞弹 Magic Missile。
+- 被命中且这次命中很危险时，用护盾术 Shield。
+- 探索时优先让魔宠 Familiar 侦查，自己用法师之手 Mage Hand 和侦测魔法 Detect Magic 排风险。
+- 一次关键短休 Short Rest 后，可以用奥术回复 Arcane Recovery 恢复 1 个 1 环法术位。
 
 ## 物品与财产
 
@@ -209,16 +209,16 @@
 | 微型发条星盘 | 1 | 停在午夜前七分钟，剧情物品 |
 | 金币 GP | 7 | 当前持有 |
 
-## 魔宠记录
+## 魔宠记录 / Familiar
 
-当前魔宠：猫头鹰。
+当前魔宠 Familiar：猫头鹰 Owl（通过寻获魔宠 Find Familiar 召唤）。
 
 | 项目 | 内容 |
 |---|---|
-| 形态 | 猫头鹰 Owl |
+| 形态 Form | 猫头鹰 Owl |
 | 名字 | 待定 |
-| 常用任务 | 侦查、望风、递送触碰法术、进入狭小空间 |
-| 当前状态 | 已召唤 |
+| 常用任务 Common Tasks | 侦查、望风、递送触碰法术 Touch Spells、进入狭小空间 |
+| 当前状态 Status | 已召唤 Summoned |
 
 ## 角色概念
 
@@ -232,7 +232,7 @@
 
 你真正卷入冒险，是因为一份很不起眼的材料：一页被虫蛀过的星象抄本。它记录的不是宏大神谕，而是一个小地方的反常现象：每隔十九年，同一晚的月影都会偏离历法几分钟。本地神殿说这是抄写错误，导师却认为这可能是某个古老预言的边角料。
 
-开局后，你得知城市北方最近刚发生过一次与黑潮有关的战斗，而黑潮可能存在大约十九年的周期。第 1 天晚上，你通过侦测魔法发现导师留下的线索指向城市东北方向。北方的近期黑潮战场和东北方向的导师线索不是同一地点，二者是否相关仍未知。
+开局后，你得知城市北方最近刚发生过一次与黑潮有关的战斗，而黑潮可能存在大约十九年的周期。第 1 天晚上，你通过侦测魔法 Detect Magic 发现导师留下的线索指向城市东北方向。北方的近期黑潮战场和东北方向的导师线索不是同一地点，二者是否相关仍未知。
 
 第 2 天，你与牧师蛋蛋、战士卡尔正式组成三人小队 KEN，并在厄拉西斯神殿门口办事处登记，尼姆担任队长。旅馆中出现了新的支线关系：女性塞拉与半身人马特。马特自称肚皮神信徒，对小队印象很好，但提出的两项委托明显带有宗教挑衅和公开羞辱性质，需要谨慎判断。尼姆同时发现了疑似导师留下的记号，这让导师线索从“东北方向”变成了更具体、可追踪的现场线索。
 
@@ -296,7 +296,7 @@
 
 - 属性可选：体质、智力、感知
 - 起源专长：魔法启蒙（法师）Magic Initiate (Wizard)
-- 技能：奥秘、历史
+- 技能：奥秘 Arcana、历史 History
 - 工具：书法工具
 - 装备选项 A：长棍、书法工具、历史书、羊皮纸 8 张、长袍、8 GP
 - 装备选项 B：50 GP

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
   <title id="title">小镇探索地图</title>
-  <desc id="desc">以中心教堂、东侧集市与旅馆为已探明地标，标注东北方向的导师线索和北部黑潮战区。未探明区域以斜线表示。</desc>
+  <desc id="desc">以小镇中心的厄拉西斯神殿、东侧集市与旅馆为已探明地标，标注城墙、正式东北城门、东北方向的导师线索和北部黑潮战区。未探明区域以斜线表示。</desc>
   <defs>
     <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
       <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#c9c7bd" stroke-width="1" opacity="0.45"/>
@@ -39,16 +39,27 @@
   <text x="700" y="88" text-anchor="middle" class="label large light" style="fill:#f7f4ea">城市北方：近期黑潮战场</text>
   <text x="700" y="122" text-anchor="middle" class="label small light" style="fill:#f7f4ea">最近刚发生过一次战斗；与东北导师线索是不同地点</text>
 
-  <!-- Approximate town footprint; this is not a confirmed wall. -->
+  <!-- The wall is confirmed; its exact surveyed shape remains approximate. -->
   <path d="M178 300 C275 229 430 220 555 258 C690 205 870 224 963 292 C1091 298 1195 385 1180 493 C1210 600 1094 692 962 687 C840 754 662 729 570 695 C420 744 262 676 229 583 C121 520 103 383 178 300 Z"
-        fill="#dfe9d8" stroke="#60705b" stroke-width="4" stroke-dasharray="15 12"/>
-  <text x="238" y="275" class="label small" fill="#53634f">小镇大致范围（数公里方圆；边界未测）</text>
+        fill="#dfe9d8" stroke="#59636a" stroke-width="10" stroke-linejoin="round"/>
+  <text x="238" y="275" class="label small" fill="#53634f">小镇城墙（已确认；轮廓仅作示意）</text>
 
   <!-- Known roads and travel corridor. -->
   <path class="road" d="M145 493 C305 490 420 465 560 456 C705 446 835 454 1010 467 C1122 474 1225 457 1320 429"/>
   <path class="road-edge" d="M145 493 C305 490 420 465 560 456 C705 446 835 454 1010 467 C1122 474 1225 457 1320 429"/>
   <path class="road" d="M594 697 C600 610 598 538 600 450 C603 365 603 300 612 238"/>
   <path class="road-edge" d="M594 697 C600 610 598 538 600 450 C603 365 603 300 612 238"/>
+  <path class="road" d="M952 455 C1000 419 1038 364 1083 314"/>
+  <path class="road-edge" d="M952 455 C1000 419 1038 364 1083 314"/>
+
+  <!-- Confirmed formal northeast gate. -->
+  <g transform="translate(1082 312) rotate(-39)" filter="url(#shadow)">
+    <rect x="-38" y="-25" width="25" height="50" rx="3" fill="#9da6a8" stroke="#374044" stroke-width="4"/>
+    <rect x="13" y="-25" width="25" height="50" rx="3" fill="#9da6a8" stroke="#374044" stroke-width="4"/>
+    <path d="M-13 -18 H13 M-13 18 H13" stroke="#374044" stroke-width="5"/>
+  </g>
+  <text x="938" y="326" class="label medium">东北城门</text>
+  <text x="938" y="350" class="label note">正式城门</text>
 
   <!-- Church. -->
   <g transform="translate(540 375)" filter="url(#shadow)">
@@ -57,8 +68,8 @@
     <rect x="49" y="61" width="25" height="55" fill="#8b3d2e" stroke="#374044" stroke-width="3"/>
     <path d="M61 -12 V-43 M45 -29 H77" stroke="#374044" stroke-width="5"/>
   </g>
-  <text x="600" y="527" text-anchor="middle" class="label medium">中心教堂</text>
-  <text x="600" y="551" text-anchor="middle" class="label note">名称及与厄拉西斯神殿的关系待确认</text>
+  <text x="600" y="527" text-anchor="middle" class="label medium">厄拉西斯神殿</text>
+  <text x="600" y="551" text-anchor="middle" class="label note">位于小镇中心</text>
 
   <!-- Market. -->
   <g transform="translate(738 410)" filter="url(#shadow)">
@@ -68,7 +79,7 @@
     <rect x="66" y="33" width="36" height="39" fill="#f0d8ad" stroke="#374044" stroke-width="3"/>
   </g>
   <text x="793" y="514" text-anchor="middle" class="label medium">集市</text>
-  <text x="793" y="538" text-anchor="middle" class="label note">前往教堂途中经过</text>
+  <text x="793" y="538" text-anchor="middle" class="label note">前往厄拉西斯神殿途中经过</text>
 
   <!-- Inn. -->
   <g transform="translate(936 391)" filter="url(#shadow)">
@@ -85,12 +96,12 @@
   <!-- Distance annotation. -->
   <path d="M665 590 H932" stroke="#202629" stroke-width="2"/>
   <path d="M665 579 V601 M932 579 V601" stroke="#202629" stroke-width="2"/>
-  <text x="798" y="621" text-anchor="middle" class="label small">教堂 → 旅馆：向东约 500 米</text>
+  <text x="798" y="621" text-anchor="middle" class="label small">厄拉西斯神殿 → 旅馆：向东约 500 米</text>
 
   <!-- Mentor clue direction. -->
-  <path d="M1015 365 C1100 315 1180 255 1287 174" fill="none" stroke="#8b3d2e" stroke-width="6" stroke-dasharray="14 10" marker-end="url(#arrow)"/>
-  <text x="1070" y="290" class="label medium accent" style="fill:#8b3d2e">导师线索：东北方向</text>
-  <text x="1070" y="317" class="label note">具体目标与距离未知</text>
+  <path d="M1106 292 C1170 255 1222 213 1287 174" fill="none" stroke="#8b3d2e" stroke-width="6" stroke-dasharray="14 10" marker-end="url(#arrow)"/>
+  <text x="1110" y="238" text-anchor="middle" class="label medium accent" style="fill:#8b3d2e">导师线索：东北方向</text>
+  <text x="1110" y="265" text-anchor="middle" class="label note">从正式东北城门出城；目标与距离未知</text>
 
   <!-- Compass. -->
   <g transform="translate(1260 690)">
@@ -103,7 +114,7 @@
 
   <!-- Legend. -->
   <g transform="translate(70 694)">
-    <rect width="520" height="142" rx="6" fill="#f8f7f2" stroke="#374044" stroke-width="2"/>
+    <rect width="520" height="168" rx="6" fill="#f8f7f2" stroke="#374044" stroke-width="2"/>
     <text x="22" y="33" class="label medium">探索图例</text>
     <circle cx="31" cy="63" r="9" fill="#dfe9d8" stroke="#60705b" stroke-width="2"/>
     <text x="53" y="70" class="label small">已到访地标或已确认路线</text>
@@ -111,6 +122,8 @@
     <text x="53" y="101" class="label small">未知 / 未探明区域</text>
     <line x1="23" y1="123" x2="44" y2="123" stroke="#8b3d2e" stroke-width="5" stroke-dasharray="8 6"/>
     <text x="53" y="130" class="label small">仅知方向的线索</text>
+    <line x1="23" y1="151" x2="44" y2="151" stroke="#59636a" stroke-width="8"/>
+    <text x="53" y="158" class="label small">已确认存在的城墙</text>
   </g>
 
   <text x="1335" y="852" text-anchor="end" class="label note">玩家探索图 · 方位与距离为当前认知，不代表精确测绘</text>
