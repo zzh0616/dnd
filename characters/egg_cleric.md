@@ -217,7 +217,7 @@ proficiencies:
     - Herbalism Kit
   languages:
     - Common
-    - Celestial
+    - Dwarvish
     - Elvish
 defenses:
   resistances: []
@@ -514,6 +514,6 @@ notes:
 牧师任务
 [ ] 1. 采购100斤大米
 [ ] 2. 采购5黑水晶
-[x] 3. 清除北部丧尸 （北 3-4km 安全，再北面有浅河，过河危险）
+[ ] 3. 清除北部丧尸 （北 3-4km 安全，再北面有浅河，过河危险）
 
 混乱 + 4
