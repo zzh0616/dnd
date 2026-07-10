@@ -8,9 +8,9 @@
 | 当前地点 Current Location | 城外河边小树林短休中 |
 | 当前生命值 Hit Points (HP) | 14 / 14 |
 | 临时生命值 Temporary Hit Points | 0 |
-| 护甲等级 Armor Class (AC) | 11 / 法师护甲 Mage Armor 后 14 |
+| 护甲等级 Armor Class (AC) | 14（法师护甲 Mage Armor 生效中；基础 11） |
 | 生命骰 Hit Dice | 2d6，已用 0 |
-| 1 环法术位 1st-level Spell Slots | 3 / 3 |
+| 1 环法术位 1st-level Spell Slots | 2 / 3 |
 | 奥术回复 Arcane Recovery | 可用 |
 | 魔法启蒙（法师）Magic Initiate (Wizard) 免费护盾术 Shield | 可用 |
 | 英雄激励 Heroic Inspiration | 无 |
@@ -342,6 +342,7 @@
 | 第 2 天 | 获得经验 | XP +5，总 XP 431 |
 | 第 2 天 | 获得战斗经验 | XP +300，总 XP 731 |
 | 第 2 天 | 获得战斗金币奖励 | GP +5，当前 GP 7 |
+| 第 2 天 | 施放法师护甲 Mage Armor | 1 环法术位 -1，当前 2 / 3；8 小时内 AC 14 |
 
 ## 已确认项
 
