@@ -4,6 +4,8 @@
 
 | 项目 | 当前值 |
 |---|---|
+| 游戏内日期 In-game Day | 第 2 天 |
+| 当前地点 Current Location | 东北城外，河边小树林短休中 |
 | 等级 Level | 2 |
 | 当前经验 / 升级所需经验 Current XP / XP Needed | 760 / 900 |
 | 当前生命值 Hit Points (HP) | 20 / 24 |
@@ -39,6 +41,7 @@
 | 姓名 | 凯恩·铁心 Kael Ironheart |
 | 物种 Species | 人类 Human |
 | 职业 Class | 战士 Fighter |
+| 计划子职 Planned Subclass | 战术大师 Battle Master（3 级选择） |
 | 背景 Background | 士兵 Soldier |
 | 阵营 Alignment | 守序善良 Lawful Good (LG) |
 | 阵营倾向记录 | 混乱 +1 |
