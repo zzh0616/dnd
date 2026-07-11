@@ -30,10 +30,13 @@ identity:
 campaign:
   name: null
   character_status: active
-  current_location: null
-  in_game_day: null
+  current_location: "城外河边小树林短休中"
+  in_game_day: 2
   in_game_date: null
-  party: []
+  party:
+    - Nym Copperstar
+    - "蛋蛋"
+    - Kael Ironheart
   references:
     notes_file: null
     quests_file: null
@@ -432,7 +435,7 @@ notes:
     
     吟游诗人有问题，衣服的质感很好，不像是个传统的吟游诗人。怀疑琴弦有魔法加持。袖口有 belly god。感觉言行狂放，但是并不偏激，大概率是个好人。但是值得调查。
     
-    法师导师东北部
+    疑似与 Nym 导师有关的魔法痕迹指向东北，二者关系尚未证实
     
     任务
     吟游诗人任务
@@ -443,7 +446,7 @@ notes:
     牧师任务
     [ ] 1. 采购100斤大米
     [ ] 2. 采购5黑水晶
-    [x] 3. 清除北部丧尸 （北 3-4km 安全，再北面有浅河，过河危险）
+    [ ] 3. 清除河对岸游荡的亡灵（河边已击败 6 只僵尸，神殿尚未验收；河对岸仍被认为危险）
     
     混乱 + 4
   personal_objectives: []
@@ -503,7 +506,7 @@ notes:
 
 吟游诗人有问题，衣服的质感很好，不像是个传统的吟游诗人。怀疑琴弦有魔法加持。袖口有 belly god。感觉言行狂放，但是并不偏激，大概率是个好人。但是值得调查。
 
-法师导师东北部
+疑似与 Nym 导师有关的魔法痕迹指向东北，二者关系尚未证实
 
 任务
 吟游诗人任务
@@ -514,6 +517,6 @@ notes:
 牧师任务
 [ ] 1. 采购100斤大米
 [ ] 2. 采购5黑水晶
-[ ] 3. 清除北部丧尸 （北 3-4km 安全，再北面有浅河，过河危险）
+[ ] 3. 清除河对岸游荡的亡灵（河边已击败 6 只僵尸，神殿尚未验收；河对岸仍被认为危险）
 
 混乱 + 4

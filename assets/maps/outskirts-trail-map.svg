@@ -99,7 +99,7 @@
     </g>
     <g stroke="#684f37" stroke-width="8"><path d="M0 27 V72"/><path d="M48 11 V69"/><path d="M83 43 V77"/><path d="M31 58 V85"/></g>
   </g>
-  <text x="846" y="611" text-anchor="middle" class="label medium">卡尔找到的小树林</text>
+  <text x="846" y="611" text-anchor="middle" class="label medium">Kael 找到的小树林</text>
   <text x="846" y="638" text-anchor="middle" class="label small accent" style="fill:#8b3d2e">KEN 当前短休位置</text>
   <path d="M625 342 C690 385 748 444 808 497" fill="none" stroke="#8b3d2e" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
 

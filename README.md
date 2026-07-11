@@ -5,6 +5,8 @@
 ## 快速入口
 
 - [Nym 个人角色卡](characters/nym-copperstar.md)
+- [蛋蛋个人角色卡](characters/egg_cleric.md)
+- [Kael Ironheart 个人角色卡](characters/kael-ironheart.md)
 - [KEN 小队与战役记录](campaign/ken-party.md)
 - [KEN 小队探索地图](campaign/maps.md)
 - [团桌规则与版本裁定](campaign/table-rulings.md)
@@ -18,12 +20,19 @@
 | 当前地点 | 城外河边小树林短休中 |
 | 小队名称 | KEN |
 | 队长 | 尼姆·铜星 Nym Copperstar |
-| 成员 | Nym、蛋蛋、卡尔 |
+| 成员 | [Nym](characters/nym-copperstar.md)、[蛋蛋](characters/egg_cleric.md)、[凯恩·铁心 Kael Ironheart](characters/kael-ironheart.md) |
 | 队伍构成 | 三名外来玩家角色（均非本地人） |
-| Nym 等级 | 2 |
-| Nym 总经验 / 升级所需总经验 | 731 / 900 |
-| Nym GP | 7 |
 | 当前主线方向 | 导师线索原指向东北；出城后短暂向东北，随后沿脚印转向北方 |
+
+## 角色快照
+
+| 角色 | 职业 | 等级 | 总经验 / 3 级门槛 | 当前 HP |
+|---|---|---:|---:|---:|
+| [Nym](characters/nym-copperstar.md) | 法师 Wizard | 2 | 731 / 900 | 14 / 14 |
+| [蛋蛋](characters/egg_cleric.md) | 牧师 Cleric | 2 | 736 / 900 | 19 / 19 |
+| [凯恩·铁心 Kael Ironheart](characters/kael-ironheart.md) | 战士 Fighter | 2 | 760 / 900 | 20 / 24 |
+
+法术位、职业资源、物品和金币等详细状态以各自角色卡为准。
 
 ## 维护原则
 
@@ -38,4 +47,5 @@
 
 - D&D 2024 / 5R
 - 起始等级：2 级
-- 当前角色路线：岩侏儒法师，3 级计划选择预言法师
+- 当前小队职业：Nym 法师、蛋蛋牧师、Kael 战士
+- 已记录的 3 级计划：Nym 选择预言法师；Kael 选择战术大师

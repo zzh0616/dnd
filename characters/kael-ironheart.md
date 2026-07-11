@@ -5,7 +5,7 @@
 | 项目 | 当前值 |
 |---|---|
 | 游戏内日期 In-game Day | 第 2 天 |
-| 当前地点 Current Location | 东北城外，河边小树林短休中 |
+| 当前地点 Current Location | 城外河边小树林短休中 |
 | 等级 Level | 2 |
 | 当前经验 / 升级所需经验 Current XP / XP Needed | 760 / 900 |
 | 当前生命值 Hit Points (HP) | 20 / 24 |
