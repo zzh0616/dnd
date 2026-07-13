@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-  <title id="title">小镇东北城门外追踪地图</title>
-  <desc id="desc">KEN小队从小镇东北城门出发，先向东北走了一小段，发现战斗痕迹和脚印后转向北方，沿脚印行进数公里后抵达与僵尸战斗的河流；河流在此向北弯折。战斗后，小队沿河向北行进一段并渡河抵达雇佣兵营地；Nym在营地战斗与调查后完成短休，随后小队返城。Nym导师原计划前往的观测站位于营地北方，距离未知。近期黑潮战场位于城市东方，图中用贯穿东侧的方向带表示。</desc>
+  <title id="title">神源镇东北城门外追踪地图</title>
+  <desc id="desc">KEN小队从神源镇东北城门出发，先向东北走了一小段，发现战斗痕迹和脚印后转向北方，沿脚印行进数公里后抵达与僵尸战斗的河流；河流在此向北弯折。战斗后，小队沿河向北行进一段并渡河抵达森林小屋；Nym在小屋战斗与调查后完成短休，随后小队返回神源镇。一名临终护卫说明托比厄斯·星眠逃往小屋北方的观测站旧址，距离未知。近期黑潮战场位于神源镇东方，图中用贯穿东侧的方向带表示。</desc>
   <defs>
     <pattern id="fog" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
       <rect width="22" height="22" fill="#e8eaeb"/>
@@ -56,7 +56,7 @@
 
   <!-- Town edge and northeast exit. -->
   <path d="M24 875 V674 C70 618 148 604 223 625 C288 642 321 700 305 764 C293 812 251 850 198 875 Z" fill="#dfe9d8" stroke="#59636a" stroke-width="9"/>
-  <text x="62" y="700" class="label medium">小镇</text>
+  <text x="62" y="700" class="label medium">神源镇</text>
   <text x="62" y="727" class="label note">城墙及东北边缘仅作示意</text>
   <g transform="translate(236 718)">
     <path d="M-24 20 V-33 H24 V20" fill="none" stroke="#374044" stroke-width="7"/>
@@ -116,25 +116,26 @@
   <text x="846" y="638" text-anchor="middle" class="label small accent" style="fill:#8b3d2e">KEN 临时营地</text>
   <path d="M625 342 C690 385 748 444 808 497" fill="none" stroke="#8b3d2e" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
 
-  <!-- Explored route follows the northward river, then crosses to the mercenary camp. -->
+  <!-- Explored route follows the northward river, then crosses to the forest cabin. -->
   <path d="M625 330 C660 290 710 260 755 220 C790 190 810 155 790 140 C770 125 750 130 730 140 C700 155 670 158 635 155"
         fill="none" stroke="#8b3d2e" stroke-width="7" stroke-dasharray="15 12" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#routeArrow)"/>
   <text x="875" y="145" text-anchor="middle" class="label medium accent" style="fill:#8b3d2e">沿河向北行进一段</text>
-  <text x="875" y="172" text-anchor="middle" class="label note">随后渡河抵达营地</text>
+  <text x="875" y="172" text-anchor="middle" class="label note">随后渡河抵达森林小屋</text>
 
-  <!-- Mercenary camp reached after crossing the river. -->
+  <!-- Forest cabin reached after crossing the river. -->
   <g transform="translate(535 100)" filter="url(#shadow)">
     <path d="M0 38 L55 0 L110 38 Z" fill="#684f37" stroke="#3f3328" stroke-width="4"/>
     <rect x="10" y="38" width="90" height="62" rx="2" fill="#d7c29e" stroke="#4f4639" stroke-width="4"/>
     <rect x="47" y="62" width="24" height="38" fill="#77543d" stroke="#4f3628" stroke-width="3"/>
   </g>
-  <text x="515" y="166" text-anchor="end" class="label medium">雇佣兵营地与小屋</text>
-  <text x="515" y="193" text-anchor="end" class="label note">已探明 · 过河抵达 · Nym 短休后返城</text>
+  <text x="515" y="166" text-anchor="end" class="label medium">森林小屋</text>
+  <text x="515" y="193" text-anchor="end" class="label note">噬脑怪战斗与星象盘发现处</text>
+  <text x="515" y="218" text-anchor="end" class="label note">Nym 短休后返回神源镇</text>
 
   <!-- The observatory direction is known, but the route and distance are not. -->
   <path d="M590 95 V32" fill="none" stroke="#555d60" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#unknownArrow)"/>
-  <text x="530" y="48" text-anchor="end" class="label medium">北方观测站（未探明）</text>
-  <text x="530" y="74" text-anchor="end" class="label note">导师原计划前往 · 距离未知</text>
+  <text x="530" y="48" text-anchor="end" class="label medium">北方观测站旧址（未探明）</text>
+  <text x="530" y="74" text-anchor="end" class="label note">托比厄斯逃往此处 · 距离未知</text>
 
   <!-- Compass. -->
   <g transform="translate(1265 706)">

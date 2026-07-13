@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-  <title id="title">小镇探索地图</title>
-  <desc id="desc">以小镇中心的厄拉西斯神殿、东侧集市与旅馆为已探明地标，标注城墙、正式东北城门、东北方向的导师线索和城市东方的近期黑潮战场。黑潮战场用贯穿地图东侧的方向带表示，其南北边界和具体范围未知；未探明区域以斜线表示。</desc>
+  <title id="title">神源镇探索地图</title>
+  <desc id="desc">以神源镇中心的厄拉西斯神殿、东侧集市与旅馆为已探明地标，标注城墙、正式东北城门、东北方向的导师线索和神源镇东方的近期黑潮战场。黑潮战场用贯穿地图东侧的方向带表示，其南北边界和具体范围未知；未探明区域以斜线表示。</desc>
   <defs>
     <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
       <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#c9c7bd" stroke-width="1" opacity="0.45"/>
@@ -40,7 +40,7 @@
   <path d="M1165 25 H1375 V875 H1178 C1200 806 1160 740 1188 665 C1215 592 1170 525 1195 450 C1220 375 1175 305 1195 230 C1216 155 1175 88 1165 25 Z" fill="url(#fog)"/>
   <path d="M1173 25 H1375 V875 H1186 C1208 807 1168 742 1196 668 C1223 595 1178 528 1203 453 C1228 378 1183 308 1203 233 C1224 158 1183 90 1173 25 Z" fill="#394246" opacity="0.48"/>
   <path d="M1165 25 C1175 88 1216 155 1195 230 C1175 305 1220 375 1195 450 C1170 525 1215 592 1188 665 C1160 740 1200 806 1178 875" fill="none" stroke="#6c7275" stroke-width="4" stroke-dasharray="13 12"/>
-  <text x="1285" y="495" text-anchor="middle" class="label medium light" style="fill:#f7f4ea">城市东方</text>
+  <text x="1285" y="495" text-anchor="middle" class="label medium light" style="fill:#f7f4ea">神源镇东方</text>
   <text x="1285" y="526" text-anchor="middle" class="label medium light" style="fill:#f7f4ea">近期黑潮战场</text>
   <text x="1285" y="557" text-anchor="middle" class="label small light" style="fill:#f7f4ea">东侧阴影仅表示方位</text>
   <text x="1285" y="584" text-anchor="middle" class="label small light" style="fill:#f7f4ea">南北边界与范围未知</text>
@@ -49,7 +49,7 @@
   <!-- The wall is confirmed; its exact surveyed shape remains approximate. -->
   <path d="M178 300 C275 229 430 220 555 258 C690 205 870 224 963 292 C1091 298 1195 385 1180 493 C1210 600 1094 692 962 687 C840 754 662 729 570 695 C420 744 262 676 229 583 C121 520 103 383 178 300 Z"
         fill="#dfe9d8" stroke="#59636a" stroke-width="10" stroke-linejoin="round"/>
-  <text x="238" y="275" class="label small" fill="#53634f">小镇城墙（已确认；轮廓仅作示意）</text>
+  <text x="238" y="275" class="label small" fill="#53634f">神源镇城墙（已确认；轮廓仅作示意）</text>
 
   <!-- Known roads and travel corridor. -->
   <path class="road" d="M145 493 C305 490 420 465 560 456 C705 446 835 454 1010 467 C1122 474 1225 457 1320 429"/>
@@ -76,7 +76,7 @@
     <path d="M61 -12 V-43 M45 -29 H77" stroke="#374044" stroke-width="5"/>
   </g>
   <text x="600" y="527" text-anchor="middle" class="label medium">厄拉西斯神殿</text>
-  <text x="600" y="551" text-anchor="middle" class="label note">位于小镇中心</text>
+  <text x="600" y="551" text-anchor="middle" class="label note">位于神源镇中心</text>
 
   <!-- Market. -->
   <g transform="translate(738 410)" filter="url(#shadow)">
