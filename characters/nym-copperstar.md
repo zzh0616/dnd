@@ -6,12 +6,14 @@
 |---|---|
 | 游戏内日期 In-game Day | 第 2 天 |
 | 当前地点 Current Location | 城外河边小树林短休中 |
-| 当前生命值 Hit Points (HP) | 14 / 14 |
+| 当前生命值 Hit Points (HP) | 20 / 20（DM 裁定升级结算时回满） |
 | 临时生命值 Temporary Hit Points | 0 |
 | 护甲等级 Armor Class (AC) | 14（法师护甲 Mage Armor 生效中；基础 11） |
-| 生命骰 Hit Dice | 2d6，已用 0 |
-| 1 环法术位 1st-level Spell Slots | 2 / 3 |
+| 生命骰 Hit Dice | 3d6，已用 0 |
+| 1 环法术位 1st-level Spell Slots | 3 / 4 |
+| 2 环法术位 2nd-level Spell Slots | 2 / 2 |
 | 奥术回复 Arcane Recovery | 可用 |
+| 预兆 Portent | 2 枚 d20 待掷并记录；DM 允许升级后立即生成 |
 | 魔法启蒙（法师）Magic Initiate (Wizard) 免费护盾术 Shield | 可用 |
 | 英雄激励 Heroic Inspiration | 无 |
 | 当前专注 Concentration | 无 |
@@ -28,8 +30,8 @@
 
 休息后常改：
 
-- 长休 Long Rest：恢复 HP、法术位 Spell Slots、魔法启蒙 Magic Initiate 免费护盾术 Shield，并通常恢复一半已消耗的生命骰 Hit Dice。
-- 短休 Short Rest：可花生命骰 Hit Dice 回血；可用奥术回复 Arcane Recovery 恢复 1 个 1 环法术位。
+- 长休 Long Rest：恢复全部 HP、全部法术位 Spell Slots、全部已消耗生命骰 Hit Dice、魔法启蒙 Magic Initiate 免费护盾术 Shield；可以重选准备法术，并重新掷出 2 枚预兆骰 Portent Dice。
+- 短休 Short Rest：可花生命骰 Hit Dice 回血；可用奥术回复 Arcane Recovery 恢复总环级不超过 2 的已消耗法术位。
 
 ## 基础信息 / Basic Information
 
@@ -39,12 +41,12 @@
 | 物种 Species | 侏儒 Gnome |
 | 血脉 Lineage | 岩侏儒 Rock Gnome |
 | 职业 Class | 法师 Wizard |
-| 计划子职 Planned Subclass | 预言法师 Diviner（3 级选择） |
+| 子职 Subclass | 预言法师 Diviner |
 | 背景 Background | 贤者 Sage |
 | 阵营 Alignment | 中立善良 Neutral Good (NG) |
-| 阵营倾向记录 | 中立 +1 |
-| 等级 Level | 2 |
-| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 731 / 900 |
+| 阵营倾向记录 | 中立 +1、善良 +1 |
+| 等级 Level | 3 |
+| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 913 / 2700 |
 | 熟练加值 Proficiency Bonus | +2 |
 | 体型 Size | 小型 Small |
 | 速度 Speed | 30 尺 |
@@ -71,17 +73,18 @@
 | 项目 | 数值 |
 |---|---:|
 | 护甲等级 Armor Class (AC) | 11 / 法师护甲 Mage Armor 后 14 |
-| 生命值 Hit Points (HP) | 14 |
-| 生命骰 Hit Dice | 2d6 |
+| 生命值上限 Hit Point Maximum | 20 |
+| 生命骰 Hit Dice | 3d6 |
 | 先攻 Initiative | +1 |
 | 法术豁免难度 Spell Save DC | 13 |
 | 法术攻击加值 Spell Attack Modifier | +5 |
-| 1 环法术位 1st-level Spell Slots | 3 |
-| 准备法术数 Prepared Spells | 5 |
+| 1 环法术位 1st-level Spell Slots | 4 |
+| 2 环法术位 2nd-level Spell Slots | 2 |
+| 准备法术数 Prepared Spells | 6 |
 
 计算：
 
-- HP：6（1 级）+ 体质调整值 2 + 4（2 级固定值）+ 体质调整值 2 = 14
+- HP：6（1 级）+ 体质调整值 2 + 2 ×（固定值 4 + 体质调整值 2）= 20
 - 法术豁免 DC：8 + 熟练加值 2 + 智力调整值 3 = 13
 - 法术攻击：熟练加值 2 + 智力调整值 3 = +5
 - 法师护甲 Mage Armor 后 AC：13 + 敏捷调整值 1 = 14
@@ -134,8 +137,10 @@
 |---|---|---|---|
 | 施法 Spellcasting | 法师 Wizard | 法术位 Spell Slots / 戏法 Cantrips 不限 | 使用智力 Intelligence 施放法师法术 Wizard Spells |
 | 仪式专家 Ritual Adept | 法师 Wizard | 需读取法术书 Spellbook | 法术书中的仪式法术 Ritual Spells 即使未准备，也可作为仪式 Ritual 施放 |
-| 奥术回复 Arcane Recovery | 法师 Wizard | 每次长休 Long Rest 1 次；短休 Short Rest 后使用 | 2 级时恢复 1 个 1 环法术位 |
+| 奥术回复 Arcane Recovery | 法师 Wizard | 每次长休 Long Rest 1 次；短休 Short Rest 后使用 | 恢复总环级不超过 2 的已消耗法术位，例如 1 个 2 环位或 2 个 1 环位 |
 | 学者 Scholar | 法师 Wizard | 常驻 Passive | 奥秘 Arcana 获得专精 Expertise，当前奥秘 +7 |
+| 预言专家 Divination Savant | 预言法师 Diviner | 常驻 Passive | 3 级免费加入 2 个不高于 2 环的预言法术；以后首次获得新环级法术位时，再免费加入 1 个可施放环级的预言法术 |
+| 预兆 Portent | 预言法师 Diviner | 每次长休后掷 2d20 并分别使用一次；每个回合 Turn 最多替换一次 | 在自己或一个你能看见的生物进行 d20 检定前，用一个预先记录的结果替代该次骰值；DM 允许本次升级后立即生成 |
 | 黑暗视觉 Darkvision | 岩侏儒 Rock Gnome | 常驻 Passive | 60 尺黑暗视觉 Darkvision |
 | 侏儒狡黠 Gnomish Cunning | 侏儒 Gnome | 常驻 Passive | 智力、感知、魅力豁免具有优势 Advantage |
 | 侏儒血脉（岩侏儒）：法术 Gnomish Lineage (Rock Gnome): Spells | 岩侏儒 Rock Gnome | 常驻 Passive | 获得修复术 Mending、魔法伎俩 Prestidigitation；施法属性为智力 Intelligence |
@@ -156,7 +161,7 @@
 
 ## 当前已准备法术 / Current Prepared Spells
 
-2024 法师 Wizard 2 级准备 5 个 1 环及以上法术。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。
+2024 法师 Wizard 3 级准备法术上限为 6 个。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。DM 裁定本次升级不改变当前准备列表，因此目前仍沿用升级前的 5 个法师准备法术；完成长休后可重选并补足至 6 个。
 
 | 法术 Spell | 来源 Source | 使用方式 Casting | 专注 / 仪式 Concentration / Ritual | 用途 Effect |
 |---|---|---|---|---|
@@ -169,7 +174,7 @@
 
 ## 当前法术书 / Current Spellbook
 
-1 级法师法术书收录 6 个 1 环法术；升到 2 级时再加入 2 个 1 环法术。目前法术书共 8 个 1 环法术。
+法术书原有 8 个 1 环法术。升到 3 级时，按团桌裁定加入 2 个普通法师法术和 2 个预言法术；目前共收录 12 个法术，其中 8 个为 1 环、4 个为 2 环。
 
 | 法术 Spell | 已准备 Prepared | 仪式 Ritual | 用途 Effect |
 |---|---|---|---|
@@ -181,16 +186,21 @@
 | 寻获魔宠 Find Familiar | 否 No | 是 Yes | 侦查、递送触碰法术、角色风味 |
 | 鉴定术 Identify | 否 No | 是 Yes | 识别魔法物品和魔法效果 |
 | 羽落术 Feather Fall | 是 Yes | 否 No | 防坠落，常见救命法术 |
+| 蛛网术 Web | 否 No | 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
+| 迷踪步 Misty Step | 否 No | 否 No | 以附赠动作传送 30 尺，用于脱离包围或跨越障碍 |
+| 占卜术 Augury | 否 No | 是 Yes | 预测未来 30 分钟内某项行动结果的大致吉凶；当前仍需凑足或借到 25 GP 作为材料条件 |
+| 侦测思想 Detect Thoughts | 否 No | 否 No | 感知附近思想并读取目标当前最显著的想法；深入探查可能触发豁免并暴露施法 |
 
-## 2 级行动习惯 / Level 2 Play Routine
+## 3 级行动习惯 / Level 3 Play Routine
 
 - 战斗前如果可能，先施放法师护甲 Mage Armor。
 - 战斗中保持距离，不要站在前排。
 - 小怪密集或低血量敌人多时，用睡眠术 Sleep。
+- 完成长休并准备蛛网术 Web 后，敌人较多且锚点合适时，用它分割和束缚敌人，并保持专注。
 - 需要稳定收掉敌人时，用魔法飞弹 Magic Missile。
 - 被命中且这次命中很危险时，用护盾术 Shield。
 - 探索时优先让魔宠 Familiar 侦查，自己用法师之手 Mage Hand 和侦测魔法 Detect Magic 排风险。
-- 一次关键短休 Short Rest 后，可以用奥术回复 Arcane Recovery 恢复 1 个 1 环法术位。
+- 一次关键短休 Short Rest 后，可以用奥术回复 Arcane Recovery 恢复总环级不超过 2 的法术位。
 
 ## 物品与财产
 
@@ -205,7 +215,8 @@
 | 历史书 | 1 | 贤者背景 |
 | 羊皮纸 | 8 | 贤者背景 |
 | 圣水 | 1 瓶 | 蛋蛋观察后发现其中含有杂质；杂质性质及是否影响圣水效力未知 |
-| 金币 GP | 7 | 当前持有 |
+| 疑似导师的法杖 | 1 | 第 2 天从河中捡到；是否确属导师、是否具有魔法及具体能力均未确认 |
+| 金币 GP | 17 | 当前持有 |
 
 ## 魔宠记录 / Familiar
 
@@ -234,7 +245,7 @@
 
 你、牧师蛋蛋和战士凯恩·铁心 Kael Ironheart 都是非本地的玩家角色。第 1 天，圣骑士小队首领亚尔文队长告知三人厄拉西斯神殿的相关信息并邀请登记。第 2 天，三人在神殿门口办事处正式登记为 KEN 小队，尼姆担任队长。旅馆中出现了新的支线关系：女性塞拉与半身人马特。马特自称肚皮神信徒，对小队印象很好，但提出的两项委托明显带有宗教挑衅和公开羞辱性质，需要谨慎判断。尼姆同时发现了疑似导师留下的记号，为调查提供了另一条尚待验证的现场线索。
 
-同日，小队在市场目睹三名执法者把一名农夫拖走，又从东北城门出城。小队先向东北走了一小段，发现战斗痕迹和脚印后沿脚印转向北方，行进约数公里抵达小河，在河边击败 6 只僵尸，并于 Kael 找到的小树林中短休。当前低级阶段的故事已经扩展为数条并行线：导师线索与城外脚印的潜在关系、城市北方的近期黑潮战场、神殿委托与本地秩序，以及马特和肚皮神相关的危险支线。
+同日，小队在市场目睹三名执法者把一名农夫拖走，又从东北城门出城。小队先向东北走了一小段，发现战斗痕迹和脚印后沿脚印转向北方，行进约数公里抵达小河，在河边先后击败 7 只僵尸，并于 Kael 找到的小树林中短休。当前低级阶段的故事已经扩展为数条并行线：导师线索与城外脚印的潜在关系、城市北方的近期黑潮战场、神殿委托与本地秩序，以及马特和肚皮神相关的危险支线。
 
 目前你并不知道这背后是否真的有神明、神谕或命运结构。低级阶段，你的目标很实际：
 
@@ -259,7 +270,7 @@
 - 物种：侏儒 Gnome
 - 侏儒血脉：岩侏儒 Rock Gnome
 - 职业：法师 Wizard
-- 计划子职：预言法师 Diviner（3 级选择）
+- 子职：预言法师 Diviner
 - 背景：贤者 Sage
 - 属性生成：标准数组（15, 14, 13, 12, 10, 8）
 
@@ -320,6 +331,7 @@
 | 倾向 | 数值 | 来源 |
 |---|---:|---|
 | 中立 | +1 | DM 奖励 |
+| 善良 | +1 | DM 奖励 |
 
 ## 角色变更记录
 
@@ -343,12 +355,26 @@
 | 第 2 天 | 获得战斗经验 | XP +300，总 XP 731 |
 | 第 2 天 | 获得战斗金币奖励 | GP +5，当前 GP 7 |
 | 第 2 天 | 施放法师护甲 Mage Armor | 1 环法术位 -1，当前 2 / 3；8 小时内 AC 14 |
+| 第 2 天 | 获得剧情推动经验 | XP +54，总 XP 785 |
+| 第 2 天 | 获得剧情推动经验 | XP +20，总 XP 805 |
+| 第 2 天 | 获得金币 | GP +10，当前 GP 17 |
+| 第 2 天 | 从河中发现疑似导师的法杖 | 当前由 Nym 持有；归属、性质和能力均待确认 |
+| 第 2 天 | 获得经验 | XP +16，总 XP 821 |
+| 第 2 天 | 小队又击败 1 只僵尸并获得战斗经验 | XP +20，总 XP 841；河边累计击败 7 只僵尸 |
+| 第 2 天 | 获得阵营倾向与经验奖励 | 善良 +1；XP +10，总 XP 851 |
+| 第 2 天 | 获得经验 | XP +16，总 XP 867 |
+| 第 2 天 | 获得经验 | XP +12，总 XP 879 |
+| 第 2 天 | 获得经验 | XP +17，总 XP 896 |
+| 第 2 天 | 获得经验并达到 3 级门槛 | XP +7，总 XP 903；等级与新增能力待结算 |
+| 第 2 天 | 结算法师 3 级升级并选择预言法师 | DM 裁定当前 HP 回满至 20 / 20，当前准备法术列表不变；生命骰 3d6；法术位上限 4 个 1 环、2 个 2 环；准备法术上限 6；获得预言专家与预兆 |
+| 第 2 天 | 法术书加入 4 个 2 环法术 | 蛛网术、迷踪步、占卜术、侦测思想 |
+| 第 2 天 | 获得经验 | XP +10，总 XP 913 |
 
 ## 已确认项
 
 - 起始等级：2 级。
 - 物种：岩侏儒。
 - 属性：标准数组。
-- 子职路线：预言法师。
+- 当前子职：预言法师。
 - 初始语言：通用语、侏儒语、龙语；暂不选择天界语。
 - Nym、蛋蛋、Kael 均为非本地的玩家角色 PC。

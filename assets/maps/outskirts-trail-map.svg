@@ -89,7 +89,7 @@
     <circle cx="0" cy="0" r="8" fill="#8b3d2e"/>
   </g>
   <text x="650" y="350" class="label medium">河边僵尸战斗点</text>
-  <text x="650" y="377" class="label note">击败 6 只僵尸；河岸方位尚未测明</text>
+  <text x="650" y="377" class="label note">累计击败 7 只僵尸；河岸方位尚未测明</text>
 
   <!-- Grove and current position. -->
   <g transform="translate(806 505)">
