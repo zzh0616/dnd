@@ -30,7 +30,7 @@ identity:
 campaign:
   name: null
   character_status: active
-  current_location: "城外河边小树林短休中"
+  current_location: "城外河边小树林（短休已完成）"
   in_game_day: 2
   in_game_date: null
   party:

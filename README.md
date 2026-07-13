@@ -17,7 +17,7 @@
 | 项目 | 当前值 |
 |---|---|
 | 游戏内日期 | 第 2 天 |
-| 当前地点 | 城外河边小树林短休中 |
+| 当前地点 | 城外河边小树林（短休已完成） |
 | 小队名称 | KEN |
 | 队长 | 尼姆·铜星 Nym Copperstar |
 | 成员 | [Nym](characters/nym-copperstar.md)、[蛋蛋](characters/egg_cleric.md)、[凯恩·铁心 Kael Ironheart](characters/kael-ironheart.md) |

@@ -5,14 +5,14 @@
 | 项目 | 当前值 |
 |---|---|
 | 游戏内日期 In-game Day | 第 2 天 |
-| 当前地点 Current Location | 城外河边小树林短休中 |
+| 当前地点 Current Location | 城外河边小树林（短休已完成） |
 | 当前生命值 Hit Points (HP) | 20 / 20（DM 裁定升级结算时回满） |
 | 临时生命值 Temporary Hit Points | 0 |
 | 护甲等级 Armor Class (AC) | 14（法师护甲 Mage Armor 生效中；基础 11） |
 | 生命骰 Hit Dice | 3d6，已用 0 |
 | 1 环法术位 1st-level Spell Slots | 3 / 4 |
-| 2 环法术位 2nd-level Spell Slots | 1 / 2 |
-| 奥术回复 Arcane Recovery | 可用 |
+| 2 环法术位 2nd-level Spell Slots | 2 / 2 |
+| 奥术回复 Arcane Recovery | 已使用；长休后恢复 |
 | 预兆 Portent | 2 枚 d20 待掷并记录；DM 允许升级后立即生成 |
 | 魔法启蒙（法师）Magic Initiate (Wizard) 免费护盾术 Shield | 可用 |
 | 英雄激励 Heroic Inspiration | 无 |
@@ -44,7 +44,7 @@
 | 子职 Subclass | 预言法师 Diviner |
 | 背景 Background | 贤者 Sage |
 | 阵营 Alignment | 中立善良 Neutral Good (NG) |
-| 阵营倾向记录 | 中立 +1、善良 +1 |
+| 阵营倾向记录 | 中立 +1、善良 +1、混乱 +1 |
 | 等级 Level | 3 |
 | 总经验 / 升级所需总经验 Total XP / Total XP Needed | 1109 / 2700 |
 | 熟练加值 Proficiency Bonus | +2 |
@@ -333,6 +333,7 @@
 |---|---:|---|
 | 中立 | +1 | DM 奖励 |
 | 善良 | +1 | DM 奖励 |
+| 混乱 | +1 | DM 奖励 |
 
 ## 角色变更记录
 
@@ -376,6 +377,8 @@
 | 第 2 天 | 获得经验 | XP +15，总 XP 1098 |
 | 第 2 天 | 获得经验 | XP +11，总 XP 1109 |
 | 第 2 天 | 获得导师留下的星盘 | 当前由 Nym 持有；性质、用途及所含信息待调查 |
+| 第 2 天 | 完成短休并使用奥术回复 Arcane Recovery | 恢复 1 个 2 环法术位，当前 2 / 2；奥术回复已使用，长休后恢复 |
+| 第 2 天 | 获得阵营倾向 | 混乱 +1 |
 
 ## 已确认项
 
