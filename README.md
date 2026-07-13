@@ -28,7 +28,7 @@
 
 | 角色 | 职业 | 等级 | 总经验 / 下一级门槛 | 当前 HP |
 |---|---|---:|---:|---:|
-| [Nym](characters/nym-copperstar.md) | 预言法师 Diviner | 3 | 1098 / 2700 | 20 / 20 |
+| [Nym](characters/nym-copperstar.md) | 预言法师 Diviner | 3 | 1109 / 2700 | 20 / 20 |
 | [蛋蛋](characters/egg_cleric.md) | 牧师 Cleric | 2 | 736 / 900 | 19 / 19 |
 | [凯恩·铁心 Kael Ironheart](characters/kael-ironheart.md) | 战士 Fighter | 2 | 760 / 900 | 20 / 24 |
 
