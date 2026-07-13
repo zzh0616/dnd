@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
   <title id="title">小镇探索地图</title>
-  <desc id="desc">以小镇中心的厄拉西斯神殿、东侧集市与旅馆为已探明地标，标注城墙、正式东北城门、东北方向的导师线索和北部黑潮战区。未探明区域以斜线表示。</desc>
+  <desc id="desc">以小镇中心的厄拉西斯神殿、东侧集市与旅馆为已探明地标，标注城墙、正式东北城门、东北方向的导师线索和东部黑潮战区。未探明区域以斜线表示。</desc>
   <defs>
     <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
       <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#c9c7bd" stroke-width="1" opacity="0.45"/>
@@ -32,12 +32,18 @@
   <rect x="24" y="24" width="1352" height="852" rx="6" fill="none" stroke="#333b3e" stroke-width="3"/>
   <rect x="25" y="25" width="1350" height="850" fill="url(#grid)"/>
 
-  <!-- Unexplored surroundings and the approximate northern war-affected area. -->
+  <!-- Unexplored northern surroundings. -->
   <path d="M25 25 H1375 V185 C1215 158 1090 202 930 165 C760 126 625 193 440 164 C275 138 145 178 25 150 Z" fill="url(#fog)"/>
-  <path d="M25 25 H1375 V178 C1220 151 1080 194 930 160 C760 121 625 188 440 159 C280 132 145 172 25 145 Z" fill="#394246" opacity="0.32"/>
   <path d="M25 180 C180 205 305 162 455 192 C635 228 770 167 935 205 C1095 242 1230 194 1375 220" fill="none" stroke="#6c7275" stroke-width="4" stroke-dasharray="13 12"/>
-  <text x="700" y="88" text-anchor="middle" class="label large light" style="fill:#f7f4ea">城市北方：近期黑潮战场</text>
-  <text x="700" y="122" text-anchor="middle" class="label small light" style="fill:#f7f4ea">最近刚发生过一次战斗；与东北导师线索是不同地点</text>
+
+  <!-- Approximate eastern war-affected area. -->
+  <path d="M1375 235 V655 C1330 625 1280 650 1240 610 C1205 575 1230 525 1200 480 C1175 440 1195 390 1225 345 C1260 292 1310 260 1375 235 Z" fill="url(#fog)"/>
+  <path d="M1375 242 V648 C1334 618 1285 642 1247 604 C1213 570 1238 520 1208 477 C1185 441 1203 395 1233 351 C1268 300 1315 268 1375 242 Z" fill="#394246" opacity="0.42"/>
+  <path d="M1375 655 C1330 625 1280 650 1240 610 C1205 575 1230 525 1200 480 C1175 440 1195 390 1225 345 C1260 292 1310 260 1375 235" fill="none" stroke="#6c7275" stroke-width="4" stroke-dasharray="13 12"/>
+  <text x="1290" y="475" text-anchor="middle" class="label medium light" style="fill:#f7f4ea">城市东方</text>
+  <text x="1290" y="506" text-anchor="middle" class="label medium light" style="fill:#f7f4ea">近期黑潮战场</text>
+  <text x="1290" y="537" text-anchor="middle" class="label small light" style="fill:#f7f4ea">最近刚发生战斗</text>
+  <text x="1290" y="564" text-anchor="middle" class="label small light" style="fill:#f7f4ea">与东北线索不同</text>
 
   <!-- The wall is confirmed; its exact surveyed shape remains approximate. -->
   <path d="M178 300 C275 229 430 220 555 258 C690 205 870 224 963 292 C1091 298 1195 385 1180 493 C1210 600 1094 692 962 687 C840 754 662 729 570 695 C420 744 262 676 229 583 C121 520 103 383 178 300 Z"

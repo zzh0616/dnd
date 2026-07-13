@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
   <title id="title">小镇东北城门外追踪地图</title>
-  <desc id="desc">KEN小队从小镇东北城门出发，先向东北走了一小段，发现战斗痕迹和脚印后转向北方，沿脚印行进数公里后抵达与僵尸战斗的河流。城市北方另有近期黑潮战场，其与脚印路线的相对位置未知。</desc>
+  <desc id="desc">KEN小队从小镇东北城门出发，先向东北走了一小段，发现战斗痕迹和脚印后转向北方，沿脚印行进数公里后抵达与僵尸战斗的河流。城市东方另有近期黑潮战场，其与脚印路线的相对位置未知。</desc>
   <defs>
     <pattern id="fog" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
       <rect width="22" height="22" fill="#e8eaeb"/>
@@ -31,10 +31,10 @@
   <rect width="1400" height="900" fill="#f4f2ea"/>
   <rect x="24" y="24" width="1352" height="852" rx="6" fill="url(#fog)" stroke="#333b3e" stroke-width="3"/>
 
-  <!-- Approximate northern war zone. -->
-  <path d="M24 24 H410 V175 C342 151 288 192 218 168 C145 143 84 184 24 170 Z" fill="url(#warFog)"/>
-  <text x="215" y="75" text-anchor="middle" class="label large light" style="fill:#f7f4ea">北方近期黑潮战场</text>
-  <text x="215" y="110" text-anchor="middle" class="label small light" style="fill:#f7f4ea">与本次脚印路线的关系未知</text>
+  <!-- Approximate eastern war zone. -->
+  <path d="M1080 24 H1376 V390 C1320 360 1270 385 1215 350 C1155 312 1180 250 1135 205 C1095 165 1110 90 1080 24 Z" fill="url(#warFog)"/>
+  <text x="1240" y="75" text-anchor="middle" class="label medium light" style="fill:#f7f4ea">东方近期黑潮战场</text>
+  <text x="1240" y="110" text-anchor="middle" class="label small light" style="fill:#f7f4ea">与本次脚印路线的关系未知</text>
 
   <!-- Explored corridor clears part of the fog without claiming the whole region. -->
   <path d="M236 729 C300 674 340 642 390 620 C454 592 485 550 492 501 C500 452 478 415 505 371 C524 339 542 319 568 306"
