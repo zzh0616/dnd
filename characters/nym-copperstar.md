@@ -8,13 +8,14 @@
 | 当前地点 Current Location | 神源镇内旅馆（已与马特约定稍后见面） |
 | 当前生命值 Hit Points (HP) | 20 / 20（DM 裁定升级结算时回满） |
 | 临时生命值 Temporary Hit Points | 0 |
-| 护甲等级 Armor Class (AC) | 14（法师护甲 Mage Armor 生效中；基础 11） |
+| 护甲等级 Armor Class (AC) | 11（法师护甲 Mage Armor 已随长休结束；重施后为 14） |
 | 生命骰 Hit Dice | 3d6，已用 0 |
-| 1 环法术位 1st-level Spell Slots | 2 / 4 |
+| 1 环法术位 1st-level Spell Slots | 4 / 4 |
 | 2 环法术位 2nd-level Spell Slots | 2 / 2 |
-| 奥术回复 Arcane Recovery | 已使用；在森林小屋战斗与调查后短休，恢复 1 个 2 环法术位；长休后恢复使用次数 |
-| 预兆 Portent | 2 枚 d20 待掷并记录；DM 允许升级后立即生成 |
+| 奥术回复 Arcane Recovery | 可用；本次长休后恢复使用次数 |
+| 预兆 Portent | 本次长休后重掷 2 枚 d20；数值待掷并记录 |
 | 魔法启蒙（法师）Magic Initiate (Wizard) 免费护盾术 Shield | 可用 |
+| 法术储存戒指 Spell-Storing Ring | 本次长休使用次数未消耗；可储存 1 个 1 环法术，每次长休可使用 1 次；当前储存法术尚未记录 |
 | 英雄激励 Heroic Inspiration | 无 |
 | 当前专注 Concentration | 无 |
 | 当前异常状态 Conditions | 无 |
@@ -30,7 +31,7 @@
 
 休息后常改：
 
-- 长休 Long Rest：恢复全部 HP、全部法术位 Spell Slots、全部已消耗生命骰 Hit Dice、魔法启蒙 Magic Initiate 免费护盾术 Shield；可以重选准备法术，并重新掷出 2 枚预兆骰 Portent Dice。
+- 长休 Long Rest：恢复全部 HP、全部法术位 Spell Slots、全部已消耗生命骰 Hit Dice、魔法启蒙 Magic Initiate 免费护盾术 Shield、法术储存戒指 Spell-Storing Ring 的使用次数；可以重选准备法术，并重新掷出 2 枚预兆骰 Portent Dice。
 - 短休 Short Rest：可花生命骰 Hit Dice 回血；可用奥术回复 Arcane Recovery 恢复总环级不超过 2 的已消耗法术位。
 
 ## 基础信息 / Basic Information
@@ -44,9 +45,9 @@
 | 子职 Subclass | 预言法师 Diviner |
 | 背景 Background | 贤者 Sage |
 | 阵营 Alignment | 中立善良 Neutral Good (NG) |
-| 阵营倾向记录 | 中立 +2、善良 +1、混乱 +4 |
+| 阵营倾向记录 | 中立 +3、善良 +1、混乱 +5 |
 | 等级 Level | 3 |
-| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 1142 / 2700 |
+| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 1231 / 2700 |
 | 熟练加值 Proficiency Bonus | +2 |
 | 体型 Size | 小型 Small |
 | 速度 Speed | 30 尺 |
@@ -161,15 +162,16 @@
 
 ## 当前已准备法术 / Current Prepared Spells
 
-2024 法师 Wizard 3 级准备法术上限为 6 个。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。DM 裁定本次升级不改变当前准备列表，因此目前仍沿用升级前的 5 个法师准备法术；完成长休后可重选并补足至 6 个。
+2024 法师 Wizard 3 级准备法术上限为 6 个。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。本次长休后已重选以下 6 个法师准备法术。
 
 | 法术 Spell | 来源 Source | 使用方式 Casting | 专注 / 仪式 Concentration / Ritual | 用途 Effect |
 |---|---|---|---|---|
 | 法师护甲 Mage Armor | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 8 小时 AC 变为 13 + 敏捷调整值 |
 | 魔法飞弹 Magic Missile | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 稳定命中，适合补刀或打断专注 Concentration |
 | 睡眠术 Sleep | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 是 Yes / 否 No | 低等级强控制，优先对低 HP 敌群使用 |
-| 侦测魔法 Detect Magic | 法师准备 Wizard Prepared | 动作 Action + 1 环位，或仪式 Ritual | 是 Yes / 是 Yes | 探索魔法痕迹、结界、物品 |
-| 羽落术 Feather Fall | 法师准备 Wizard Prepared | 反应 Reaction + 1 环位 | 否 No / 否 No | 自己或附近生物坠落时救命 |
+| 蛛网术 Web | 法师准备 Wizard Prepared | 动作 Action + 2 环位 | 是 Yes / 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
+| 迷踪步 Misty Step | 法师准备 Wizard Prepared | 附赠动作 Bonus Action + 2 环位 | 否 No / 否 No | 传送 30 尺，用于脱离包围或跨越障碍 |
+| 侦测思想 Detect Thoughts | 法师准备 Wizard Prepared | 动作 Action + 2 环位 | 是 Yes / 否 No | 感知附近思想；深入探查可能触发豁免并暴露施法 |
 | 护盾术 Shield | 魔法启蒙 Magic Initiate | 反应 Reaction；每次长休 Long Rest 免费 1 次，或用 1 环位 | 否 No / 否 No | 被攻击命中或成为魔法飞弹 Magic Missile 目标时提高防御 |
 
 ## 当前法术书 / Current Spellbook
@@ -181,15 +183,15 @@
 | 法师护甲 Mage Armor | 是 Yes | 否 No | 长时间提高 AC |
 | 魔法飞弹 Magic Missile | 是 Yes | 否 No | 稳定命中，适合补刀 |
 | 睡眠术 Sleep | 是 Yes | 否 No | 低等级战斗强控 |
-| 侦测魔法 Detect Magic | 是 Yes | 是 Yes | 发现魔法痕迹、陷阱、物品 |
+| 侦测魔法 Detect Magic | 否 No | 是 Yes | 发现魔法痕迹、陷阱、物品 |
 | 通晓语言 Comprehend Languages | 否 No | 是 Yes | 读懂古代文献、神谕、碑文 |
 | 寻获魔宠 Find Familiar | 否 No | 是 Yes | 侦查、递送触碰法术、角色风味 |
 | 鉴定术 Identify | 否 No | 是 Yes | 识别魔法物品和魔法效果 |
-| 羽落术 Feather Fall | 是 Yes | 否 No | 防坠落，常见救命法术 |
-| 蛛网术 Web | 否 No | 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
-| 迷踪步 Misty Step | 否 No | 否 No | 以附赠动作传送 30 尺，用于脱离包围或跨越障碍 |
-| 占卜术 Augury | 否 No | 是 Yes | 预测未来 30 分钟内某项行动结果的大致吉凶；当前仍需凑足或借到 25 GP 作为材料条件 |
-| 侦测思想 Detect Thoughts | 否 No | 否 No | 感知附近思想并读取目标当前最显著的想法；深入探查可能触发豁免并暴露施法 |
+| 羽落术 Feather Fall | 否 No | 否 No | 防坠落，常见救命法术 |
+| 蛛网术 Web | 是 Yes | 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
+| 迷踪步 Misty Step | 是 Yes | 否 No | 以附赠动作传送 30 尺，用于脱离包围或跨越障碍 |
+| 占卜术 Augury | 否 No | 是 Yes | 预测未来 30 分钟内某项行动结果的大致吉凶；当前持有 50 GP，满足至少持有 25 GP 的材料条件 |
+| 侦测思想 Detect Thoughts | 是 Yes | 否 No | 感知附近思想并读取目标当前最显著的想法；深入探查可能触发豁免并暴露施法 |
 
 ## 3 级行动习惯 / Level 3 Play Routine
 
@@ -215,6 +217,7 @@
 | 历史书 | 1 | 贤者背景 |
 | 羊皮纸 | 8 | 贤者背景 |
 | 圣水 | 1 瓶 | 蛋蛋最初观察到其中含有杂质；Nym 后来确认这些杂质用于帮助制造圣水 |
+| 法术储存戒指 Spell-Storing Ring | 1 枚 | 打败马特委托所称的黑暗势力首领后获得；可储存小队成员能够施放的任意 1 个 1 环法术，每次长休可使用 1 次。当前储存法术尚未记录 |
 | 疑似托比厄斯的法杖 | 1 | 第 2 天与一个带血布袋一同从原战斗地点方向顺流而下，由 Nym 用法师之手取回；是否确属托比厄斯、是否具有魔法及具体能力均未确认 |
 | 带血布袋 | 1 | 原本挂在疑似托比厄斯的法杖上；血迹来源、袋内物品及其与托比厄斯的关系尚未查明 |
 | 僵尸尸体碎片 | 数量未记录 | Nym 在河边收集并带回临时营地，返回神源镇后曾作为完成亡灵清理委托的证明展示；交任务后是否仍然持有尚未记录 |
@@ -346,9 +349,9 @@
 
 | 倾向 | 数值 | 来源 |
 |---|---:|---|
-| 中立 | +2 | DM 奖励累计 |
+| 中立 | +3 | DM 奖励累计 |
 | 善良 | +1 | DM 奖励 |
-| 混乱 | +4 | DM 奖励累计 |
+| 混乱 | +5 | DM 奖励累计 |
 
 ## 角色变更记录
 
@@ -406,6 +409,15 @@
 | 第 2 天宵禁期间 | 猫头鹰魔宠在女神像处尝试排泄但失败；Kael 发现马特潜伏 | 马特随后开始涂污女神像，KEN 亮明执法身份并尝试接近 |
 | 第 2 天宵禁期间 | 对任务发布者马特施放睡眠术 Sleep，但被对方无效化 | 1 环法术位 -1，当前 2 / 4；马特逃脱 |
 | 第 2 天宵禁期间 | 使用魔法伎俩 Prestidigitation 清洗 Kael 盔甲上的污渍，并用法师之手 Mage Hand 藏起油漆桶 | 两者均为戏法，不消耗法术位；随后 Nym 与蛋蛋返回旅馆 |
+| 第 2 天，具体时段未记录 | KEN 击败马特委托所称的黑暗势力首领，Nym 获得法术储存戒指 Spell-Storing Ring | 可储存小队成员能够施放的任意 1 个 1 环法术；每次长休可使用 1 次；当前储存法术尚未记录 |
+| 第 2 天，具体时段未记录 | 获得经验 | XP +11，总 XP 1153 |
+| 第 2 天，具体时段未记录 | 获得阵营倾向 | 混乱 +1，累计混乱 +5 |
+| 第 2 天，具体时段未记录 | 获得经验 | XP +5，总 XP 1158 |
+| 第 2 天，具体时段未记录 | 获得经验与阵营倾向 | XP +5，总 XP 1163；中立 +1，累计中立 +3 |
+| 第 2 天，具体时段未记录 | 获得经验 | XP +10，总 XP 1173 |
+| 第 2 天，具体时段未记录 | 获得经验 | XP +40，总 XP 1213 |
+| 第 2 天，具体时段未记录 | 获得经验 | XP +18，总 XP 1231 |
+| 长休后（具体时段未记录） | 完成长休并重选准备法术 | 法术位恢复至 1 环 4 / 4、2 环 2 / 2；奥术回复与免费护盾术恢复可用，预兆重掷待记录，戒指本次长休使用次数恢复。法师护甲到期，AC 回到 11；准备法术改为法师护甲、魔法飞弹、睡眠术、蛛网术、迷踪步、侦测思想 |
 
 ## 已确认项
 
