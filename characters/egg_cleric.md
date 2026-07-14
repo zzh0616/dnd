@@ -1,465 +1,303 @@
----
-system:
-  name: DND5E
-  edition: PHB24
-character:
-  id: character_dandan
-  name: "蛋蛋"
-  aliases: []
-  player: null
-  status: active
-  tags:
-    - player-character
-    - cleric
-    - support
-    - phb24
-identity:
-  species: Human
-  creature_type: Humanoid
-  size: Medium
-  class: Cleric
-  subclass: null
-  level: 2
-  background: Hermit
-  alignment: Neutral Good
-  pronouns: null
-  age: null
-  height: null
-  weight: null
-  appearance: null
-campaign:
-  name: null
-  character_status: active
-  current_location: "城外河边小树林（短休已完成）"
-  in_game_day: 2
-  in_game_date: null
-  party:
-    - Nym Copperstar
-    - "蛋蛋"
-    - Kael Ironheart
-  references:
-    notes_file: null
-    quests_file: null
-    session_log_directory: null
-    campaign_state_file: null
-progression:
-  leveling_method: experience
-  current_xp: 736
-  next_level: 3
-  next_level_xp: 900
-ability_scores:
-  strength:
-    score: 8
-    modifier: -1
-  dexterity:
-    score: 14
-    modifier: 2
-  constitution:
-    score: 16
-    modifier: 3
-  intelligence:
-    score: 10
-    modifier: 0
-  wisdom:
-    score: 16
-    modifier: 3
-  charisma:
-    score: 10
-    modifier: 0
-combat:
-  armor_class: 17
-  initiative: 4
-  speed_ft: 30
-  proficiency_bonus: 2
-  spell_save_dc: 13
-  spell_attack_bonus: 5
-  passive_perception: 15
-  passive_insight: 15
-  passive_investigation: 10
-state:
-  hp:
-    current: 19
-    max: 19
-    temporary: 0
-  hit_dice:
-    current: 2
-    max: 2
-    die: d8
-  death_saves:
-    successes: 0
-    failures: 0
-  heroic_inspiration: true
-  exhaustion: 0
-  conditions: []
-  concentration:
-    active: null
-  round_counter:
-    current: 1
-    effects: []
-resources:
-  channel_divinity:
-    current: 2
-    max: 2
-    recovery:
-      short_rest: 1
-      long_rest: all
-  spell_slots:
-    level_1:
-      current: 1
-      max: 3
-  healers_kit:
-    current: 10
-    max: 10
-saving_throws:
-  strength:
-    bonus: -1
-    proficient: false
-  dexterity:
-    bonus: 2
-    proficient: false
-  constitution:
-    bonus: 3
-    proficient: false
-  intelligence:
-    bonus: 0
-    proficient: false
-  wisdom:
-    bonus: 5
-    proficient: true
-  charisma:
-    bonus: 2
-    proficient: true
-skills:
-  acrobatics:
-    ability: dexterity
-    bonus: 2
-    proficient: false
-  animal_handling:
-    ability: wisdom
-    bonus: 3
-    proficient: false
-  arcana:
-    ability: intelligence
-    bonus: 3
-    proficient: false
-    special_bonus: Thaumaturge
-  athletics:
-    ability: strength
-    bonus: -1
-    proficient: false
-  deception:
-    ability: charisma
-    bonus: 0
-    proficient: false
-  history:
-    ability: intelligence
-    bonus: 0
-    proficient: false
-  insight:
-    ability: wisdom
-    bonus: 5
-    proficient: true
-    source: Cleric
-  intimidation:
-    ability: charisma
-    bonus: 0
-    proficient: false
-  investigation:
-    ability: intelligence
-    bonus: 0
-    proficient: false
-  medicine:
-    ability: wisdom
-    bonus: 5
-    proficient: true
-    source: Hermit
-  nature:
-    ability: intelligence
-    bonus: 0
-    proficient: false
-  perception:
-    ability: wisdom
-    bonus: 5
-    proficient: true
-    source: Human Skillful
-  performance:
-    ability: charisma
-    bonus: 0
-    proficient: false
-  persuasion:
-    ability: charisma
-    bonus: 2
-    proficient: true
-    source: Cleric
-  religion:
-    ability: intelligence
-    bonus: 5
-    proficient: true
-    source: Hermit
-    special_bonus: Thaumaturge
-  sleight_of_hand:
-    ability: dexterity
-    bonus: 2
-    proficient: false
-  stealth:
-    ability: dexterity
-    bonus: 2
-    proficient: false
-  survival:
-    ability: wisdom
-    bonus: 3
-    proficient: false
-proficiencies:
-  armor:
-    - Light Armor
-    - Medium Armor
-    - Shields
-  weapons:
-    - Simple Weapons
-  tools:
-    - Herbalism Kit
-  languages:
-    - Common
-    - Dwarvish
-    - Elvish
-defenses:
-  resistances: []
-  immunities: []
-  vulnerabilities: []
-  condition_immunities: []
-senses:
-  darkvision_ft: null
-  passive_perception: 15
-  passive_insight: 15
-  passive_investigation: 10
-species_features:
-  - name: Resourceful
-    source: Human
-    recovery: long_rest
-  - name: Skillful
-    source: Human
-  - name: Versatile
-    source: Human
-feats:
-  - name: Alert
-    category: Origin Feat
-    source: Human Versatile
-  - name: Healer
-    category: Origin Feat
-    source: Hermit
-class_features:
-  - name: Spellcasting
-    source: Cleric 1
-  - name: Divine Order
-    option: Thaumaturge
-    source: Cleric 1
-  - name: Channel Divinity
-    source: Cleric 2
-    resource: channel_divinity
-  - name: Divine Spark
-    source: Cleric 2
-    resource: channel_divinity
-  - name: Turn Undead
-    source: Cleric 2
-    resource: channel_divinity
-spellcasting:
-  ability: Wisdom
-  ability_modifier: 3
-  save_dc: 13
-  attack_bonus: 5
-  focus:
-    item: Holy Symbol
-    form: worn
-    location: body
-  prepared_spell_count: 5
-  ritual_casting: true
-  cantrips:
-    - Guidance
-    - Sacred Flame
-    - Light
-    - Resistance
-  prepared_spells:
-    level_1:
-      - Bless
-      - Healing Word
-      - Cure Wounds
-      - Sanctuary
-      - Guiding Bolt
-  available_spells:
-    - name: Bless
-      level: 1
-      casting_time: Action
-      range: 30 ft.
-      tags:
-        - Concentration
-      effect: "最多 3 个目标，攻击掷骰和豁免检定额外加 1d4。"
-    - name: Healing Word
-      level: 1
-      casting_time: Bonus Action
-      range: 60 ft.
-      tags:
-        - "治疗"
-      effect: "恢复 2d4 + 3 HP。Bonus Action，射程 60 ft.。"
-    - name: Cure Wounds
-      level: 1
-      casting_time: Action
-      range: Touch
-      tags:
-        - "治疗"
-      effect: "恢复 2d8 + 3 HP。触碰施法。"
-    - name: Sanctuary
-      level: 1
-      casting_time: Bonus Action
-      range: 30 ft.
-      tags:
-        - "防护"
-      effect: "目标被攻击时，攻击者须通过 WIS 豁免，否则须另选目标。"
-    - name: Guiding Bolt
-      level: 1
-      casting_time: Action
-      range: 120 ft.
-      tags:
-        - "爆发"
-      effect: "远程法术攻击，命中造成 4d6 Radiant，下一次对目标的攻击有 Advantage。"
-    - name: Detect Magic
-      level: 1
-      casting_time: Action
-      range: Self
-      tags:
-        - Ritual
-        - "探索"
-      effect: "感知 30 ft. 内魔法灵光及其学派。"
-    - name: Shield of Faith
-      level: 1
-      casting_time: Bonus Action
-      range: 60 ft.
-      tags:
-        - Concentration
-        - +2 AC
-      effect: "目标 +2 AC。专注。"
-    - name: Protection from Evil and Good
-      level: 1
-      casting_time: Action
-      range: Touch
-      tags:
-        - Concentration
-        - "防护"
-      effect: "对特定生物类型获得攻击、防控和附身防护。"
-    - name: Command
-      level: 1
-      casting_time: Action
-      range: 60 ft.
-      tags:
-        - "控场"
-      effect: "目标 WIS 豁免失败后执行一个单词命令。"
-    - name: Detect Poison and Disease
-      level: 1
-      casting_time: Action
-      range: Self
-      tags:
-        - Ritual
-        - "调查"
-      effect: "感知 30 ft. 内毒物、疾病及其种类。"
-attacks:
-  - name: Mace
-    attack_bonus: 1
-    damage: 1d6-1
-    damage_type: Bludgeoning
-  - name: Quarterstaff
-    attack_bonus: 1
-    damage: 1d6-1
-    versatile_damage: 1d8-1
-    damage_type: Bludgeoning
-  - name: Sacred Flame
-    attack_type: saving_throw
-    save_ability: Dexterity
-    save_dc: 13
-    damage: 1d8
-    damage_type: Radiant
-  - name: Guiding Bolt
-    attack_type: spell_attack
-    attack_bonus: 5
-    damage: 4d6
-    damage_type: Radiant
-equipment:
-  equipped:
-    armor: Chain Shirt
-    shield: Shield
-    main_hand: null
-    off_hand: null
-    spellcasting_focus: Holy Symbol
-    focus_location: worn
-  inventory:
-    - name: Mace
-      quantity: 1
-    - name: Quarterstaff
-      quantity: 1
-    - name: Holy Symbol
-      quantity: 1
-    - name: Priest's Pack
-      quantity: 1
-    - name: Herbalism Kit
-      quantity: 1
-    - name: Bedroll
-      quantity: 1
-    - name: Book
-      subtype: Philosophy
-      quantity: 1
-    - name: Lamp
-      quantity: 1
-    - name: Oil
-      quantity: 3
-    - name: Traveler's Clothes
-      quantity: 1
-    - name: Healer's Kit
-      quantity: 1
-      uses:
-        current: 10
-        max: 10
-currency:
-  cp: 0
-  sp: 0
-  ep: 0
-  gp: 33
-  pp: 0
-  needs_update: true
-notes:
-  freeform: |
-    当前地区的神：
-    主要 厄拉西斯, 授律者
-    次要 肚皮神
-    
-    吟游诗人信息
-    每一段时间会有黑潮
-    当地神职人员会采购大量物资，但是不知道去哪里，黑潮是因为恶魔入侵人间，因为恶魔儿子被斩杀
-    
-    吟游诗人有问题，衣服的质感很好，不像是个传统的吟游诗人。怀疑琴弦有魔法加持。袖口有 belly god。感觉言行狂放，但是并不偏激，大概率是个好人。但是值得调查。
-    
-    疑似与 Nym 导师有关的魔法痕迹指向东北，二者关系尚未证实
-    
-    任务
-    吟游诗人任务
-    [ ] 1. 夜晚悄悄的去神像上画污秽的东西
-    [ ] 1.1 宣扬肚皮神教很好
-    [ ] 2. 黑暗生物首领的首级
-    
-    牧师任务
-    [ ] 1. 采购100斤大米
-    [ ] 2. 采购5黑水晶（已获得 2 / 5）
-    [x] 3. 清除河对岸游荡的亡灵（已完成；小队累计击败 7 只僵尸并获得 100 GP 总奖励）
-    
-    混乱 + 4
-  personal_objectives: []
-  reminders: []
----
+<!-- 由 convert_character_card.py 从 egg_cleric.md 生成；请修改源数据，不要手改本文件。 -->
 
-# 角色概念
+# 蛋蛋 个人角色卡 / Character Sheet
+
+> 规则版本：DND5E / PHB24
+
+## 当前状态快照 / Current Status
+
+| 项目 | 当前值 |
+|---|---|
+| 游戏内日期 In-game Day | 未记录 |
+| 当前地点 Current Location | 未记录 |
+| 当前生命值 Hit Points (HP) | 19 / 19 |
+| 临时生命值 Temporary Hit Points | 0 |
+| 护甲等级 Armor Class (AC) | 17 |
+| 生命骰 Hit Dice | 3d8，已用 0 |
+| 1 环法术位 Level 1 Spell Slots | 4 / 4 |
+| 2 环法术位 Level 2 Spell Slots | 2 / 2 |
+| 引导神力 Channel Divinity | 2 / 2 |
+| 医师工具包 Healer's Kit | 9 / 10 |
+| 英雄激励 Heroic Inspiration | 有 |
+| 当前专注 Concentration | 无 |
+| 当前异常状态 Conditions | 无 |
+| 力竭 Exhaustion | 0 |
+| 死亡豁免 Death Saving Throws | 成功 0 / 失败 0 |
+
+战斗中常改：
+
+- 当前生命值 Hit Points
+- 法术位 Spell Slots
+- 引导神力 Channel Divinity
+- 专注 Concentration
+- 异常状态 Conditions
+- 英雄激励 Heroic Inspiration
+
+## 基础信息 / Basic Information
+
+| 项目 | 内容 |
+|---|---|
+| 姓名 Name | 蛋蛋 |
+| 物种 Species | 人类 Human |
+| 生物类型 Creature Type | 类人生物 Humanoid |
+| 职业 Class | 牧师 Cleric |
+| 子职 Subclass | 生命领域 Life Domain |
+| 背景 Background | 隐士 Hermit |
+| 阵营 Alignment | 中立善良 Neutral Good (NG) |
+| 等级 Level | 3 |
+| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 1001 / 2700 |
+| 熟练加值 Proficiency Bonus | +2 |
+| 体型 Size | 中型 Medium |
+| 速度 Speed | 30 尺 |
+
+## 核心数值 / Core Statistics
+
+### 属性 / Ability Scores
+
+| 属性 | 当前值 | 调整值 |
+|---|---|---|
+| 力量 Strength (STR) | 8 | -1 |
+| 敏捷 Dexterity (DEX) | 14 | +2 |
+| 体质 Constitution (CON) | 16 | +3 |
+| 智力 Intelligence (INT) | 10 | +0 |
+| 感知 Wisdom (WIS) | 16 | +3 |
+| 魅力 Charisma (CHA) | 10 | +0 |
+
+### 战斗数值 / Combat Statistics
+
+| 项目 | 数值 |
+|---|---|
+| 护甲等级 Armor Class (AC) | 17 |
+| 生命值上限 Hit Point Maximum | 19 |
+| 生命骰 Hit Dice | 3d8 |
+| 先攻 Initiative | +4 |
+| 速度 Speed | 30 尺 |
+| 法术豁免难度 Spell Save DC | 13 |
+| 法术攻击加值 Spell Attack Modifier | +5 |
+| 准备法术数 Prepared Spells | 6 |
+| 1 环法术位 Level 1 Spell Slots | 4 |
+| 2 环法术位 Level 2 Spell Slots | 2 |
+| 被动察觉 Passive Perception | 15 |
+| 被动洞悉 Passive Insight | 15 |
+| 被动调查 Passive Investigation | 10 |
+
+计算：
+
+- 法术豁免 DC：8 + 熟练加值 2 + 感知 Wisdom调整值 3 = 13
+- 法术攻击：熟练加值 2 + 感知 Wisdom调整值 3 = +5
+
+### 豁免 / Saving Throws
+
+熟练豁免 Proficient Saving Throws：感知 Wisdom (WIS)、魅力 Charisma (CHA)。
+
+| 豁免 | 加值 |
+|---|---|
+| 力量 Strength (STR) | -1 |
+| 敏捷 Dexterity (DEX) | +2 |
+| 体质 Constitution (CON) | +3 |
+| 智力 Intelligence (INT) | +0 |
+| 感知 Wisdom (WIS) | +5 |
+| 魅力 Charisma (CHA) | +2 |
+
+### 防御与感官 / Defenses and Senses
+
+| 项目 | 内容 |
+|---|---|
+| 抗性 Resistances | 无 |
+| 免疫 Immunities | 无 |
+| 易伤 Vulnerabilities | 无 |
+| 状态免疫 Condition Immunities | 无 |
+| 黑暗视觉 Darkvision | 无 |
+
+## 技能与工具 / Skills and Tools
+
+| 技能 Skill | 属性 Ability | 熟练 Proficiency | 当前加值 Modifier |
+|---|---|---|---|
+| 运动 Athletics | 力量 Strength (STR) | 否 No | -1 |
+| 体操 Acrobatics | 敏捷 Dexterity (DEX) | 否 No | +2 |
+| 巧手 Sleight of Hand | 敏捷 Dexterity (DEX) | 否 No | +2 |
+| 潜行 Stealth | 敏捷 Dexterity (DEX) | 否 No | +2 |
+| 奥秘 Arcana | 智力 Intelligence (INT) | 否 No（Thaumaturge） | +3 |
+| 历史 History | 智力 Intelligence (INT) | 否 No | +0 |
+| 调查 Investigation | 智力 Intelligence (INT) | 否 No | +0 |
+| 自然 Nature | 智力 Intelligence (INT) | 否 No | +0 |
+| 宗教 Religion | 智力 Intelligence (INT) | 是 Yes（Hermit；Thaumaturge） | +5 |
+| 驯兽 Animal Handling | 感知 Wisdom (WIS) | 否 No | +3 |
+| 洞悉 Insight | 感知 Wisdom (WIS) | 是 Yes（Cleric） | +5 |
+| 医药 Medicine | 感知 Wisdom (WIS) | 是 Yes（Hermit） | +5 |
+| 察觉 Perception | 感知 Wisdom (WIS) | 是 Yes（Human Skillful） | +5 |
+| 生存 Survival | 感知 Wisdom (WIS) | 否 No | +3 |
+| 欺瞒 Deception | 魅力 Charisma (CHA) | 否 No | +0 |
+| 威吓 Intimidation | 魅力 Charisma (CHA) | 否 No | +0 |
+| 表演 Performance | 魅力 Charisma (CHA) | 否 No | +0 |
+| 游说 Persuasion | 魅力 Charisma (CHA) | 是 Yes（Cleric） | +2 |
+
+### 其他熟练项 / Other Proficiencies
+
+| 类别 | 内容 |
+|---|---|
+| 护甲 Armor | 轻甲 Light Armor、中甲 Medium Armor、盾牌 Shields |
+| 武器 Weapons | 简易武器 Simple Weapons |
+| 工具 Tools | 草药工具 Herbalism Kit |
+| 语言 Languages | 通用语 Common、天界语 Celestial、精灵语 Elvish |
+
+## 当前能力 / Features
+
+| 能力 Feature | 来源 Source | 消耗 / 限制 Uses / Limits | 用途 Effect |
+|---|---|---|---|
+| 足智多谋 Resourceful | 人类 Human | 长休后恢复 After Long Rest | 源卡未记录具体效果 |
+| 熟练 Skillful | 人类 Human | 常驻 Passive | 源卡未记录具体效果 |
+| 多才多艺 Versatile | 人类 Human | 常驻 Passive | 源卡未记录具体效果 |
+| 警觉 Alert | 人类多才多艺 Human Versatile；Origin Feat | 常驻 Passive | 源卡未记录具体效果 |
+| 医师 Healer | 隐士 Hermit；Origin Feat | 常驻 Passive | 源卡未记录具体效果 |
+| 施法 Spellcasting | 牧师 Cleric 1 | 常驻 Passive | 源卡未记录具体效果 |
+| 神圣秩序 Divine Order | 牧师 Cleric 1 | 常驻 Passive | 选择：奇术师 Thaumaturge |
+| 引导神力 Channel Divinity | 牧师 Cleric 2 | 2 / 2 | 源卡未记录具体效果 |
+| 神圣火花 Divine Spark | 牧师 Cleric 2 | 2 / 2 | 源卡未记录具体效果 |
+| 驱散亡灵 Turn Undead | 牧师 Cleric 2 | 2 / 2 | 源卡未记录具体效果 |
+| 牧师子职 Cleric Subclass | 牧师 Cleric 3 | 常驻 Passive | 选择：生命领域 Life Domain |
+| 生命门徒 Disciple of Life | 生命领域 Life Domain 3 | 常驻 Passive | 使用法术位施放恢复 HP 的法术时，每个目标在施法当回合额外恢复 2 + 法术位环级 HP。 |
+| 生命领域法术 Life Domain Spells | 生命领域 Life Domain 3 | 常驻 Passive | Aid、Bless、Cure Wounds、Lesser Restoration 始终准备，且不占普通准备法术名额。 |
+| 维持生命 Preserve Life | 生命领域 Life Domain 3 | 2 / 2 | Magic Action；消耗 1 次 Channel Divinity，将 15 HP 分配给 30 ft. 内一个或多个 Bloodied 生物（可包括自己），但不能使任何目标超过最大 HP 的一半。 |
+
+## 当前所有戏法 / Current Cantrips
+
+| 戏法 Cantrip | 来源 Source |
+|---|---|
+| 指引术 Guidance | 牧师 Cleric（源卡未细分具体来源） |
+| 圣火术 Sacred Flame | 牧师 Cleric（源卡未细分具体来源） |
+| 光亮术 Light | 牧师 Cleric（源卡未细分具体来源） |
+| 抗力术 Resistance | 牧师 Cleric（源卡未细分具体来源） |
+
+## 当前已准备法术 / Current Prepared Spells
+
+普通准备法术上限为 6 个；领域法术始终准备，且不占普通准备法术名额。
+
+| 法术 Spell | 来源 Source | 使用方式 Casting | 专注 / 仪式 Concentration / Ritual | 用途 Effect |
+|---|---|---|---|---|
+| 治愈真言 Healing Word（1 环） | 牧师准备 Cleric Prepared | 附赠动作 Bonus Action + 1 环位；射程 60 尺 60 ft. | 否 No / 否 No | 恢复 2d4 + 3 HP。Bonus Action，射程 60 ft.。 |
+| 圣域术 Sanctuary（1 环） | 牧师准备 Cleric Prepared | 附赠动作 Bonus Action + 1 环位；射程 30 尺 30 ft. | 否 No / 否 No | 目标被攻击时，攻击者须通过 WIS 豁免，否则须另选目标。 |
+| 引导箭 Guiding Bolt（1 环） | 牧师准备 Cleric Prepared | 动作 Action + 1 环位；射程 120 尺 120 ft. | 否 No / 否 No | 远程法术攻击，命中造成 4d6 Radiant，下一次对目标的攻击有 Advantage。 |
+| 侦测魔法 Detect Magic（1 环） | 牧师准备 Cleric Prepared | 动作 Action + 1 环位，或仪式 Ritual；射程 自身 Self | 否 No / 是 Yes | 感知 30 ft. 内魔法灵光及其学派。 |
+| 信仰护盾 Shield of Faith（1 环） | 牧师准备 Cleric Prepared | 附赠动作 Bonus Action + 1 环位；射程 60 尺 60 ft. | 是 Yes / 否 No | 目标 +2 AC。专注。 |
+| 治愈祷言 Prayer of Healing（2 环） | 牧师准备 Cleric Prepared | 10 分钟 10 Minutes + 2 环位；射程 30 尺 30 ft. | 否 No / 否 No | 至多 5 个全程留在射程内的目标获得一次短休收益，并各恢复 2d8 + 4 HP（含生命门徒）；每个生物每次长休前只能受益一次。 |
+| 援助术 Aid（2 环） | 生命领域（始终准备） Life Domain (Always Prepared) | 动作 Action + 2 环位；射程 30 尺 30 ft. | 否 No / 否 No | 选择至多 3 个目标；持续 8 小时，其最大 HP 与当前 HP 各增加 5。 |
+| 祝福术 Bless（1 环） | 生命领域（始终准备） Life Domain (Always Prepared) | 动作 Action + 1 环位；射程 30 尺 30 ft. | 是 Yes / 否 No | 最多 3 个目标，攻击掷骰和豁免检定额外加 1d4。 |
+| 疗伤术 Cure Wounds（1 环） | 生命领域（始终准备） Life Domain (Always Prepared) | 动作 Action + 1 环位；射程 触碰 Touch | 否 No / 否 No | 恢复 2d8 + 3 HP。触碰施法。 |
+| 次级复原术 Lesser Restoration（2 环） | 生命领域（始终准备） Life Domain (Always Prepared) | 附赠动作 Bonus Action + 2 环位；射程 触碰 Touch | 否 No / 否 No | 结束目标身上的 Blinded、Deafened、Paralyzed 或 Poisoned 状态之一。 |
+
+## 其他已记录法术 / Other Recorded Spells
+
+以下法术存在于源卡的可用法术资料中，但当前未列为已准备或领域始终准备。
+
+| 法术 Spell | 使用方式 Casting | 专注 / 仪式 Concentration / Ritual | 用途 Effect |
+|---|---|---|---|
+| 防护善恶 Protection from Evil and Good（1 环） | 动作 Action + 1 环位；射程 触碰 Touch | 是 Yes / 否 No | 对特定生物类型获得攻击、防控和附身防护。 |
+| 命令术 Command（1 环） | 动作 Action + 1 环位；射程 60 尺 60 ft. | 否 No / 否 No | 目标 WIS 豁免失败后执行一个单词命令。 |
+| 侦测毒性和疾病 Detect Poison and Disease（1 环） | 动作 Action + 1 环位，或仪式 Ritual；射程 自身 Self | 否 No / 是 Yes | 感知 30 ft. 内毒物、疾病及其种类。 |
+
+## 攻击 / Attacks
+
+| 攻击 | 命中方式 | 伤害 | 伤害类型 |
+|---|---|---|---|
+| 钉头锤 Mace | 攻击加值 Attack Bonus +1 | 1d6-1 | 钝击 Bludgeoning |
+| 长棍 Quarterstaff | 攻击加值 Attack Bonus +1 | 1d6-1（双手 1d8-1） | 钝击 Bludgeoning |
+| 圣火术 Sacred Flame | 敏捷 Dexterity豁免 DC 13 | 1d8 | 光耀 Radiant |
+| 引导箭 Guiding Bolt | 法术攻击 Spell Attack +5 | 4d6 | 光耀 Radiant |
+
+## 物品与财产 / Equipment and Wealth
+
+### 当前装备 / Equipped
+
+| 栏位 | 物品 |
+|---|---|
+| 护甲 Armor | 链甲衫 Chain Shirt |
+| 盾牌 Shield | 盾牌 Shield |
+| 主手 Main Hand | 未记录 |
+| 副手 Off Hand | 未记录 |
+| 施法法器 Spellcasting Focus | 圣徽 Holy Symbol |
+| 法器位置 Focus Location | 佩戴于身 Worn |
+
+### 背包物品 / Inventory
+
+| 物品 | 数量 | 说明 |
+|---|---|---|
+| 钉头锤 Mace | 1 |  |
+| 长棍 Quarterstaff | 1 |  |
+| 圣徽 Holy Symbol | 1 |  |
+| 祭司套组 Priest's Pack | 1 |  |
+| 草药工具 Herbalism Kit | 1 |  |
+| 铺盖 Bedroll | 1 |  |
+| 书籍 Book（哲学 Philosophy） | 1 |  |
+| 油灯 Lamp | 1 |  |
+| 油 Oil | 3 |  |
+| 旅行者服装 Traveler's Clothes | 1 |  |
+| 医师工具包 Healer's Kit | 1 | 剩余使用次数 9 / 10 |
+| 通行证 | 1 |  |
+
+### 货币 / Currency
+
+| 币种 | 数量 |
+|---|---|
+| CP | 0 |
+| SP | 5 |
+| EP | 0 |
+| GP | 65 |
+| PP | 0 |
+
+> 源卡将货币标记为“需要更新 / needs_update”。
+
+## 当前笔记 / Current Notes
+
+混乱善良
+
+当前地区的神：
+主要 厄拉西斯, 授律者
+次要 肚皮神
+飞天意面神 没成功
+
+任务
+吟游诗人任务
+[ ] 1. 夜晚悄悄的去神像上画污秽的东西
+[ ] 1.1 宣扬肚皮神教很好
+[ ] 2. 黑暗生物首领的首级
+
+教会任务
+[ ] 1. 采购100斤大米
+[ ] 2. 采购5黑水晶
+[x] 3. 清除北部丧尸 
+
+教会信息
+北 3-4 km 安全，再北面有浅河，过河危险
+有通行证，可进教堂
+怀疑有内鬼，可以逮捕可疑人员，夜间轻量执法权
+
+吟游诗人信息
+每一段时间会有黑潮
+当地神职人员会采购大量物资，但是不知道去哪里，黑潮是因为恶魔入侵人间，因为恶魔儿子被斩杀
+吟游诗人有问题，衣服的质感很好，不像是个传统的吟游诗人。怀疑琴弦有魔法加持。袖口有 belly god。感觉言行狂放，但是并不偏激，大概率是个好人。但是值得调查。
+
+队友信息
+法师导师托比厄斯，位于东北部，法杖顺流而下
+
+野外房子信息
+托比厄斯，往北边跑了
+门口队友，遭到了袭击，第一个倒下，尸体站立
+护送托比厄斯去北边探访观测站旧址
+
+回城，风里有点元素，应该是有人放了强力法术
+
+混乱 + 7
+善良 + 1
+中立 + 1
+
+## 角色概念 / Character Concept
 
 蛋蛋并非传统意义上的宗教信徒，而是将神术视为一种可以研究和使用的外层位面能量现象。
 
 他认为能救人优先于解释意义，权威需要接受检验，神术是一种工具而不是服从体系。
 
-# 背景故事
+## 背景故事 / Backstory
 
 蛋蛋出生于偏远山路驿镇，早年接触瘟疫、伤患和旅行者救治。
 
@@ -469,54 +307,27 @@ notes:
 
 现在他作为牧师旅行，使用神术救助他人，但拒绝成为任何神殿体系的传声筒。
 
-# 性格
+## 性格 / Personality
 
-## 性格特征
+### 性格特征
 
 直接、务实，优先解决现实问题，不喜欢仪式感和空泛安慰。
 
-## 理念
+### 理念
 
 任何权威都必须接受检验；能减少伤亡的选择优先于漂亮口号。
 
-## 羁绊
+### 羁绊
 
 曾经的驿镇、隐居导师，以及所有被神殿规矩耽误过的人。
 
-## 缺点
+### 缺点
 
 对宗教组织和神职头衔过度警惕，有时会把普通信徒也误判为权威体系的帮凶。
 
-# 剧情钩子
+## 剧情钩子 / Story Hooks
 
 - 蛋蛋的隐居导师失踪，留下的笔记指向某个神殿封存的医疗实验。
 - 当年热病时期的巡回祭司如今成为高阶神职者，并可能正在掩盖旧事。
 - 蛋蛋的神术来源可能并非传统神祇，而是某个与生命延续相关的外层存在。
 - 某个村庄将蛋蛋误认为圣人并试图建立崇拜。
-
-# Notes
-
-当前地区的神：
-主要 厄拉西斯, 授律者
-次要 肚皮神
-
-吟游诗人信息
-每一段时间会有黑潮
-当地神职人员会采购大量物资，但是不知道去哪里，黑潮是因为恶魔入侵人间，因为恶魔儿子被斩杀
-
-吟游诗人有问题，衣服的质感很好，不像是个传统的吟游诗人。怀疑琴弦有魔法加持。袖口有 belly god。感觉言行狂放，但是并不偏激，大概率是个好人。但是值得调查。
-
-疑似与 Nym 导师有关的魔法痕迹指向东北，二者关系尚未证实
-
-任务
-吟游诗人任务
-[ ] 1. 夜晚悄悄的去神像上画污秽的东西
-[ ] 1.1 宣扬肚皮神教很好
-[ ] 2. 黑暗生物首领的首级
-
-牧师任务
-[ ] 1. 采购100斤大米
-[ ] 2. 采购5黑水晶（已获得 2 / 5）
-[x] 3. 清除河对岸游荡的亡灵（已完成；小队累计击败 7 只僵尸并获得 100 GP 总奖励）
-
-混乱 + 4
