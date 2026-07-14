@@ -5,16 +5,17 @@
 | 项目 | 当前值 |
 |---|---|
 | 游戏内日期 In-game Day | 第 2 天 |
-| 当前地点 Current Location | 城外河边小树林（短休已完成） |
-| 等级 Level | 2 |
-| 当前经验 / 升级所需经验 Current XP / XP Needed | 760 / 900 |
-| 当前生命值 Hit Points (HP) | 20 / 24 |
+| 当前地点 Current Location | 东北城外，河边小树林短休中 |
+| 等级 Level | 3 |
+| 当前经验 / 升级所需经验 Current XP / XP Needed | 1018 / 2700（尚需 1682 XP） |
+| 当前生命值 Hit Points (HP) | 29 / 34 |
 | 临时生命值 Temporary Hit Points | 0 |
 | 护甲等级 Armor Class (AC) | 16（链甲 Chain Mail） |
-| 生命骰 Hit Dice | 2d10，剩余 2 / 2 |
-| 回气 Second Wind | 1 / 2 |
+| 生命骰 Hit Dice | 3d10，剩余 2 / 3 |
+| 回气 Second Wind | 2 / 2 |
 | 动作如潮 Action Surge | 1 / 1 |
 | 英雄激励 Heroic Inspiration | 0 / 1 |
+| 卓越骰 Superiority Dice | 4d8，剩余 4 / 4 |
 | 当前异常状态 Conditions | 未记录 |
 | 死亡豁免 Death Saving Throws | 成功 0 / 失败 0 |
 | 弓箭 Arrows | 19 / 20 |
@@ -25,14 +26,14 @@
 
 - 当前生命值 Hit Points、临时生命值 Temporary Hit Points
 - 回气 Second Wind、动作如潮 Action Surge
-- 英雄激励 Heroic Inspiration
+- 英雄激励 Heroic Inspiration、卓越骰 Superiority Dice
 - 生命骰 Hit Dice、弹药与投掷武器数量
 - 异常状态 Conditions、死亡豁免 Death Saving Throws
 
 休息后常改：
 
-- 短休 Short Rest：可花费生命骰 Hit Dice 回血；回气 Second Wind 恢复 1 次使用次数；动作如潮 Action Surge 恢复。
-- 长休 Long Rest：恢复全部 HP、全部回气 Second Wind 使用次数、动作如潮 Action Surge，并恢复 1 颗生命骰；人类的足智多谋 Resourceful 使凯恩获得英雄激励 Heroic Inspiration。
+- 短休 Short Rest：可花费生命骰 Hit Dice 回血；回气 Second Wind 恢复 1 次使用次数；动作如潮 Action Surge 恢复；卓越骰 Superiority Dice 全部恢复。
+- 长休 Long Rest：恢复全部 HP、全部回气 Second Wind 使用次数、动作如潮 Action Surge、卓越骰 Superiority Dice，并恢复 1 颗生命骰；人类的足智多谋 Resourceful 使凯恩获得英雄激励 Heroic Inspiration。
 
 ## 基础信息 / Basic Information
 
@@ -41,12 +42,12 @@
 | 姓名 | 凯恩·铁心 Kael Ironheart |
 | 物种 Species | 人类 Human |
 | 职业 Class | 战士 Fighter |
-| 计划子职 Planned Subclass | 战术大师 Battle Master（3 级选择） |
+| 子职 Subclass | 战斗大师 Battle Master（3 级选择） |
 | 背景 Background | 士兵 Soldier |
 | 阵营 Alignment | 守序善良 Lawful Good (LG) |
-| 阵营倾向记录 | 混乱 +1 |
-| 等级 Level | 2 |
-| 当前经验 / 下一级所需经验 Current XP / Next Level XP | 760 / 900（尚需 140 XP） |
+| 阵营倾向记录 | 混乱 +3，善良 +1 |
+| 等级 Level | 3 |
+| 当前经验 / 下一级所需经验 Current XP / Next Level XP | 1018 / 2700（尚需 1682 XP） |
 | 熟练加值 Proficiency Bonus | +2 |
 | 体型 Size | 中型 Medium |
 | 速度 Speed | 30 尺 |
@@ -71,8 +72,8 @@
 | 项目 | 数值 |
 |---|---:|
 | 护甲等级 Armor Class (AC) | 16（链甲 Chain Mail） |
-| 最大生命值 Maximum Hit Points | 24 |
-| 生命骰 Hit Dice | 2d10 |
+| 最大生命值 Maximum Hit Points | 34 |
+| 生命骰 Hit Dice | 3d10 |
 | 先攻 Initiative | +2 |
 | 速度 Speed | 30 尺 |
 | 徒手打击 Unarmed Strike | 命中 +5，4 点钝击伤害 |
@@ -81,8 +82,9 @@
 
 - 1 级：10 + 体质调整值 2 = 12
 - 2 级：固定值 6 + 体质调整值 2 = 8
-- 健壮 Tough：2 级时共增加 4
-- 最大 HP：12 + 8 + 4 = 24
+- 3 级：固定值 6 + 体质调整值 2 = 8
+- 健壮 Tough（2 级获得）：获得时 +4，此后每升一级 +2（3 级共增加 6）
+- 最大 HP：12 + 8 + 8 + 6 = 34
 
 ### 豁免 / Saving Throws
 
@@ -131,7 +133,7 @@
 | 语言 Languages | 通用语 Common、精灵语 Elvish、龙语 Draconic |
 | 武器 Weapons | 简易武器 Simple Weapons、军用武器 Martial Weapons |
 | 护甲 Armor | 轻甲 Light Armor、中甲 Medium Armor、重甲 Heavy Armor、盾牌 Shields |
-| 工具 Tools | 骰子 Dice Set、陆运载具 Land Vehicles |
+| 工具 Tools | 骰子 Dice Set、陆运载具 Land Vehicles、铁匠工具 Smith's Tools |
 
 ## 当前能力 / Features
 
@@ -139,18 +141,28 @@
 |---|---|---|---|
 | 武器精通 Weapon Mastery | 战士 Fighter | 掌握 3 种武器；每种精通效果通常每回合触发 1 次 | 当前掌握巨剑、标枪、连枷的精通战技；长休后可替换 1 种选择 |
 | 战斗风格：巨武器战斗 Great Weapon Fighting | 战士 Fighter | 使用双手武器攻击时 | 武器伤害骰掷出 1 或 2 时，将该结果视为 3 |
-| 回气 Second Wind | 战士 Fighter | 当前 1 / 2；附赠动作 Bonus Action | 恢复 1d10 + 2 HP；短休恢复 1 次，长休恢复全部 |
+| 回气 Second Wind | 战士 Fighter | 当前 2 / 2；附赠动作 Bonus Action | 恢复 1d10 + 3 HP；短休恢复 1 次，长休恢复全部 |
 | 动作如潮 Action Surge | 战士 Fighter | 1 / 1；短休或长休恢复 | 在自己的回合获得 1 个额外动作 Action |
 | 战术心智 Tactical Mind | 战士 Fighter | 能力检定失败时，可尝试消耗 1 次回气 | 将 1d10 加到检定结果；若仍失败，则不消耗回气次数 |
+| 战斗卓越 Combat Superiority | 战斗大师 Battle Master | 卓越骰 4d8，4 / 4；短休恢复全部 | 攻击或防御时消耗卓越骰以增强战技，命中后附加卓越骰伤害 |
+| 战争学徒 Student of War | 战斗大师 Battle Master | 常驻 Passive | 获得铁匠工具 Smith's Tools 熟练 |
 | 足智多谋 Resourceful | 人类 Human | 每次长休 Long Rest 后 | 获得 1 次英雄激励 Heroic Inspiration |
 | 娴熟 Skillful | 人类 Human | 常驻 Passive | 获得洞悉 Insight 技能熟练 |
 | 多用 Versatile | 人类 Human | 常驻 Passive | 获得起源专长健壮 Tough |
-| 健壮 Tough | 人类多用 Versatile | 常驻 Passive | 最大 HP 每角色等级增加 2；当前共增加 4 HP |
+| 健壮 Tough | 人类多用 Versatile | 常驻 Passive | 最大 HP 每角色等级增加 2；当前共增加 6 HP |
 | 凶蛮打手 Savage Attacker | 士兵 Soldier | 每回合 1 次 | 武器命中后、掷伤害前，将武器伤害骰掷两次并采用较高结果 |
 
 ### 英雄激励 / Heroic Inspiration
 
 拥有英雄激励时，可在任意 d20 检定（攻击检定、属性检定或豁免）投骰后立即消耗它，重掷该 d20，并必须采用新结果。同一时间只能持有 1 次；已有激励时获得新的激励，可将新的激励转赠给队友。
+
+### 卓越战技 / Maneuvers
+
+习得 3 种战技，消耗卓越骰发动（命中后附加卓越骰伤害）：
+
+- **反击 Riposte**：被近战攻击未命中时，反应消耗 1 颗卓越骰发动一次近战反击。命中后附加卓越骰伤害。
+- **突刺攻击 Lunge**：自己回合近战攻击时，消耗 1 颗卓越骰使本次攻击触及 +5 尺。命中后附加卓越骰伤害。
+- **诡诈攻击 Feinting Attack**：附赠动作消耗 1 颗卓越骰，本回合下一次对 5 尺内目标的攻击获得优势。命中后附加卓越骰伤害。
 
 ## 武器与攻击 / Weapons and Attacks
 
@@ -166,19 +178,23 @@
 
 ### 当前武器精通 / Current Weapon Masteries
 
-- 巨剑 · 擦掠 Graze：攻击未命中时，仍对目标造成力量调整值（3）点挥砍伤害，无须再次进行攻击检定。
+- 巨剑 · 擦掠 Graze：攻击未命中时，仍对目标造成力量调整值（+3）点挥砍伤害，无须再次进行攻击检定。
 - 标枪 · 减速 Slow：攻击命中后，目标速度减少 10 尺，直到凯恩下一回合开始前。
 - 连枷 · 削弱 Sap：攻击命中后，目标下一次攻击检定具有劣势，直到凯恩下一回合开始前。
 
-## 2 级行动习惯 / Level 2 Play Routine
+*长休后可替换一种武器精通选择。
+
+## 3 级行动习惯 / Level 3 Play Routine
 
 - 常规近战以巨剑为主，利用巨武器战斗 Great Weapon Fighting 稳定伤害，并用擦掠 Graze 降低未命中的损失。
 - 每回合第一次关键命中可考虑使用凶蛮打手 Savage Attacker，重掷武器伤害骰并取较高结果。
 - 需要保护队友或压低敌方命中率时，改用连枷触发削弱 Sap。
 - 需要追击、拉开距离或控制敌人移动时，投掷标枪触发减速 Slow。
-- HP 降低时用附赠动作发动回气 Second Wind；能力检定失败时，也可用战术心智 Tactical Mind 尝试补救。
+- 卓越骰 Superiority Dice 可在攻击命中后附加 d8 伤害并触发战技效果：反击 Riposte 用于被近战未命中时反击；突刺攻击 Lunge 用于增加触及范围；诡诈攻击 Feinting Attack 用附赠动作换取优势。
+- HP 降低时用附赠动作发动回气 Second Wind；能力检定失败时，也可用战术心智 Tactical Mind 尝试补救（失败不消耗回气次数）。
 - 需要爆发、追击或完成关键互动时，使用动作如潮 Action Surge 获得额外动作。
 - 获得英雄激励后，把它留给关键攻击、豁免或能力检定；长休后可通过足智多谋 Resourceful 再次获得。
+- 短休后卓越骰 Superiority Dice、回气 Second Wind 和动作如潮 Action Surge 全部恢复。
 
 ## 物品与财产 / Equipment and Assets
 
@@ -194,6 +210,7 @@
 | 箭 Arrows | 19 | 当前 19 / 20 |
 | 箭袋 Quiver | 1 | 收纳箭矢 |
 | 匕首 Dagger | 1 | 当前 1 / 1；轻型、投掷武器 |
+| 长剑 Longsword | 1 | 备用近战武器 |
 
 ### 护具与杂项 / Armor and Other Gear
 
@@ -205,21 +222,24 @@
 | 骰子 Gaming Set (Dice) | 1 | 工具熟练 |
 | 旅行者服装 Traveler's Clothes | 1 套 | 日常服装 |
 | 大肚教传单 | 1 | 剧情物品 |
-| 金币 Gold Pieces | 21 gp | 当前持有 |
+| 破损的重甲 | 1 | 战利品/剧情物品 |
+| 小血瓶 | 1 | 消耗品 |
+| 信号弹 | 1 | 消耗品 |
+| 金币 Gold Pieces | 54 gp | 当前持有 |
 | 银币 Silver Pieces | 1 sp | 当前持有 |
 
 ## 角色概念 / Character Concept
 
 凯恩出生于铁血营寨，父母皆为佣兵团长。他六岁握剑，十二岁独闯荒野猎杀地精，十八岁正式加入边境军团。虽然幼年孤身，他始终心怀正义，并相信军规、契约与秩序应当用来保护和平。
 
-“黑潮突袭”之夜，军团营地被恶魔大军撕碎，同袍化为灰烬。传令兵嘶吼：“我们需要能斩首领主的英雄！”凯恩握紧祖传巨剑，辞别残军，踏入古老遗迹。他明白，平凡的武艺救不了这个世界；他需要足以撕裂战局的史诗之力。
+"黑潮突袭"之夜，军团营地被恶魔大军撕碎，同袍化为灰烬。传令兵嘶吼："我们需要能斩首领主的英雄！"凯恩握紧祖传巨剑，辞别残军，踏入古老遗迹。他明白，平凡的武艺救不了这个世界；他需要足以撕裂战局的史诗之力。
 
 长期目标：获得能够扭转大战、斩杀恶魔领主的力量，并让这份力量始终服务于正义与秩序。
 
 ## 角色扮演钩子 / Roleplaying Hooks
 
 - 信奉军规与契约，但不会把秩序本身置于无辜者的生命之上。
-- 对“黑潮突袭”与覆灭的军团怀有强烈责任感，同袍的牺牲推动他继续战斗。
+- 对"黑潮突袭"与覆灭的军团怀有强烈责任感，同袍的牺牲推动他继续战斗。
 - 追求强大力量的目的不是统治，而是保护和平、终结威胁。
 - 面对破坏和平的恶徒时态度坚定，剑锋永远指向他们。
 - 祖传巨剑既是家族遗物，也是他与过往军旅生涯的联系。
