@@ -47,7 +47,7 @@
 | 阵营 Alignment | 中立善良 Neutral Good (NG) |
 | 阵营倾向记录 | 中立 +3、善良 +1、混乱 +5 |
 | 等级 Level | 3 |
-| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 1263 / 2700 |
+| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 1283 / 2700 |
 | 熟练加值 Proficiency Bonus | +2 |
 | 体型 Size | 小型 Small |
 | 速度 Speed | 30 尺 |
@@ -427,6 +427,7 @@
 | 时间未记录 | 支出金币 | GP -12，用途尚未记录；当前 GP 5 |
 | 时间未记录 | 获得铅盒子并获得金币 | 支出 GP -4 获得铅盒子，另获得 GP +1；净变动 GP -3，当前 GP 2 |
 | 时间未记录 | 获得经验 | XP +14，总 XP 1263 |
+| 时间未记录 | 获得经验 | XP +20，总 XP 1283 |
 
 ## 已确认项
 
