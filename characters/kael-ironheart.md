@@ -19,7 +19,7 @@
 | 卓越骰 Superiority Dice | 4d8，剩余 2 / 4 |
 | 当前异常状态 Conditions | 未记录 |
 | 死亡豁免 Death Saving Throws | 成功 0 / 失败 0 |
-| 弓箭 Arrows | 19 / 20 |
+| 弓箭 Arrows | 18 / 20 |
 | 标枪 Javelins | 8 / 8 |
 | 匕首 Daggers | 1 / 1 |
 | 医疗工具包 Healer's Kit | 10 / 10 次 |
@@ -227,10 +227,8 @@
 | 骰子 Gaming Set (Dice) | 1 | 工具熟练 |
 | 旅行者服装 Traveler's Clothes | 1 套 | 日常服装 |
 | 大肚教传单 | 1 | 剧情物品 |
-| 破损的重甲 | 1 | 战利品/剧情物品 |
 | 小血瓶 | 1 | 消耗品 |
-| 信号弹 | 1 | 消耗品 |
-| 金币 Gold Pieces | 54 gp | 当前持有 |
+| 金币 Gold Pieces | 116 gp | 当前持有 |
 | 银币 Silver Pieces | 1 sp | 当前持有 |
 
 ## 角色概念 / Character Concept
