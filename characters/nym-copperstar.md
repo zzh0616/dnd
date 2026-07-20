@@ -7,15 +7,15 @@
 | 游戏内日期 In-game Day | 第 4 天，具体时段未记录 |
 | 当前地点 Current Location | 从北方观测站旧址返程途中；具体位置待记录 |
 | 当前生命值 Hit Points (HP) | 30 / 30（4 级升级结算时沿用既有 DM 裁定回满） |
-| 临时生命值 Temporary Hit Points | 9（来自已施放的虚假生命 False Life；在耗尽或完成下一次长休时失去） |
-| 护甲等级 Armor Class (AC) | 14（法师护甲 Mage Armor 已施放；剩余持续时间待记录） |
+| 临时生命值 Temporary Hit Points | 0（此前虚假生命 False Life 提供的临时生命在长休后失去） |
+| 护甲等级 Armor Class (AC) | 11（法师护甲 Mage Armor 已准备但尚未施放） |
 | 生命骰 Hit Dice | 4d6，已用 0 |
-| 1 环法术位 1st-level Spell Slots | 2 / 4 |
-| 2 环法术位 2nd-level Spell Slots | 1 / 3 |
-| 奥术回复 Arcane Recovery | 本次长休后已使用；下次长休恢复使用次数 |
-| 预兆 Portent | 本次长休掷出 11、6；6 已使用，剩余 11 |
+| 1 环法术位 1st-level Spell Slots | 4 / 4 |
+| 2 环法术位 2nd-level Spell Slots | 3 / 3 |
+| 奥术回复 Arcane Recovery | 可用；本次长休后恢复使用次数 |
+| 预兆 Portent | 本次长休掷出 3、19；均未使用 |
 | 魔法启蒙（法师）Magic Initiate (Wizard) 免费护盾术 Shield | 可用 |
-| 法术储存戒指 Spell-Storing Ring | 本次长休使用次数已消耗；已施放虚假生命 False Life，获得 9 点临时生命值 |
+| 法术储存戒指 Spell-Storing Ring | 本次长休使用次数已恢复；当前储存虚假生命 False Life，尚未施放 |
 | 烈焰长枪戒指 Flame Lance Ring | 可用；储存烈焰长枪 Flame Lance，使用次数与恢复方式待确认 |
 | 占卜术 Augury | 本次长休后尚未施放；下一次施放结果正常准确 |
 | 英雄激励 Heroic Inspiration | 无 |
@@ -168,16 +168,17 @@
 
 ## 当前已准备法术 / Current Prepared Spells
 
-2024 法师 Wizard 4 级准备法术上限为 7 个。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。当前已有 6 个准备法术；第 7 个待从法术书中选择。
+2024 法师 Wizard 4 级准备法术上限为 7 个。护盾术 Shield 来自魔法启蒙 Magic Initiate，始终可用，不占法师准备法术名额。当前已准备 7 个法师法术。
 
 | 法术 Spell | 来源 Source | 使用方式 Casting | 专注 / 仪式 Concentration / Ritual | 用途 Effect |
 |---|---|---|---|---|
 | 法师护甲 Mage Armor | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 8 小时 AC 变为 13 + 敏捷调整值 |
 | 魔法飞弹 Magic Missile | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 稳定命中，适合补刀或打断专注 Concentration |
 | 睡眠术 Sleep | 法师准备 Wizard Prepared | 动作 Action + 1 环位 | 否 No / 否 No | 低等级战斗强控；对不死生物及免疫魅惑者无效 |
-| 蛛网术 Web | 法师准备 Wizard Prepared | 动作 Action + 2 环位 | 是 Yes / 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
+| 隐形术 Invisibility | 法师准备 Wizard Prepared | 动作 Action + 2 环位 | 是 Yes / 否 No | 使一个自愿生物隐形；攻击、造成伤害或施法会结束效果 |
 | 迷踪步 Misty Step | 法师准备 Wizard Prepared | 附赠动作 Bonus Action + 2 环位 | 否 No / 否 No | 传送 30 尺，用于脱离包围或跨越障碍 |
 | 侦测思想 Detect Thoughts | 法师准备 Wizard Prepared | 动作 Action + 2 环位 | 是 Yes / 否 No | 感知附近思想；深入探查可能触发豁免并暴露施法 |
+| 魅影之力 Phantasmal Force | 法师准备 Wizard Prepared | 动作 Action + 2 环位 | 是 Yes / 否 No | 目标进行智力豁免；以幻象制造单体控制与心灵伤害，具体互动由 DM 按场景裁定 |
 | 护盾术 Shield | 魔法启蒙 Magic Initiate | 反应 Reaction；每次长休 Long Rest 免费 1 次，或用 1 环位 | 否 No / 否 No | 被攻击命中或成为魔法飞弹 Magic Missile 目标时提高防御 |
 
 ## 当前法术书 / Current Spellbook
@@ -194,12 +195,12 @@
 | 寻获魔宠 Find Familiar | 否 No | 是 Yes | 侦查、递送触碰法术、角色风味 |
 | 鉴定术 Identify | 否 No | 是 Yes | 识别魔法物品和魔法效果 |
 | 羽落术 Feather Fall | 否 No | 否 No | 防坠落，常见救命法术 |
-| 蛛网术 Web | 是 Yes | 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
+| 蛛网术 Web | 否 No | 否 No | 区域控场、束缚和分割敌人；需要合适锚点 |
 | 迷踪步 Misty Step | 是 Yes | 否 No | 以附赠动作传送 30 尺，用于脱离包围或跨越障碍 |
 | 占卜术 Augury | 否 No | 是 Yes | 预测未来 30 分钟内某项行动结果的大致吉凶；DM 裁定只要持有金币即可施放，不需额外准备道具。本次已以仪式施放并得到凶兆 Woe |
 | 侦测思想 Detect Thoughts | 是 Yes | 否 No | 感知附近思想并读取目标当前最显著的想法；深入探查可能触发豁免并暴露施法 |
-| 隐形术 Invisibility | 否 No | 否 No | 使一个自愿生物隐形；适合侦查、潜入与撤离，攻击、造成伤害或施法会结束效果 |
-| 魅影之力 Phantasmal Force | 否 No | 否 No | 单一目标进行智力豁免；失败后受一个可塑造的幻象影响，需要专注，具体互动由 DM 按场景裁定 |
+| 隐形术 Invisibility | 是 Yes | 否 No | 使一个自愿生物隐形；适合侦查、潜入与撤离，攻击、造成伤害或施法会结束效果 |
+| 魅影之力 Phantasmal Force | 是 Yes | 否 No | 单一目标进行智力豁免；失败后受一个可塑造的幻象影响，需要专注，具体互动由 DM 按场景裁定 |
 
 ## 4 级行动习惯 / Level 4 Play Routine
 
@@ -207,7 +208,8 @@
 - 战斗中保持距离，不要站在前排。
 - 进入高处、城墙或废墟前，如预期有坠落风险，在下一次长休时将羽落术 Feather Fall 准备为法术。
 - 准备让敌人进行关键豁免前，可先用心灵裂片 Mind Sliver 压低其下一次豁免。
-- 完成长休并准备蛛网术 Web 后，敌人较多且锚点合适时，用它分割和束缚敌人，并保持专注。
+- 对单个关键目标，可先用心灵裂片 Mind Sliver 压低其下一次豁免，再施放魅影之力 Phantasmal Force，并保持专注。
+- 需要侦查、潜入或撤离时，可使用隐形术 Invisibility；它与侦测思想 Detect Thoughts、魅影之力 Phantasmal Force 互相争夺专注。
 - 需要稳定收掉敌人时，用魔法飞弹 Magic Missile。
 - 被命中且这次命中很危险时，用护盾术 Shield。
 - 探索时优先让魔宠 Familiar 侦查，自己用法师之手 Mage Hand 和侦测魔法 Detect Magic 排风险。
@@ -228,7 +230,7 @@
 | 圣水 | 1 瓶 | 蛋蛋最初观察到其中含有杂质；Nym 后来确认这些杂质用于帮助制造圣水 |
 | 珍珠 Pearl | 1 枚 | Nym 当前持有。标价/价值 100 GP，商人以 99 GP 售出；Nym 支付 33 GP，并分别向蛋蛋、Kael 各借入 33 GP。珍珠的品质、用途与是否满足特定法术材料门槛尚未记录 |
 | 铅盒子 Lead Box | 1 个 | Nym 当前持有；以 4 GP 获得，具体用途尚未记录 |
-| 法术储存戒指 Spell-Storing Ring | 1 枚 | KEN 击败马特委托所称的黑暗势力首领、完成部分委托后，马特在旅馆会面时交付给 Nym；蛋蛋拒绝该戒指。这就是既有的同一枚戒指，并非第二枚。可储存任意 1 环法师法术，每次长休可使用 1 次；当前储存虚假生命 False Life，已在本次长休后施放，使用次数已消耗。该法术的材料为一滴酒精，不属于贵重耗材 |
+| 法术储存戒指 Spell-Storing Ring | 1 枚 | KEN 击败马特委托所称的黑暗势力首领、完成部分委托后，马特在旅馆会面时交付给 Nym；蛋蛋拒绝该戒指。这就是既有的同一枚戒指，并非第二枚。可储存任意 1 环法师法术，每次长休可使用 1 次；当前储存虚假生命 False Life，本次长休后使用次数已恢复且尚未施放。该法术的材料为一滴酒精，不属于贵重耗材 |
 | 烈焰长枪戒指 Flame Lance Ring | 1 枚 | 从回程截击的骷髅法师处获得；该敌人被确认与观测站旧址内自称“主角”的疯癫法师为同一人。内储烈焰长枪 Flame Lance。可近战或向 120 尺内目标远程投出长枪；攻击检定固定为 +5，不使用 Nym 的智力或法术攻击加值。命中造成 4d10 + 3 点火焰伤害，并引起点燃；点燃额外造成 1d10 点火焰伤害。其他使用者施放该法术不触发点燃。使用次数、恢复方式、点燃持续时间及伤害触发时机待 DM 确认 |
 | 疑似托比厄斯的法杖 | 1 | Nym 当前持有。第 2 天与一个带血布袋一同从原战斗地点方向顺流而下，由 Nym 用法师之手取回；是否确属托比厄斯、是否具有魔法及具体能力均未确认 |
 | 带血布袋 | 1 | Nym 当前持有。原本挂在疑似托比厄斯的法杖上；血迹来源、袋内物品及其与托比厄斯的关系尚未查明 |
@@ -509,6 +511,7 @@
 | 第 4 天，具体时段未记录 | 在观测站旧址救出托比厄斯 | 小队击败一名杀手、驻守打手及自称“主角”的疯癫法师；死后存在的势力似乎阻止他人调查旧址 |
 | 第 4 天，具体时段未记录 | 返程遭骷髅法师截击 | Nym 的猫头鹰魔宠救下 Kael，Kael 击败敌人；敌人为此前的疯癫法师，天亮时小队确认其衣物布料与早先发现的黑色法袍布料相同 |
 | 第 4 天，具体时段未记录 | 完成短休并使用奥术回复 Arcane Recovery | 当前法术位为 1 环 2 / 4、2 环 1 / 3；奥术回复本次长休后已使用。生命骰消耗与其他短休效果未记录 |
+| 时间未记录 | 完成长休并重选准备法术 | HP、法术位、生命骰、奥术回复、免费护盾术与法术储存戒指使用次数恢复；此前法师护甲 Mage Armor 与虚假生命 False Life 失效，AC 回到 11、临时生命归零。准备法术为魅影之力 Phantasmal Force、隐形术 Invisibility、侦测思想 Detect Thoughts、迷踪步 Misty Step、法师护甲 Mage Armor、睡眠术 Sleep、魔法飞弹 Magic Missile；预兆骰为 3、19，均未使用 |
 
 ## 已确认项
 
