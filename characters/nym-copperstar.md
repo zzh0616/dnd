@@ -49,7 +49,7 @@
 | 阵营 Alignment | 中立善良 Neutral Good (NG) |
 | 阵营倾向记录 | 中立 +4、善良 +3、混乱 +6 |
 | 等级 Level | 4 |
-| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 4013 / 6500 |
+| 总经验 / 升级所需总经验 Total XP / Total XP Needed | 4023 / 6500 |
 | 熟练加值 Proficiency Bonus | +2 |
 | 体型 Size | 小型 Small |
 | 速度 Speed | 30 尺 |
@@ -512,6 +512,7 @@
 | 第 4 天，具体时段未记录 | 返程遭骷髅法师截击 | Nym 的猫头鹰魔宠救下 Kael，Kael 击败敌人；敌人为此前的疯癫法师，天亮时小队确认其衣物布料与早先发现的黑色法袍布料相同 |
 | 第 4 天，具体时段未记录 | 完成短休并使用奥术回复 Arcane Recovery | 当前法术位为 1 环 2 / 4、2 环 1 / 3；奥术回复本次长休后已使用。生命骰消耗与其他短休效果未记录 |
 | 时间未记录 | 完成长休并重选准备法术 | HP、法术位、生命骰、奥术回复、免费护盾术与法术储存戒指使用次数恢复；此前法师护甲 Mage Armor 与虚假生命 False Life 失效，AC 回到 11、临时生命归零。准备法术为魅影之力 Phantasmal Force、隐形术 Invisibility、侦测思想 Detect Thoughts、迷踪步 Misty Step、法师护甲 Mage Armor、睡眠术 Sleep、魔法飞弹 Magic Missile；预兆骰为 3、19，均未使用 |
+| 第 4 天，具体时段未记录 | 获得经验 | XP +10，总 XP 4023 |
 
 ## 已确认项
 
