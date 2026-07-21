@@ -21,8 +21,8 @@
 | 奥术回想 / Arcane Recovery | 可用；短休后恢复总环数 10、单个不高于 5 环 / available, total 10 spell levels, each slot max level 5 |
 | 标志法术 / Signature Spells | 反制法术、解除魔法各 1 次免费 3 环施放（短休或长休恢复） |
 | 法术精通 / Spell Mastery | 大步奔行（1 环）、镜影术（2 环），无需法术位 / no slots |
-| 准备法术 / Prepared Wizard Spells | 25 / 25；每个后 20 级成长 +1，法术位不变 / +1 per post-20 progress, slots unchanged |
-| 预制拟像 / Prepared Simulacrum | 已在开局前完成；**101 / 101 HP**，复制施放后的瑟伦（7 环位为 1 / 2，其余法术位全满），不能自行休息恢复资源 / completed before play; cannot recover expended resources by resting |
+| 准备法术 / Prepared Wizard Spells | **远古龙出击清单** 25 / 25，见下；本次不准备预见术 / Ancient Dragon Assault Package 25/25 below; Foresight is not prepared. Each post-20 progress adds +1 preparation; slots unchanged |
+| 预制拟像 / Prepared Simulacrum | 已在开局前完成；**101 / 101 HP**，复制施放后的瑟伦（7 环位为 1 / 2，其余法术位全满）。已确认可使用独立准备清单并正常施法；不能自行休息恢复已消耗资源 / completed before play; uses its own prepared-spell list and casts normally, but cannot recover expended resources by resting |
 | 神格碎片与传奇恩惠 / Divine Fragments & Epic Boons | 0；命运恩惠 1，额外恩惠 0 / 0 fragments; Boon of Fate 1, extra boons 0 |
 | 同调 / Attunement | 健康护符、传送头盔、移位斗篷（3 / 3；每枚神格碎片使上限 +1；首枚碎片后加入已购的抗法斗篷） |
 | 下次胜利 / Next Victory | 后 20 级成长 1；推荐兼职：战士 1 / Fighter 1；下一主要敌人 CR = 当前主要敌人 CR +2 |
@@ -147,6 +147,48 @@
 | 7 环 / 7th | 传送术 / Teleport；力场囚笼 / Forcecage |
 | 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
 | 9 环 / 9th | 预见术 / Foresight；祈愿术 / Wish |
+
+### 远古龙出击准备（当前生效）/ Ancient Dragon Assault Package (Active)
+
+> 已知下一战为远古龙，且仍不排除高环法师或魔法变形的支援。本体与拟像**均不准备预见术 / Foresight**。本体保留反应、防御、撤离与决定性控场；拟像携带不重复的预战增益、侦测与第二套高环资源。仪式法术、法术精通与标志法术不计入下方 25 个名额。
+
+#### 本体：瑟伦（25 个）/ Original Serren (25)
+
+| 环位 / Level | 准备法术 / Prepared Spells |
+|---|---|
+| 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
+| 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike |
+| 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow；催眠图纹 / Hypnotic Pattern |
+| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；真知术 / True Seeing |
+| 5 环 / 5th | 力场墙 / Wall of Force；突触静止 / Synaptic Static；怪物定身术 / Hold Monster |
+| 6 环 / 6th | 法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
+| 7 环 / 7th | 传送术 / Teleport；力场囚笼 / Forcecage（仅在 DM 确认远古龙能完整容纳时作为控场） |
+| 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
+| 9 环 / 9th | 时间停止 / Time Stop；祈愿术 / Wish |
+
+#### 拟像：支援与后备控制（25 个）/ Simulacrum: Support and Reserve Control (25)
+
+| 环位 / Level | 准备法术 / Prepared Spells |
+|---|---|
+| 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
+| 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike；识破隐形 / See Invisibility |
+| 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
+| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield |
+| 5 环 / 5th | 力场墙 / Wall of Force；怪物定身术 / Hold Monster；心灵遥控 / Telekinesis；石墙术 / Wall of Stone |
+| 6 环 / 6th | 真知术 / True Seeing；法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
+| 7 环 / 7th | 重力反转 / Reverse Gravity |
+| 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
+| 9 环 / 9th | 形体变化 / Shapechange；流星爆 / Meteor Swarm |
+
+**出战前分工 / Pre-combat allocation：**
+
+1. 拟像先以**心灵屏障 / Mind Blank**保护本体，消耗自己的 8 环位；本体保留自己的 8 环位给**迷宫术 / Maze**。
+2. 仍怀疑敌方法师或变形时，拟像对本体施放**真知术 / True Seeing**。若确定只有正常龙类，则不消耗该 6 环位。
+3. 拟像以**防护能量伤害 / Protection from Energy**保护最可能承受吐息的队友，并维持该专注；维持期间不再承担缓慢术、力场墙或怪物定身术的专注。
+4. 本体优先用缓慢术、催眠图纹与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。拟像保留其控制法术，避免在同一轮与本体争夺专注。
+5. 拟像的**形体变化 / Shapechange**用于紧急生存或近战牵制，**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用；两者均非对单只远古龙的首选开场。
+
+**吐息对应 / Breath mapping：** 红、金、黄铜龙选火焰；蓝、青铜龙选闪电；黑、赤铜龙选强酸；白、银龙选寒冷。绿龙的毒息不受防护能量伤害保护，应由队友另行提供抗毒或以机动和掩体规避。
 
 ### 始终准备或不需准备 / Always Prepared or Unprepared
 
