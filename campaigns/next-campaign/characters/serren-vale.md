@@ -292,7 +292,7 @@
 | 江湖骗子斗篷 / Cape of the Mountebank | 珍稀 / Rare | 不需同调；每日一次任意门，作为紧急撤离备份 / no attunement; daily Dimension Door as emergency egress |
 | 警戒武器 / Weapon of Warning | 非普通 / Uncommon | 交给近战队友同调；提供预警与先攻优势 / loaned to a melee ally for warning and Initiative Advantage |
 | 飞天扫帚 / Broom of Flying | 非普通 / Uncommon | 需要时替换同调物品；50 尺飞行 / swap into attunement when needed; 50-ft flight |
-| 抗性戒指（力场）/ Ring of Resistance (Force) | 珍稀 / Rare | 新购，不需同调；获得力场伤害抗性 / newly purchased, no attunement; Resistance to Force damage |
+| 抗性戒指（暗蚀）/ Ring of Resistance (Necrotic) | 珍稀 / Rare | 已由力场版本等值更换；不需同调；获得暗蚀伤害抗性 / exchanged from the Force version at equal value, no attunement; Resistance to Necrotic damage |
 | 精金半身甲 / Adamantine Half Plate | 非普通 / Uncommon | 已穿戴；将重击转为普通命中 / worn; turns Critical Hits into normal hits |
 | +1 盾牌 / Shield +1 | 非普通 / Uncommon | 正面战持用；总 AC 21 / used for direct combat; AC 21 total |
 | 警戒盾牌 / Sentinel Shield | 非普通 / Uncommon | 探索、侦察与未知敌人时持用；先攻与察觉检定具有优势 / held for exploration or uncertain threats; Advantage on Initiative and Perception checks |

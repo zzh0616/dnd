@@ -67,7 +67,7 @@
 |---|---:|---|
 | 胜利前余款 / Funds before victory | 1,810 | 开局账本结余 / closing balance of the starting ledger |
 | 本次奖励 / Victory reward | +5,000 | 可用于物品与重制拟像 / available for upgrades and rebuilt simulacrum |
-| 抗性戒指（力场）/ Ring of Resistance (Force) | -4,000 | 不需同调的力场伤害抗性 / no-attunement Force resistance |
+| 抗性戒指（暗蚀）/ Ring of Resistance (Necrotic) | -4,000 | 已由力场版本等值更换；不需同调的暗蚀伤害抗性 / exchanged from the Force version at equal value; no-attunement Necrotic resistance |
 | +1 盾牌、警戒盾牌 / Shield +1, Sentinel Shield | -800 | 正面战 AC 与探索先攻、察觉的两种切换 / combat AC and exploration Initiative/Perception swap |
 | 重制拟像术红宝石粉 / Rebuilt Simulacrum ruby dust | -1,500 | 以升级后的瑟伦为模板重制 / rebuilt from the upgraded Serren |
 | **当前余款 / Current funds** | **510** | 已写入角色卡 / recorded on the character sheet |
@@ -88,7 +88,7 @@
 
 ## 珍稀物品备选 / Alternative Rare Items
 
-> 下列按原构筑的珍稀物品定价假设为 4,000 gp。首次胜利后，**抗性戒指（力场）**已实际购入，且抗法斗篷已成为第四个同调位；表中只保留未购买的后续备选。
+> 下列按原构筑的珍稀物品定价假设为 4,000 gp。首次胜利后，原购的**抗性戒指（力场）**已等值换为**抗性戒指（暗蚀）**，且抗法斗篷已成为第四个同调位；表中只保留未购买的后续备选。
 
 | 备选 / Alternative | 能解决的问题 / Benefit | 主方案不选的理由 / Why Not the Main Plan |
 |---|---|---|
