@@ -72,18 +72,37 @@
 | 感知 / Wisdom | **+8** | 是 / Yes |
 | 魅力 / Charisma | +1 | 否 / No |
 
-### 技能与被动值 / Skills and Passive Scores
+### 技能、工具与被动值 / Skills, Tools, and Passive Scores
 
-| 技能 / Skill | 加值 / Bonus | 来源 / Source |
+| 技能 / Skill | 属性 / Ability | 加值 / Bonus | 训练 / Training |
+|---|---|---:|---|
+| 体操 / Acrobatics | 敏捷 / Dex | +2 | 未熟练 / Not proficient |
+| 驯兽 / Animal Handling | 感知 / Wis | +2 | 未熟练 / Not proficient |
+| 奥秘 / Arcana | 智力 / Int | **+13** | 熟练（法师）/ Proficient (Wizard) |
+| 运动 / Athletics | 力量 / Str | -1 | 未熟练 / Not proficient |
+| 欺瞒 / Deception | 魅力 / Cha | +1 | 未熟练 / Not proficient |
+| 历史 / History | 智力 / Int | +7 | 未熟练 / Not proficient |
+| 洞悉 / Insight | 感知 / Wis | **+8** | 熟练（法师）/ Proficient (Wizard) |
+| 威吓 / Intimidation | 魅力 / Cha | +1 | 未熟练 / Not proficient |
+| 调查 / Investigation | 智力 / Int | **+19** | 专精（人类熟练、学者）/ Expertise (Human proficiency, Scholar) |
+| 医药 / Medicine | 感知 / Wis | +2 | 未熟练 / Not proficient |
+| 自然 / Nature | 智力 / Int | +7 | 未熟练 / Not proficient |
+| 察觉 / Perception | 感知 / Wis | +2 | 未熟练 / Not proficient；持警戒盾牌时检定具有优势 / Advantage while holding Sentinel Shield |
+| 表演 / Performance | 魅力 / Cha | +1 | 未熟练 / Not proficient |
+| 游说 / Persuasion | 魅力 / Cha | +1 | 未熟练 / Not proficient |
+| 宗教 / Religion | 智力 / Int | +7 | 未熟练 / Not proficient |
+| 巧手 / Sleight of Hand | 敏捷 / Dex | **+8** | 熟练（罪犯）/ Proficient (Criminal) |
+| 隐匿 / Stealth | 敏捷 / Dex | **+8** | 熟练（罪犯）/ Proficient (Criminal) |
+| 求生 / Survival | 感知 / Wis | +2 | 未熟练 / Not proficient |
+
+| 工具 / Tool | 属性 / Ability | 加值 / Bonus | 训练 / Training |
+|---|---|---:|---|
+| 盗贼工具 / Thieves' Tools | 敏捷 / Dex | **+8** | 熟练（罪犯）/ Proficient (Criminal) |
+
+| 被动值 / Passive Score | 当前值 / Current | 计算 / Calculation |
 |---|---:|---|
-| 奥秘 / Arcana | +13 | 法师 / Wizard |
-| 调查 / Investigation | **+19** | 人类熟练 + 学者专精 / Human proficiency + Scholar Expertise |
-| 洞悉 / Insight | +8 | 法师 / Wizard |
-| 隐匿 / Stealth | +8 | 罪犯 / Criminal |
-| 巧手 / Sleight of Hand | +8 | 罪犯 / Criminal |
-| 盗贼工具 / Thieves' Tools | +8 | 罪犯 / Criminal |
-| 被动察觉 / Passive Perception | 12 | 感知 10 + 2 |
-| 被动调查 / Passive Investigation | **28** | 10 + 调查 +18 |
+| 被动察觉 / Passive Perception | 12；**17**（持警戒盾牌） | 10 + 察觉 +2；优势时 +5 / 10 + Perception +2; +5 with Advantage |
+| 被动调查 / Passive Investigation | **29** | 10 + 调查 +19 |
 | 被动洞悉 / Passive Insight | 18 | 10 + 洞悉 +8 |
 
 ## 战斗与职业能力 / Combat and Class Features
