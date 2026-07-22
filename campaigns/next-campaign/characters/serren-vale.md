@@ -6,12 +6,12 @@
 
 | 项目 / Item | 当前值 / Current Value |
 |---|---|
-| 主职业与成长 / Primary Class & Progress | 法师 20（预言学派）/ Wizard 20 (Diviner)；后 20 级成长 0 / post-20 progress 0 |
-| 当前生命值 / Hit Points | **202 / 202**（以健康护符 / Amulet of Health 生效为前提） |
+| 主职业与成长 / Primary Class & Progress | 法师 20（预言学派）/ Wizard 20 (Diviner)；战士 1 / Fighter 1；后 20 级成长 1 / post-20 progress 1 |
+| 当前生命值 / Hit Points | **214 / 214**（战士 1 以固定生命值增加 10，健壮 / Tough 随第 21 个总等级再增加 2；以健康护符 / Amulet of Health 生效为前提） |
 | 临时生命值 / Temporary HP | 0 |
-| 护甲等级 / Armor Class | 12；**15**（法师护甲 / Mage Armor）；**20**（护盾术 / Shield 反应） |
-| 先攻、速度 / Initiative, Speed | **+8**；30 尺 / 30 ft. |
-| 法术豁免 DC、法术攻击 / Spell Save DC, Spell Attack | **20**；**+12** |
+| 护甲等级 / Armor Class | **21**（精金半身甲、+1 盾牌、防御战斗风格）；**20**（持警戒盾牌）；**26**（+1 盾牌时施放护盾术 / Shield） |
+| 先攻、速度 / Initiative, Speed | **+8**（持警戒盾牌时具有优势 / Advantage with Sentinel Shield）；30 尺 / 30 ft. |
+| 法术豁免 DC、法术攻击 / Spell Save DC, Spell Attack | **21**；**+13** |
 | 专注 / Concentration | 空；体质豁免 +10，具有优势 / Con save +10, with Advantage |
 | 状态 / Conditions | 无 / None |
 | 预兆 / Portent | 3 个 d20，长休后掷出；本次结果待掷 / Roll after Long Rest |
@@ -21,11 +21,11 @@
 | 奥术回想 / Arcane Recovery | 可用；短休后恢复总环数 10、单个不高于 5 环 / available, total 10 spell levels, each slot max level 5 |
 | 标志法术 / Signature Spells | 反制法术、解除魔法各 1 次免费 3 环施放（短休或长休恢复） |
 | 法术精通 / Spell Mastery | 大步奔行（1 环）、镜影术（2 环），无需法术位 / no slots |
-| 准备法术 / Prepared Wizard Spells | **远古龙出击清单** 25 / 25，见下；本次不准备预见术 / Ancient Dragon Assault Package 25/25 below; Foresight is not prepared. Each post-20 progress adds +1 preparation; slots unchanged |
-| 预制拟像 / Prepared Simulacrum | 已在开局前完成；**101 / 101 HP**，复制施放后的瑟伦（7 环位为 1 / 2，其余法术位全满）。已确认可使用独立准备清单并正常施法；不能自行休息恢复已消耗资源 / completed before play; uses its own prepared-spell list and casts normally, but cannot recover expended resources by resting |
-| 神格碎片与传奇恩惠 / Divine Fragments & Epic Boons | 0；命运恩惠 1，额外恩惠 0 / 0 fragments; Boon of Fate 1, extra boons 0 |
-| 同调 / Attunement | 健康护符、传送头盔、移位斗篷（3 / 3；每枚神格碎片使上限 +1；首枚碎片后加入已购的抗法斗篷） |
-| 下次胜利 / Next Victory | 后 20 级成长 1；推荐兼职：战士 1 / Fighter 1；下一主要敌人 CR = 当前主要敌人 CR +2 |
+| 准备法术 / Prepared Wizard Spells | **当前常备清单** 26 / 26，见下；本次不准备预见术 / Current general package 26/26 below; Foresight is not prepared. Each post-20 progress adds +1 preparation; slots unchanged |
+| 预制拟像 / Prepared Simulacrum | 已在本次结算后重制；**107 / 107 HP**，复制战士 1、次元旅行恩惠与独立 26 法术清单的瑟伦（7 环位为 1 / 2，其余法术位全满）。不能自行休息恢复已消耗资源 / rebuilt after this settlement; copies Fighter 1, Boon of Dimensional Travel, and its own 26-spell list; cannot recover expended resources by resting |
+| 神格碎片与传奇恩惠 / Divine Fragments & Epic Boons | 神格碎片 1；命运恩惠、**次元旅行恩惠**各 1 / 1 fragment; Boon of Fate and **Boon of Dimensional Travel** |
+| 同调 / Attunement | 健康护符、传送头盔、移位斗篷、抗法斗篷（4 / 4；神格碎片使上限 +1） / Amulet of Health, Helm of Teleportation, Cloak of Displacement, Mantle of Spell Resistance (4/4) |
+| 下次胜利 / Next Victory | 后 20 级成长 2；推荐兼职：牧师 1（奇术师）/ Cleric 1 (Thaumaturge)；下一主要敌人 CR = 当前主要敌人 CR +2 |
 
 ### 法术位 / Spell Slots
 
@@ -40,7 +40,7 @@
 |---|---|
 | 姓名 / Name | **瑟伦·维尔 / Serren Vale** |
 | 物种 / Species | 人类 / Human |
-| 职业与子职 / Class & Subclass | 法师 20（预言学派）/ Wizard 20 (Diviner)；后 20 级兼职见下方进阶路线 |
+| 职业与子职 / Class & Subclass | 法师 20（预言学派）/ Wizard 20 (Diviner)；战士 1 / Fighter 1；后续兼职见下方进阶路线 |
 | 背景 / Background | 罪犯 / Criminal |
 | 阵营 / Alignment | 中立 / Neutral（可随世界观调整） |
 | 熟练加值 / Proficiency Bonus | +6 |
@@ -57,7 +57,7 @@
 | 力量 / Strength | 8 | 8 | -1 |
 | 敏捷 / Dexterity | 14 | 14 | +2 |
 | 体质 / Constitution | 11 | **19**（健康护符） | +4 |
-| 智力 / Intelligence | 21 | **23**（免费《清晰思维之书》一次使用 / free one use of Tome of Clear Thought） | +6 |
+| 智力 / Intelligence | **22** | **24**（《清晰思维之书》+2、次元旅行恩惠 +1 / Tome +2, Boon +1） | +7 |
 | 感知 / Wisdom | 14 | 14 | +2 |
 | 魅力 / Charisma | 12 | 12 | +1 |
 
@@ -68,7 +68,7 @@
 | 力量 / Strength | -1 | 否 / No |
 | 敏捷 / Dexterity | +2 | 否 / No |
 | 体质 / Constitution | **+10** | 是 / Yes |
-| 智力 / Intelligence | **+12** | 是 / Yes |
+| 智力 / Intelligence | **+13** | 是 / Yes |
 | 感知 / Wisdom | **+8** | 是 / Yes |
 | 魅力 / Charisma | +1 | 否 / No |
 
@@ -76,8 +76,8 @@
 
 | 技能 / Skill | 加值 / Bonus | 来源 / Source |
 |---|---:|---|
-| 奥秘 / Arcana | +12 | 法师 / Wizard |
-| 调查 / Investigation | **+18** | 人类熟练 + 学者专精 / Human proficiency + Scholar Expertise |
+| 奥秘 / Arcana | +13 | 法师 / Wizard |
+| 调查 / Investigation | **+19** | 人类熟练 + 学者专精 / Human proficiency + Scholar Expertise |
 | 洞悉 / Insight | +8 | 法师 / Wizard |
 | 隐匿 / Stealth | +8 | 罪犯 / Criminal |
 | 巧手 / Sleight of Hand | +8 | 罪犯 / Criminal |
@@ -115,6 +115,15 @@
 | 法术精通 / Spell Mastery | 大步奔行与镜影术始终准备且可无位施放 / Longstrider and Mirror Image are always prepared and cast without slots |
 | 标志法术 / Signature Spells | 法术反制、解除魔法始终准备；各有一次免费 3 环施放 / Counterspell and Dispel Magic always prepared, each one free 3rd-level casting |
 
+### 战士 1 / Fighter 1
+
+| 能力 / Feature | 当前效果 / Current Effect |
+|---|---|
+| 中甲、盾牌与军用武器训练 / Medium Armor, Shields, Martial Weapons | 穿戴精金半身甲并使用盾牌；不获得重甲训练 / wears Adamantine Half Plate and uses shields; no Heavy Armor training |
+| 防御 / Defense | 穿着护甲时 AC +1 / +1 AC while wearing armor |
+| 二次回气 / Second Wind | **2 / 2**；奖励动作恢复 `1d10 + 1` HP；短休恢复 1 次、长休全恢复 / Bonus Action healing; regain one on Short Rest, all on Long Rest |
+| 武器精通 / Weapon Mastery | 细剑（破绽 / Rapier: Vex）、轻弩（减速 / Light Crossbow: Slow）、匕首（轻击 / Dagger: Nick）；每次长休可替换其中一项 / three selections; replace one after each Long Rest |
+
 ### 物种、背景与专长 / Species, Background, and Feats
 
 | 来源 / Source | 能力 / Feature | 效果摘要 / Summary |
@@ -128,6 +137,7 @@
 | 专长 / Feat | 强韧：体质 / Resilient (Constitution) | 体质 +1，体质豁免熟练 / Con +1 and Constitution-save proficiency |
 | 专长 / Feat | 健壮 / Tough | 20 级共增加 40 点生命上限 / +40 maximum HP at level 20 |
 | 史诗恩惠 / Epic Boon | 命运恩惠 / Boon of Fate | 关键 d20 后加或减 2d4；短休、长休或掷先攻恢复 / add or subtract 2d4 from a key d20; regain on Short Rest, Long Rest, or Initiative |
+| 史诗恩惠 / Epic Boon | 次元旅行恩惠 / Boon of Dimensional Travel | 智力 +1；每次攻击动作或魔法动作后，传送至可见的 30 尺内空位 / Int +1; teleport up to 30 ft to a visible unoccupied space after each Attack or Magic action |
 | 已使用物品 / Used item | 清晰思维之书 / Tome of Clear Thought | 免费获得并已使用一次，智力 +2；不出售、不占同调 / received free and used once for Intelligence +2; not sold, no attunement |
 
 ## 法术 / Spells
@@ -148,32 +158,32 @@
 | 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
 | 9 环 / 9th | 预见术 / Foresight；祈愿术 / Wish |
 
-### 远古龙出击准备（当前生效）/ Ancient Dragon Assault Package (Active)
+### 当前常备准备（26 个）/ Current General Package (26)
 
-> 已知下一战为远古龙，且需要应对其潜入地下；仍不排除高环法师或魔法变形的支援。本体与拟像**均不准备预见术 / Foresight**。本体保留反应、防御、撤离、穿越岩层与决定性控场；拟像携带不重复的预战增益、侦测、地下定位与第二套高环资源。仪式法术、法术精通与标志法术不计入下方 25 个名额。
+> 远古龙已被击败。本体已改穿中甲，故不再准备法师护甲；第 26 个准备位与腾出的法师护甲位分别用于识破隐形和秘法眼。本体与拟像**均不准备预见术 / Foresight**。仪式法术、法术精通与标志法术不计入下方名额。
 
-#### 本体：瑟伦（25 个）/ Original Serren (25)
+#### 本体：瑟伦（26 个）/ Original Serren (26)
 
 | 环位 / Level | 准备法术 / Prepared Spells |
 |---|---|
-| 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
-| 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike |
+| 1 环 / 1st | 护盾术 / Shield；虚假生命 / False Life；羽落术 / Feather Fall |
+| 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike；识破隐形 / See Invisibility |
 | 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
-| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；真知术 / True Seeing |
+| 4 环 / 4th | 秘法眼 / Arcane Eye；放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；真知术 / True Seeing |
 | 5 环 / 5th | 力场墙 / Wall of Force；突触静止 / Synaptic Static；怪物定身术 / Hold Monster；穿墙术 / Passwall |
 | 6 环 / 6th | 法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
 | 7 环 / 7th | 传送术 / Teleport；力场囚笼 / Forcecage（仅在 DM 确认远古龙能完整容纳时作为控场） |
 | 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
 | 9 环 / 9th | 时间停止 / Time Stop；祈愿术 / Wish |
 
-#### 拟像：支援与后备控制（25 个）/ Simulacrum: Support and Reserve Control (25)
+#### 重制拟像：支援与后备控制（26 个）/ Rebuilt Simulacrum: Support and Reserve Control (26)
 
 | 环位 / Level | 准备法术 / Prepared Spells |
 |---|---|
 | 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
 | 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike；识破隐形 / See Invisibility |
 | 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
-| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；定位生物 / Locate Creature |
+| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；定位生物 / Locate Creature；变形术 / Polymorph |
 | 5 环 / 5th | 力场墙 / Wall of Force；怪物定身术 / Hold Monster；石墙术 / Wall of Stone |
 | 6 环 / 6th | 真知术 / True Seeing；法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
 | 7 环 / 7th | 重力反转 / Reverse Gravity |
@@ -184,13 +194,10 @@
 
 1. 拟像先以**心灵屏障 / Mind Blank**保护本体，消耗自己的 8 环位；本体保留自己的 8 环位给**迷宫术 / Maze**。
 2. 仍怀疑敌方法师或变形时，拟像对本体施放**真知术 / True Seeing**。若确定只有正常龙类，则不消耗该 6 环位。
-3. 拟像以**防护能量伤害 / Protection from Energy**保护最可能承受吐息的队友，并维持该专注；维持期间不再承担缓慢术、力场墙或怪物定身术的专注。
-4. 龙下潜前，本体优先以**心灵尖刺 / Mind Spike**尝试建立同位面位置追踪。龙下潜后，拟像可主动结束防护能量伤害，改以**定位生物 / Locate Creature**维持 1,000 尺内的方向与移动方向；本体的专注位不受影响。
-5. 定位确认龙在实际隧道或岩层另一侧时，本体以**穿墙术 / Passwall**开辟至多 20 尺深的通路。未经定位确认，不对实心岩层盲目使用任意门或解离术；若龙已超出定位生物范围，优先撤出危险区域，并以现有的异界探知 / Contact Other Plane 收集线索。需要长程监视时，再另行抄录探知术 / Scrying。
-6. 本体优先用缓慢术与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。拟像保留其控制法术，避免在同一轮与本体争夺专注。
-7. 拟像的**形体变化 / Shapechange**用于紧急生存、土元素形态地下侦察或近战牵制，**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用；两者均非对单只远古龙的首选开场。
-
-**吐息对应 / Breath mapping：** 红、金、黄铜龙选火焰；蓝、青铜龙选闪电；黑、赤铜龙选强酸；白、银龙选寒冷。绿龙的毒息不受防护能量伤害保护，应由队友另行提供抗毒或以机动和掩体规避。
+3. 拟像以**防护能量伤害 / Protection from Energy**保护最可能承受已知元素伤害的队友，并维持该专注；未知敌人时可改为保留专注位。
+4. 本体的**秘法眼 / Arcane Eye**承担低风险前出侦察；拟像保留定位生物、变形术与石墙术，分别用于追猎、紧急保护与固定通道封锁。
+5. 本体优先用缓慢术与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。每次魔法动作后，可用次元旅行恩惠传送 30 尺重置站位；拟像避免在同一轮与本体争夺专注。
+6. 拟像的**形体变化 / Shapechange**用于紧急生存、土元素形态地下侦察或近战牵制，**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用。
 
 ### 始终准备或不需准备 / Always Prepared or Unprepared
 
@@ -218,16 +225,16 @@
 
 | 后 20 级成长 / Progress | 角色等级构成 / Class Mix | 准备与关键变化 / Preparation and Key Changes |
 |---:|---|---|
-| 0（当前） | 法师 20 / Wizard 20 | 25 个法师准备法术；AC 15（法师护甲）/ 25 Wizard preparations; AC 15 with Mage Armor |
-| 1 | 法师 20 / 战士 1 | 26 个法师准备法术；中甲、盾牌、防御战斗风格、二次回气。装备精金半身甲与盾牌后 AC 20，护盾术后 AC 25 / 26 preparations; medium armor, shields, Defense, Second Wind; AC 20 in Adamantine Half Plate and shield, 25 with Shield |
-| 2 | 法师 20 / 战士 1 / 牧师 1 | 27 个法师准备法术；奇术师路线获得指导术等牧师支援法术 / 27 preparations; Thaumaturge cleric support, including Guidance |
+| 0（已完成） | 法师 20 / Wizard 20 | 25 个法师准备法术；AC 15（法师护甲）/ 25 Wizard preparations; AC 15 with Mage Armor |
+| 1（当前） | 法师 20 / 战士 1 | 26 个法师准备法术；中甲、盾牌、防御战斗风格、二次回气与武器精通。装备精金半身甲与 +1 盾牌后 AC 21，护盾术后 AC 26 / 26 preparations; medium armor, shields, Defense, Second Wind, Weapon Mastery; AC 21 in Adamantine Half Plate and +1 Shield, 26 with Shield |
+| 2（下次） | 法师 20 / 战士 1 / 牧师 1 | 27 个法师准备法术；奇术师路线获得指导术等牧师支援法术 / 27 preparations; Thaumaturge cleric support, including Guidance |
 | 3 | 法师 20 / 战士 1 / 牧师 1 / 游荡者 1 | 28 个法师准备法术；察觉与隐匿专精 / 28 preparations; Expertise in Perception and Stealth |
 | 4 | 法师 20 / 战士 1 / 牧师 1 / 游荡者 2 | 29 个法师准备法术；狡诈动作 / 29 preparations; Cunning Action |
 | 5 | 法师 20 / 战士 2 / 牧师 1 / 游荡者 2 | 30 个法师准备法术；动作如潮与战术心智。动作如潮的额外动作不可用于魔法动作 / 30 preparations; Action Surge and Tactical Mind; Action Surge action cannot be a Magic action |
 
-**成长 1 的准备调整：** 停止准备法师护甲（改穿精金半身甲），并新增**识破隐形 / See Invisibility**与**解离术 / Disintegrate**。这会使 26 个名额同时保留未知敌人防护和高环单体处理。
+**成长 1 的实际调整：** 停止准备法师护甲（改穿精金半身甲），新增**识破隐形 / See Invisibility**与**秘法眼 / Arcane Eye**。解离术已在此前的远古龙清单中准备，继续保留；当前 26 个名额兼顾未知敌人侦测、高环单体处理与撤离。
 
-**神格碎片路线：** 首枚碎片选择**法术回忆恩惠 / Boon of Spell Recall**，智力 23 → 24，使法术 DC 变为 21、法术攻击变为 +13；神格碎片同时使同调上限变为 4，届时同调已购的**抗法斗篷 / Mantle of Spell Resistance**。第二枚选择**次元旅行恩惠 / Boon of Dimensional Travel**，魅力 12 → 13。后续恩惠与同调物品只在实际获得碎片时写入当前状态。
+**神格碎片路线：** 首枚碎片已选择**次元旅行恩惠 / Boon of Dimensional Travel**，智力 23 → 24，使法术 DC 变为 21、法术攻击变为 +13；每次魔法动作后可传送 30 尺。神格碎片同时使同调上限变为 4，已同调**抗法斗篷 / Mantle of Spell Resistance**。第二枚优先选择**法术回忆恩惠 / Boon of Spell Recall**，第三枚再考虑**真实视觉恩惠 / Boon of Truesight**；后续恩惠与同调物品只在实际获得时写入当前状态。
 
 ### 法术书 / Spellbook
 
@@ -255,7 +262,7 @@
 | 健康护符 / Amulet of Health | 珍稀 / Rare | 同调中；体质为 19 / attuned; Constitution is 19 |
 | 传送头盔 / Helm of Teleportation | 珍稀 / Rare | 同调中；3 / 3 充能，黎明恢复 1d3；用于传送术 / attuned; 3/3 charges, regain 1d3 at dawn, casts Teleport |
 | 移位斗篷 / Cloak of Displacement | 珍稀 / Rare | 同调中；未受到伤害前，攻击者对你具有劣势 / attuned; attackers have Disadvantage until it takes damage |
-| 抗法斗篷 / Mantle of Spell Resistance | 珍稀 / Rare | 已购但未同调；首枚神格碎片使上限变为 4 后同调，获得对法术豁免的优势 / purchased but not attuned; attune after the first fragment raises the limit to 4 |
+| 抗法斗篷 / Mantle of Spell Resistance | 珍稀 / Rare | **同调中**；对抗法术的豁免具有优势 / **attuned**; Advantage on saving throws against spells |
 
 ### 个人与团队物资 / Personal and Team Assets
 
@@ -266,8 +273,11 @@
 | 江湖骗子斗篷 / Cape of the Mountebank | 珍稀 / Rare | 不需同调；每日一次任意门，作为紧急撤离备份 / no attunement; daily Dimension Door as emergency egress |
 | 警戒武器 / Weapon of Warning | 非普通 / Uncommon | 交给近战队友同调；提供预警与先攻优势 / loaned to a melee ally for warning and Initiative Advantage |
 | 飞天扫帚 / Broom of Flying | 非普通 / Uncommon | 需要时替换同调物品；50 尺飞行 / swap into attunement when needed; 50-ft flight |
-| 精金半身甲 / Adamantine Half Plate | 非普通 / Uncommon | 已购，后 20 级成长 1 获得战士中甲训练后穿戴；将重击转为普通命中 / purchased; wear after Fighter medium-armor training at progress 1; turns Critical Hits into normal hits |
-| 盾牌 / Shield | 普通 / Mundane | 已购，后 20 级成长 1 获得盾牌训练后使用 / purchased; use after Fighter shield training at progress 1 |
+| 抗性戒指（力场）/ Ring of Resistance (Force) | 珍稀 / Rare | 新购，不需同调；获得力场伤害抗性 / newly purchased, no attunement; Resistance to Force damage |
+| 精金半身甲 / Adamantine Half Plate | 非普通 / Uncommon | 已穿戴；将重击转为普通命中 / worn; turns Critical Hits into normal hits |
+| +1 盾牌 / Shield +1 | 非普通 / Uncommon | 正面战持用；总 AC 21 / used for direct combat; AC 21 total |
+| 警戒盾牌 / Sentinel Shield | 非普通 / Uncommon | 探索、侦察与未知敌人时持用；先攻与察觉检定具有优势 / held for exploration or uncertain threats; Advantage on Initiative and Perception checks |
+| 普通盾牌 / Mundane Shield | 普通 / Mundane | 保留为备用 / retained as a backup |
 | 法术书与备用书 / Spellbooks and backup volumes | — | 分卷存放；完整备用书成本与物理页数待 DM 确认 / stored in volumes; backup cost and physical page handling pending DM |
 | 施法焦点 / Arcane Focus | — | 日常施法 / routine spellcasting |
 
@@ -277,21 +287,22 @@
 |---|---|
 | 触发术宝石雕像 / Contingency statuette | 1；价值 1,500 gp，不消耗，随身携带 / one 1,500-gp nonconsumed statuette, carried |
 | 克隆术材料 / Clone components | 1 套；独立复原库保存 / one set, stored in separate recovery vault |
-| 拟像术红宝石粉 / Simulacrum ruby dust | 1 次，**已在开局前消耗**；本体以正常 7 环位施放 12 小时后完成长休恢复环位，拟像本身不能休息恢复资源 / one use, **already consumed before play** |
+| 拟像术红宝石粉 / Simulacrum ruby dust | **2 次均已消耗**：开局前 1 次、本次重制 1 次；本体以正常 7 环位施放 12 小时后完成长休恢复环位，拟像本身不能休息恢复资源 / **two uses expended**: one before play and one for the rebuilt simulacrum |
 | 力场囚笼红宝石粉 / Forcecage ruby dust | **2 次**；每次价值 1,500 gp，保留给决定性敌人 / **two uses**, 1,500 gp each, reserved for decisive targets |
 | 高价基地耗材 / High-cost base components | 徽记术 3 次；每次 1,000 gp。另预留神圣术式资金：圣居术与禁制术各 1,000 gp，须由外部高阶牧师实际施放 / three Symbols at 1,000 gp each; also reserve 1,000 gp each for Hallow and Forbiddance, to be cast by an outside high-level Cleric |
 | 免费低价施法材料 / Free low-cost components | 单件不高于 500 gp 的材料均免费，包括守卫刻文、秘法锁、魔法嘴、防护善恶、寻获魔宠、真知术、定位生物、穿墙术、魔法阵、传送法阵墨水、鉴定术珍珠与宏伟宅邸模型门；仍需施法时间、法术位与固定基地 / all components worth 500 gp or less are free, whether consumed or not; time, slots, and fixed-site limits remain |
-| 仍需付费的材料 / Paid components | 触发术雕像（1,500 gp）、克隆术钻石与容器（3,000 gp）、拟像术红宝石粉（1,500 gp，已消耗）、力场囚笼红宝石粉 2 次（3,000 gp）、徽记术钻石粉 3 次（3,000 gp）、圣居术与禁制术预留材料各 1,000 gp / only components above 500 gp remain paid |
-| 余款 / Remaining funds | **1,810 gp**；补抄定位生物与穿墙术并更新备用书后，保留为普通工事、雇工、DM 指定费用或下一件高价耗材 / after copying Locate Creature and Passwall and updating the backup spellbook, held as liquid reserve for physical fortification, labor, DM-specified costs, or the next high-cost component |
+| 仍需付费的材料 / Paid components | 触发术雕像（1,500 gp）、克隆术钻石与容器（3,000 gp）、拟像术红宝石粉 **2 次**（3,000 gp，均已消耗）、力场囚笼红宝石粉 2 次（3,000 gp）、徽记术钻石粉 3 次（3,000 gp）、圣居术与禁制术预留材料各 1,000 gp / only components above 500 gp remain paid |
+| 本次胜利账本 / First-victory ledger | 旧余款 1,810 gp + 奖励 5,000 gp - 抗性戒指 4,000 gp - +1 盾牌 400 gp - 警戒盾牌 400 gp - 重制拟像术红宝石粉 1,500 gp = **510 gp** / prior funds plus reward less upgrades and rebuilt simulacrum dust |
+| 余款 / Remaining funds | **510 gp**；保留为普通工事、雇工、DM 指定费用或下一件高价耗材 / held as liquid reserve for physical fortification, labor, DM-specified costs, or the next high-cost component |
 
 ## 出发与基地预案 / Deployment and Base Plan
 
 - 固定基地采用 [暮幕壁垒基地预案](../base-plan.md)：外环发现、接收缓冲、内层寝室与分离复原库构成多层防护。
-- 当前每日优先顺序：法师护甲、镜影术、长距离移动与队伍通讯；后 20 级成长 1 改为精金半身甲与盾牌，腾出法师护甲的准备位。
-- 开局前已以正常 7 环位完成拟像术，再由本体完成长休。本体的 9 环位可保留给预见术、祈愿术或局势明确时的虹光法墙；拟像只承担一次性情报、支援和关键战斗资源，不安排它进行会耗尽后无法恢复的日常施法。
-- **预见术 / Foresight**是默认准备的通用 9 环防御。没有反魔法迹象时，可由拟像在出发前施放给关键成员，节约本体的 9 环位；移位斗篷的攻击劣势不与预见术叠加，因此斗篷只是预见术结束或拟像资源耗尽后的第一击后备。
+- 当前每日优先顺序：精金半身甲、盾牌、镜影术、长距离移动与队伍通讯；法师护甲已不再准备。探索持警戒盾牌，正面战持 +1 盾牌。
+- 本次胜利后已以正常 7 环位重制拟像术，再由本体完成长休。本体的 9 环位保留给时间停止、祈愿术或局势明确时的虹光法墙；拟像只承担一次性情报、支援和关键战斗资源，不安排它进行会耗尽后无法恢复的日常施法。
+- **预见术 / Foresight**是开局构筑中的默认通用 9 环防御，而非当前常备清单。需要持续作战日增益时，可由本体在长休后调整准备；若要由拟像施放，必须在重制拟像前将其写入拟像清单。移位斗篷的攻击劣势不与预见术叠加，因此斗篷只是预见术结束或拟像资源耗尽后的第一击后备。
 - 传奇刺客或未知施法者来袭时，先用预兆、命运恩惠、护盾术与反制法术避免第一轮失控；确认威胁后再选择撤离、力场墙、力场囚笼或迷宫术。
-- 反魔法力场会同时压制瑟伦的法术与多件同调物品，不能作为日常睡眠防护；未知敌人不为此牺牲默认的预见术。
+- 反魔法力场会同时压制瑟伦的法术与多件同调物品，不能作为日常睡眠防护；未知敌人也不应为反魔法单一风险牺牲当前常备的侦测、撤离与反应资源。
 - 已知反魔法威胁时，优先在领域外以反制法术阻止其落地；若无法阻止，以石墙术的永久实体墙、普通门闩、半身甲和盾牌完成撤离。虹光法墙只在已确认的通道或基地防守中作为分割与拖延手段，不把传送、力场囚笼或魔法物品当作领域内的解法。
 - 每次胜利回到基地后：恢复、补齐低价符文层、结算兼职等级与新的准备位，再按下一名主要敌人 CR +2 的情报重配法术。
 
