@@ -150,7 +150,7 @@
 
 ### 远古龙出击准备（当前生效）/ Ancient Dragon Assault Package (Active)
 
-> 已知下一战为远古龙，且仍不排除高环法师或魔法变形的支援。本体与拟像**均不准备预见术 / Foresight**。本体保留反应、防御、撤离与决定性控场；拟像携带不重复的预战增益、侦测与第二套高环资源。仪式法术、法术精通与标志法术不计入下方 25 个名额。
+> 已知下一战为远古龙，且需要应对其潜入地下；仍不排除高环法师或魔法变形的支援。本体与拟像**均不准备预见术 / Foresight**。本体保留反应、防御、撤离、穿越岩层与决定性控场；拟像携带不重复的预战增益、侦测、地下定位与第二套高环资源。仪式法术、法术精通与标志法术不计入下方 25 个名额。
 
 #### 本体：瑟伦（25 个）/ Original Serren (25)
 
@@ -158,9 +158,9 @@
 |---|---|
 | 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
 | 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike |
-| 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow；催眠图纹 / Hypnotic Pattern |
+| 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
 | 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；真知术 / True Seeing |
-| 5 环 / 5th | 力场墙 / Wall of Force；突触静止 / Synaptic Static；怪物定身术 / Hold Monster |
+| 5 环 / 5th | 力场墙 / Wall of Force；突触静止 / Synaptic Static；怪物定身术 / Hold Monster；穿墙术 / Passwall |
 | 6 环 / 6th | 法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
 | 7 环 / 7th | 传送术 / Teleport；力场囚笼 / Forcecage（仅在 DM 确认远古龙能完整容纳时作为控场） |
 | 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
@@ -173,8 +173,8 @@
 | 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
 | 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike；识破隐形 / See Invisibility |
 | 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
-| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield |
-| 5 环 / 5th | 力场墙 / Wall of Force；怪物定身术 / Hold Monster；心灵遥控 / Telekinesis；石墙术 / Wall of Stone |
+| 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；定位生物 / Locate Creature |
+| 5 环 / 5th | 力场墙 / Wall of Force；怪物定身术 / Hold Monster；石墙术 / Wall of Stone |
 | 6 环 / 6th | 真知术 / True Seeing；法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
 | 7 环 / 7th | 重力反转 / Reverse Gravity |
 | 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
@@ -185,8 +185,10 @@
 1. 拟像先以**心灵屏障 / Mind Blank**保护本体，消耗自己的 8 环位；本体保留自己的 8 环位给**迷宫术 / Maze**。
 2. 仍怀疑敌方法师或变形时，拟像对本体施放**真知术 / True Seeing**。若确定只有正常龙类，则不消耗该 6 环位。
 3. 拟像以**防护能量伤害 / Protection from Energy**保护最可能承受吐息的队友，并维持该专注；维持期间不再承担缓慢术、力场墙或怪物定身术的专注。
-4. 本体优先用缓慢术、催眠图纹与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。拟像保留其控制法术，避免在同一轮与本体争夺专注。
-5. 拟像的**形体变化 / Shapechange**用于紧急生存或近战牵制，**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用；两者均非对单只远古龙的首选开场。
+4. 龙下潜前，本体优先以**心灵尖刺 / Mind Spike**尝试建立同位面位置追踪。龙下潜后，拟像可主动结束防护能量伤害，改以**定位生物 / Locate Creature**维持 1,000 尺内的方向与移动方向；本体的专注位不受影响。
+5. 定位确认龙在实际隧道或岩层另一侧时，本体以**穿墙术 / Passwall**开辟至多 20 尺深的通路。未经定位确认，不对实心岩层盲目使用任意门或解离术；若龙已超出定位生物范围，优先撤出危险区域，并以现有的异界探知 / Contact Other Plane 收集线索。需要长程监视时，再另行抄录探知术 / Scrying。
+6. 本体优先用缓慢术与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。拟像保留其控制法术，避免在同一轮与本体争夺专注。
+7. 拟像的**形体变化 / Shapechange**用于紧急生存、土元素形态地下侦察或近战牵制，**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用；两者均非对单只远古龙的首选开场。
 
 **吐息对应 / Breath mapping：** 红、金、黄铜龙选火焰；蓝、青铜龙选闪电；黑、赤铜龙选强酸；白、银龙选寒冷。绿龙的毒息不受防护能量伤害保护，应由队友另行提供抗毒或以机动和掩体规避。
 
@@ -229,7 +231,7 @@
 
 ### 法术书 / Spellbook
 
-> **92 个法术、394 个法术环阶；建议分卷保存，并制作一套备用书。** 带“仪式”标记的法术可由仪式学者不准备施放。下列清单包含原始构筑修正后的全部法术书。
+> **94 个法术、403 个法术环阶；建议分卷保存，并制作一套备用书。** 本次加入定位生物与穿墙术，以应对远古龙地下撤离。带“仪式”标记的法术可由仪式学者不准备施放。下列清单包含原始构筑修正后的全部法术书。
 
 | 环位 / Level | 法术 / Spells |
 |---|---|
@@ -237,8 +239,8 @@
 | 1 环 / 1st | 警报术 / Alarm（仪式）；通晓语言 / Comprehend Languages（仪式）；侦测魔法 / Detect Magic（仪式）；羽落术 / Feather Fall；虚假生命 / False Life；寻获魔宠 / Find Familiar（仪式）；云雾术 / Fog Cloud；油腻术 / Grease；鉴定术 / Identify（仪式）；大步奔行 / Longstrider；法师护甲 / Mage Armor；魔法飞弹 / Magic Missile；防护善恶 / Protection from Evil and Good；护盾术 / Shield；塔莎狂笑术 / Tasha's Hideous Laughter；隐形仆役 / Unseen Servant（仪式） |
 | 2 环 / 2nd | 秘法锁 / Arcane Lock；朦胧术 / Blur；隐形术 / Invisibility；浮空术 / Levitate；魔法嘴 / Magic Mouth（仪式）；心灵尖刺 / Mind Spike；镜影术 / Mirror Image；迷踪步 / Misty Step；耐斯图尔的魔法灵光 / Nystul's Magic Aura；绳技 / Rope Trick；识破隐形 / See Invisibility；蛛网术 / Web |
 | 3 环 / 3rd | 鹰眼术 / Clairvoyance；法术反制 / Counterspell；解除魔法 / Dispel Magic；火球术 / Fireball；飞行术 / Fly；守卫刻文 / Glyph of Warding；催眠图纹 / Hypnotic Pattern；李欧蒙小屋 / Leomund's Tiny Hut（仪式）；魔法阵 / Magic Circle；魅影驹 / Phantom Steed（仪式）；防护能量伤害 / Protection from Energy；移除诅咒 / Remove Curse；缓慢术 / Slow；冰雨暴 / Sleet Storm；水下呼吸 / Water Breathing（仪式） |
-| 4 环 / 4th | 秘法眼 / Arcane Eye；放逐术 / Banishment；召唤次级元素 / Conjure Minor Elementals；任意门 / Dimension Door；火焰护盾 / Fire Shield；高等隐形术 / Greater Invisibility；莫登凯宁的忠实猎犬 / Mordenkainen's Faithful Hound；莫登凯宁的私人密室 / Mordenkainen's Private Sanctum；欧提路克弹力法球 / Otiluke's Resilient Sphere；变形术 / Polymorph |
-| 5 环 / 5th | 毕格比之手 / Bigby's Hand；异界探知 / Contact Other Plane（仪式）；怪物定身术 / Hold Monster；传奇知识 / Legend Lore；拉瑞心灵联结 / Rary's Telepathic Bond（仪式）；突触静止 / Synaptic Static；心灵遥控 / Telekinesis；传送法阵 / Teleportation Circle；力场墙 / Wall of Force；石墙术 / Wall of Stone |
+| 4 环 / 4th | 秘法眼 / Arcane Eye；放逐术 / Banishment；召唤次级元素 / Conjure Minor Elementals；任意门 / Dimension Door；火焰护盾 / Fire Shield；高等隐形术 / Greater Invisibility；定位生物 / Locate Creature；莫登凯宁的忠实猎犬 / Mordenkainen's Faithful Hound；莫登凯宁的私人密室 / Mordenkainen's Private Sanctum；欧提路克弹力法球 / Otiluke's Resilient Sphere；变形术 / Polymorph |
+| 5 环 / 5th | 毕格比之手 / Bigby's Hand；异界探知 / Contact Other Plane（仪式）；怪物定身术 / Hold Monster；传奇知识 / Legend Lore；穿墙术 / Passwall；拉瑞心灵联结 / Rary's Telepathic Bond（仪式）；突触静止 / Synaptic Static；心灵遥控 / Telekinesis；传送法阵 / Teleportation Circle；力场墙 / Wall of Force；石墙术 / Wall of Stone |
 | 6 环 / 6th | 连锁闪电 / Chain Lightning；触发术 / Contingency；解离术 / Disintegrate；法术无效结界 / Globe of Invulnerability；守卫结界 / Guards and Wards；群体暗示术 / Mass Suggestion；魔魂壶 / Magic Jar；真知术 / True Seeing |
 | 7 环 / 7th | 力场囚笼 / Forcecage；莫登肯宏伟宅邸 / Mordenkainen's Magnificent Mansion；重力反转 / Reverse Gravity；拟像术 / Simulacrum；徽记术 / Symbol；传送术 / Teleport |
 | 8 环 / 8th | 反魔法力场 / Antimagic Field；半位面 / Demiplane；克隆术 / Clone；心灵屏障 / Mind Blank；迷宫术 / Maze；心灵感应 / Telepathy |
@@ -278,9 +280,9 @@
 | 拟像术红宝石粉 / Simulacrum ruby dust | 1 次，**已在开局前消耗**；本体以正常 7 环位施放 12 小时后完成长休恢复环位，拟像本身不能休息恢复资源 / one use, **already consumed before play** |
 | 力场囚笼红宝石粉 / Forcecage ruby dust | **2 次**；每次价值 1,500 gp，保留给决定性敌人 / **two uses**, 1,500 gp each, reserved for decisive targets |
 | 高价基地耗材 / High-cost base components | 徽记术 3 次；每次 1,000 gp。另预留神圣术式资金：圣居术与禁制术各 1,000 gp，须由外部高阶牧师实际施放 / three Symbols at 1,000 gp each; also reserve 1,000 gp each for Hallow and Forbiddance, to be cast by an outside high-level Cleric |
-| 免费低价施法材料 / Free low-cost components | 单件不高于 500 gp 的材料均免费，包括守卫刻文、秘法锁、魔法嘴、防护善恶、寻获魔宠、真知术、魔法阵、传送法阵墨水、鉴定术珍珠与宏伟宅邸模型门；仍需施法时间、法术位与固定基地 / all components worth 500 gp or less are free, whether consumed or not; time, slots, and fixed-site limits remain |
+| 免费低价施法材料 / Free low-cost components | 单件不高于 500 gp 的材料均免费，包括守卫刻文、秘法锁、魔法嘴、防护善恶、寻获魔宠、真知术、定位生物、穿墙术、魔法阵、传送法阵墨水、鉴定术珍珠与宏伟宅邸模型门；仍需施法时间、法术位与固定基地 / all components worth 500 gp or less are free, whether consumed or not; time, slots, and fixed-site limits remain |
 | 仍需付费的材料 / Paid components | 触发术雕像（1,500 gp）、克隆术钻石与容器（3,000 gp）、拟像术红宝石粉（1,500 gp，已消耗）、力场囚笼红宝石粉 2 次（3,000 gp）、徽记术钻石粉 3 次（3,000 gp）、圣居术与禁制术预留材料各 1,000 gp / only components above 500 gp remain paid |
-| 余款 / Remaining funds | **2,350 gp**；保留为普通工事、雇工、DM 指定费用或下一件高价耗材 / held as liquid reserve for physical fortification, labor, DM-specified costs, or the next high-cost component |
+| 余款 / Remaining funds | **1,810 gp**；补抄定位生物与穿墙术并更新备用书后，保留为普通工事、雇工、DM 指定费用或下一件高价耗材 / after copying Locate Creature and Passwall and updating the backup spellbook, held as liquid reserve for physical fortification, labor, DM-specified costs, or the next high-cost component |
 
 ## 出发与基地预案 / Deployment and Base Plan
 
