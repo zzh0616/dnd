@@ -13,7 +13,7 @@
 | 先攻、速度 / Initiative, Speed | **+8**（持警戒盾牌时具有优势 / Advantage with Sentinel Shield）；30 尺 / 30 ft. |
 | 法术豁免 DC、法术攻击 / Spell Save DC, Spell Attack | **21**；**+13** |
 | 专注 / Concentration | 空；体质豁免 +10，具有优势 / Con save +10, with Advantage |
-| 状态 / Conditions | 无 / None |
+| 状态 / Conditions | 无异常；**心灵屏障 / Mind Blank**生效（由拟像施放，24 小时；免疫心灵伤害与魅惑）/ no condition; **Mind Blank** active from simulacrum (24 hours; immunity to Psychic damage and Charmed) |
 | 预兆 / Portent | 3 个 d20，长休后掷出；本次结果待掷 / Roll after Long Rest |
 | 英雄激励 / Heroic Inspiration | 1（每次长休后获得 / gained after each Long Rest） |
 | 幸运点 / Luck Points | 6 / 6（长休恢复 / Long Rest） |
@@ -21,8 +21,10 @@
 | 奥术回想 / Arcane Recovery | 可用；短休后恢复总环数 10、单个不高于 5 环 / available, total 10 spell levels, each slot max level 5 |
 | 标志法术 / Signature Spells | 反制法术、解除魔法各 1 次免费 3 环施放（短休或长休恢复） |
 | 法术精通 / Spell Mastery | 大步奔行（1 环）、镜影术（2 环），无需法术位 / no slots |
-| 准备法术 / Prepared Wizard Spells | **当前常备清单** 26 / 26，见下；本次不准备预见术 / Current general package 26/26 below; Foresight is not prepared. Each post-20 progress adds +1 preparation; slots unchanged |
-| 预制拟像 / Prepared Simulacrum | 已在本次结算后重制；**107 / 107 HP**，复制战士 1、次元旅行恩惠与独立 26 法术清单的瑟伦（7 环位为 1 / 2，其余法术位全满）。不能自行休息恢复已消耗资源 / rebuilt after this settlement; copies Fighter 1, Boon of Dimensional Travel, and its own 26-spell list; cannot recover expended resources by resting |
+| 触发术 / Contingency | **激活**：以 5 环解除魔法 / Dispel Magic；触发为首次因法术获得目盲 / Blinded。仅处理持续中的法术，非施法怪物特性仍靠魔宠视野与队友解除状态 / active; only ends an ongoing spell, not a non-spell monster trait |
+| 魔宠 / Familiar | 蝙蝠形态、天界生物 / Bat form, Celestial；**1 / 1 HP**，盲视 60 尺。100 尺内可用奖励动作借其感官至下回合开始 / Blindsight 60 ft.; use a Bonus Action within 100 ft. to borrow its senses until the next turn |
+| 准备法术 / Prepared Wizard Spells | **邪魔应对清单** 26 / 26，见下；本次不准备预见术 / Fiend response package 26/26 below; Foresight is not prepared. Each post-20 progress adds +1 preparation; slots unchanged |
+| 预制拟像 / Prepared Simulacrum | 已在本次结算后重制；**107 / 107 HP**，复制战士 1、次元旅行恩惠与独立 26 法术清单的瑟伦（7 环位为 1 / 2、8 环位为 0 / 1，已对本体施放心灵屏障；其余法术位全满）。不能自行休息恢复已消耗资源 / rebuilt after this settlement; copies Fighter 1, Boon of Dimensional Travel, and its own 26-spell list; its 8th-level slot was used for Mind Blank on the original; cannot recover expended resources by resting |
 | 神格碎片与传奇恩惠 / Divine Fragments & Epic Boons | 神格碎片 1；命运恩惠、**次元旅行恩惠**各 1 / 1 fragment; Boon of Fate and **Boon of Dimensional Travel** |
 | 同调 / Attunement | 健康护符、传送头盔、移位斗篷、抗法斗篷（4 / 4；神格碎片使上限 +1） / Amulet of Health, Helm of Teleportation, Cloak of Displacement, Mantle of Spell Resistance (4/4) |
 | 下次胜利 / Next Victory | 后 20 级成长 2；推荐兼职：牧师 1（奇术师）/ Cleric 1 (Thaumaturge)；下一主要敌人 CR = 当前主要敌人 CR +2 |
@@ -31,7 +33,7 @@
 
 | 环位 / Level | 1 环 | 2 环 | 3 环 | 4 环 | 5 环 | 6 环 | 7 环 | 8 环 | 9 环 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 当前 / Current | 4 | 3 | 3 | 3 | 2 | 2 | 2 | 1 | 1 |
+| 当前 / Current | 2 | 3 | 2 | 3 | 1 | 1 | 2 | 1 | 1 |
 | 上限 / Maximum | 4 | 3 | 3 | 3 | 2 | 2 | 2 | 1 | 1 |
 
 ## 基础信息 / Identity
@@ -177,17 +179,17 @@
 | 8 环 / 8th | 心灵屏障 / Mind Blank；迷宫术 / Maze |
 | 9 环 / 9th | 预见术 / Foresight；祈愿术 / Wish |
 
-### 当前常备准备（26 个）/ Current General Package (26)
+### 当前邪魔应对准备（26 个）/ Current Fiend Response Package (26)
 
-> 远古龙已被击败。本体已改穿中甲，故不再准备法师护甲；第 26 个准备位与腾出的法师护甲位分别用于识破隐形和秘法眼。本体与拟像**均不准备预见术 / Foresight**。仪式法术、法术精通与标志法术不计入下方名额。
+> 已知下一敌人为以暗蚀伤害与目盲豁免为主的邪魔。本体与拟像均以**防护善恶 / Protection from Evil and Good**替换对暗蚀无效的防护能量伤害；本体已改穿中甲，故不准备法师护甲。本体与拟像**均不准备预见术 / Foresight**。仪式法术、法术精通与标志法术不计入下方名额。
 
 #### 本体：瑟伦（26 个）/ Original Serren (26)
 
 | 环位 / Level | 准备法术 / Prepared Spells |
 |---|---|
-| 1 环 / 1st | 护盾术 / Shield；虚假生命 / False Life；羽落术 / Feather Fall |
+| 1 环 / 1st | 护盾术 / Shield；虚假生命 / False Life；羽落术 / Feather Fall；防护善恶 / Protection from Evil and Good |
 | 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike；识破隐形 / See Invisibility |
-| 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
+| 3 环 / 3rd | 飞行术 / Fly；缓慢术 / Slow |
 | 4 环 / 4th | 秘法眼 / Arcane Eye；放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；真知术 / True Seeing |
 | 5 环 / 5th | 力场墙 / Wall of Force；突触静止 / Synaptic Static；怪物定身术 / Hold Monster；穿墙术 / Passwall |
 | 6 环 / 6th | 法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
@@ -199,9 +201,9 @@
 
 | 环位 / Level | 准备法术 / Prepared Spells |
 |---|---|
-| 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall |
+| 1 环 / 1st | 护盾术 / Shield；法师护甲 / Mage Armor；虚假生命 / False Life；羽落术 / Feather Fall；防护善恶 / Protection from Evil and Good |
 | 2 环 / 2nd | 迷踪步 / Misty Step；心灵尖刺 / Mind Spike；识破隐形 / See Invisibility |
-| 3 环 / 3rd | 飞行术 / Fly；防护能量伤害 / Protection from Energy；缓慢术 / Slow |
+| 3 环 / 3rd | 飞行术 / Fly；缓慢术 / Slow |
 | 4 环 / 4th | 放逐术 / Banishment；任意门 / Dimension Door；火焰护盾 / Fire Shield；定位生物 / Locate Creature；变形术 / Polymorph |
 | 5 环 / 5th | 力场墙 / Wall of Force；怪物定身术 / Hold Monster；石墙术 / Wall of Stone |
 | 6 环 / 6th | 真知术 / True Seeing；法术无效结界 / Globe of Invulnerability；解离术 / Disintegrate |
@@ -211,12 +213,13 @@
 
 **出战前分工 / Pre-combat allocation：**
 
-1. 拟像先以**心灵屏障 / Mind Blank**保护本体，消耗自己的 8 环位；本体保留自己的 8 环位给**迷宫术 / Maze**。
-2. 仍怀疑敌方法师或变形时，拟像对本体施放**真知术 / True Seeing**。若确定只有正常龙类，则不消耗该 6 环位。
-3. 拟像以**防护能量伤害 / Protection from Energy**保护最可能承受已知元素伤害的队友，并维持该专注；未知敌人时可改为保留专注位。
-4. 本体的**秘法眼 / Arcane Eye**承担低风险前出侦察；拟像保留定位生物、变形术与石墙术，分别用于追猎、紧急保护与固定通道封锁。
-5. 本体优先用缓慢术与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。每次魔法动作后，可用次元旅行恩惠传送 30 尺重置站位；拟像避免在同一轮与本体争夺专注。
-6. 拟像的**形体变化 / Shapechange**用于紧急生存、土元素形态地下侦察或近战牵制，**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用。
+1. 拟像已以**心灵屏障 / Mind Blank**保护本体，消耗自己的 8 环位；本体保留自己的 8 环位给**迷宫术 / Maze**。这覆盖邪魔的魅惑与心灵伤害，但不防止目盲、恐慌或附身。
+2. 本体维持**防护善恶 / Protection from Evil and Good**保护自身；拟像在接敌后将同一法术施放并专注于最需要保护的前排。它们分别阻止邪魔施加的魅惑、恐慌与附身，并使邪魔攻击劣势；不提供暗蚀抗性。
+3. 蝙蝠魔宠不参与攻击，优先藏在不受直接攻击的位置。瑟伦被目盲时，以奖励动作借用其 60 尺盲视，再施放不需要近战接触的法术；这不能移除目盲本身。
+4. **触发术 / Contingency**已装载 5 环**解除魔法 / Dispel Magic**，在首次因法术目盲时自动触发。非施法怪物特性造成的目盲必须由能施放次等复原术的队友解除。
+5. 本体的**秘法眼 / Arcane Eye**承担低风险前出侦察；拟像保留定位生物、变形术与石墙术，分别用于追猎、紧急保护与固定通道封锁。
+6. 本体优先用缓慢术与放逐术迫使传奇抗力消耗；传奇抗力不足或需要撤出战场时使用迷宫术。每次魔法动作后，可用次元旅行恩惠传送 30 尺重置站位；拟像避免在同一轮与本体争夺专注。
+7. 拟像的**形体变化 / Shapechange**仍可用于紧急生存或近战牵制，但价值 1,500 gp 的翡翠头环尚未购入，当前不能实际施放；**流星爆 / Meteor Swarm**只在不会波及队友、且有额外目标或必须快速结束战斗时使用。
 
 ### 始终准备或不需准备 / Always Prepared or Unprepared
 
@@ -287,7 +290,7 @@
 
 | 物品 / Item | 稀有度 / Rarity | 用途与备注 / Use and Notes |
 |---|---|---|
-| 储法戒指 / Ring of Spell Storing | 珍稀 / Rare | 由合适的队友同调；存储内容开团时决定 / attuned by a suitable ally; stored spells decided at campaign start |
+| 储法戒指 / Ring of Spell Storing | 珍稀 / Rare | 已由瑟伦以法术位装填：解除魔法（3 环）、防护善恶（1 环）、护盾术（1 环）。由合适的队友同调后使用；若队伍获得可施放次等复原术的成员，优先改为次等复原术 x2 + 护盾术 / loaded by Serren: Dispel Magic (3rd), Protection from Evil and Good (1st), Shield (1st); an attuned ally uses it. Replace with Lesser Restoration x2 plus Shield when an eligible party caster is available |
 | 控制气元素香炉 / Censer of Controlling Air Elementals | 珍稀 / Rare | 不需同调；基地防御或高风险战斗的气元素支援 / no attunement; air-elemental support for base defense or high-risk fights |
 | 江湖骗子斗篷 / Cape of the Mountebank | 珍稀 / Rare | 不需同调；每日一次任意门，作为紧急撤离备份 / no attunement; daily Dimension Door as emergency egress |
 | 警戒武器 / Weapon of Warning | 非普通 / Uncommon | 交给近战队友同调；提供预警与先攻优势 / loaned to a melee ally for warning and Initiative Advantage |
@@ -304,7 +307,8 @@
 
 | 类别 / Category | 计划数量与用途 / Planned Quantity and Use |
 |---|---|
-| 触发术宝石雕像 / Contingency statuette | 1；价值 1,500 gp，不消耗，随身携带 / one 1,500-gp nonconsumed statuette, carried |
+| 触发术宝石雕像 / Contingency statuette | 1；价值 1,500 gp，不消耗，随身携带；**当前激活**触发术 + 5 环解除魔法 / one 1,500-gp nonconsumed statuette, carried; **active** Contingency + 5th-level Dispel Magic |
+| 拟态术翡翠头环 / Shapechange jade circlet | 0；每件价值 1,500 gp、不消耗。当前余款不足，拟像虽准备拟态术但不能实际施放，待获得战利品后补齐 / none; 1,500 gp each, not consumed. Current funds are insufficient, so the simulacrum has Shapechange prepared but cannot cast it yet |
 | 克隆术材料 / Clone components | 1 套；独立复原库保存 / one set, stored in separate recovery vault |
 | 拟像术红宝石粉 / Simulacrum ruby dust | **2 次均已消耗**：开局前 1 次、本次重制 1 次；本体以正常 7 环位施放 12 小时后完成长休恢复环位，拟像本身不能休息恢复资源 / **two uses expended**: one before play and one for the rebuilt simulacrum |
 | 力场囚笼红宝石粉 / Forcecage ruby dust | **2 次**；每次价值 1,500 gp，保留给决定性敌人 / **two uses**, 1,500 gp each, reserved for decisive targets |
@@ -331,4 +335,4 @@
 2. 基地是否已建成，长期防护法术是否允许预先布置并保留到第一场冒险。
 3. 能否聘请或获得一名能施放圣居术 / Hallow 与禁制术 / Forbiddance 的高阶牧师；两份各 1,000 gp 材料已经预留，但瑟伦当前不能自行施放。
 4. 拟像的装备、法术位、行动权与 100 gp / HP 修理材料如何处理；拟像术本身及全部法术抄录已确认可在开局前完成。
-5. 预置术 / Contingency 与任意门 / Dimension Door 的触发条件、目的地和失去意识时的互动如何裁定。
+5. 当前触发术“首次因法术获得目盲”能否按预期触发 5 环解除魔法；其无法处理非施法怪物特性所致目盲的边界。
